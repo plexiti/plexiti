@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java Ee on plexiti</title>
-    <link>http://plexiti.github.io/plexiti/de/categories/java-ee/</link>
+    <link>http://plexiti.com/de/categories/java-ee/</link>
     <description>Recent content in Java Ee on plexiti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Fri, 14 Sep 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://plexiti.github.io/plexiti/de/categories/java-ee/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://plexiti.com/de/categories/java-ee/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Der Showcase zur Stellenausschreibung ist fertig*!</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2012/09/the-job-announcement-showcase-is-done/</link>
+      <link>http://plexiti.com/de/blog/2012/09/the-job-announcement-showcase-is-done/</link>
       <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2012/09/the-job-announcement-showcase-is-done/</guid>
+      <guid>http://plexiti.com/de/blog/2012/09/the-job-announcement-showcase-is-done/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Puuh&lt;/strong&gt;, das war ein schönes Stück Arbeit, aber es ist fürs erste geschafft:
 unsere Prozessanwendung zur im
 &lt;a href=&#34;http://www.hanser-fachbuch.de/buch/Praxishandbuch+BPMN+20/9783446429864&#34;&gt;Praxishandbuch BPMN 2.0&lt;/a&gt;

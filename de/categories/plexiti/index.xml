@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plexiti on plexiti</title>
-    <link>http://plexiti.github.io/plexiti/de/categories/plexiti/</link>
+    <link>http://plexiti.com/de/categories/plexiti/</link>
     <description>Recent content in Plexiti on plexiti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Thu, 20 Mar 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://plexiti.github.io/plexiti/de/categories/plexiti/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://plexiti.com/de/categories/plexiti/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Der Camunda Community Award ergeht an ... :-)</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2014/03/camunda-bpm-community-award/</link>
+      <link>http://plexiti.com/de/blog/2014/03/camunda-bpm-community-award/</link>
       <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2014/03/camunda-bpm-community-award/</guid>
+      <guid>http://plexiti.com/de/blog/2014/03/camunda-bpm-community-award/</guid>
       <description>&lt;p&gt;In die schiere Unzahl der an mich bereits ergangenen Auszeichnungen und Ehrungen reiht sich nun ein ganz besonderer Neuzugang ein: im Rahmen der Geburtstagsfeier für &lt;a href=&#34;http://camunda.org&#34;&gt;camunda.org&lt;/a&gt; erhielt ich - völlig verblüfft und unvorbereitet - den &lt;strong&gt;camunda BPM community award 2014&lt;/strong&gt;! Hier zu sehen in meiner persönlichen Ehrengalerie ganz rechts. :-)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../camunda-bpm-community-award.png&#34; alt=&#34;camunda BPM community award&#34; /&gt;&lt;/p&gt;
@@ -37,10 +37,10 @@
     
     <item>
       <title>camunda.org Community Day 2013 in Prag!</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2013/10/camunda-community-day/</link>
+      <link>http://plexiti.com/de/blog/2013/10/camunda-community-day/</link>
       <pubDate>Mon, 21 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2013/10/camunda-community-day/</guid>
+      <guid>http://plexiti.com/de/blog/2013/10/camunda-community-day/</guid>
       <description>&lt;p&gt;Am Freitag, den 18.10. kam die camunda.org-Community mitten in der Altstadt Prags in einem ziemlich interessanten Hotel (&lt;a href=&#34;http://www.fusionhotels.com/de/&#34;&gt;Fusion Hotel Prag&lt;/a&gt;) zusammen und diskutierte dort das gemeinsame Open Source Projekt &lt;a href=&#34;http://camunda.org&#34;&gt;camunda.org&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Hier meine Slides, mit denen ich nur ganz kurz das Incubation Project &lt;a href=&#34;https://github.com/camunda/camunda-bpm-testing&#34;&gt;camunda-bpm-testing&lt;/a&gt; vorstellte. Ursprünglich aus einer kleinen Contribution von &lt;a href=&#34;http://rafael.cordones.me&#34;&gt;Rafael Cordones&lt;/a&gt; und mir hervorgegangen, macht es mich froh und auch ein bisschen stolz, dass das Baby langsam aber sicher wächst:&lt;/p&gt;
@@ -61,10 +61,10 @@
     
     <item>
       <title>Gedanken zur (No bullshit-) BPMCon 2013</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</link>
+      <link>http://plexiti.com/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</link>
       <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</guid>
+      <guid>http://plexiti.com/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</guid>
       <description>&lt;p&gt;Am 20.9. luden die unkonventionellen Berliner BPM(N)-Profis von camunda wieder zu ihrer Hauskonferenz samt Grillparty, und konnten mit diesem Package auch dieses Jahr wieder gut 150 Teilnehmer in die alte Generatorenhalle des Kreuzberger Umspannwerks locken. Genau die richtige Atmosphäre also um bei guter Stimmung über die kontinuierliche Neuerfindung des Zusammenspiels von Mensch und Maschine nachzudenken.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../chaplin.png&#34; alt=&#34;Charlie Chaplin&#34; /&gt;&lt;/p&gt;

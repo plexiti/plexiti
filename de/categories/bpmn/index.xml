@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bpmn on plexiti</title>
-    <link>http://plexiti.github.io/plexiti/de/categories/bpmn/</link>
+    <link>http://plexiti.com/de/categories/bpmn/</link>
     <description>Recent content in Bpmn on plexiti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Mon, 03 Mar 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://plexiti.github.io/plexiti/de/categories/bpmn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://plexiti.com/de/categories/bpmn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Camunda BPM Assert 1.0 released!</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2014/03/camunda-bpm-assert-released/</link>
+      <link>http://plexiti.com/de/blog/2014/03/camunda-bpm-assert-released/</link>
       <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2014/03/camunda-bpm-assert-released/</guid>
+      <guid>http://plexiti.com/de/blog/2014/03/camunda-bpm-assert-released/</guid>
       <description>
 
 &lt;p&gt;Die kleine Community Extension &amp;ldquo;camunda-bpm-assert&amp;rdquo; möchte es ein grosses Stück einfacher machen Tests für BPMN Prozessdefinitionen zu schreiben und diese gegen &lt;a href=&#34;http://camunda.org&#34;&gt;camunda BPM&lt;/a&gt; auszuführen. Dazu wird - basierend auf Joel Costigliola&amp;rsquo;s &lt;a href=&#34;http://joel-costigliola.github.io/assertj/&#34;&gt;AssertJ&lt;/a&gt; - ein Set an Process Engine Assertions zur Verfügung gestellt. Diese können sowohl mit JUnit, aber auch in völlig anderen Testumgebungen eingesetzt werden. Außerdem unterstützt eine Reihe an kleinen Helper-Methoden bei der Navigation durch den zu testenden Prozesspfad. &lt;strong&gt;Das Motto: besser lesbarer Code - weniger Spaghetti Tests!&lt;/strong&gt;&lt;/p&gt;

@@ -2,150 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on plexiti</title>
-    <link>http://plexiti.github.io/plexiti/de/blog/</link>
+    <link>http://plexiti.com/de/blog/</link>
     <description>Recent content in Blogs on plexiti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
-    <lastBuildDate>Wed, 13 Jul 2016 21:29:07 +0200</lastBuildDate>
-    <atom:link href="http://plexiti.github.io/plexiti/de/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>A Test Blog Post Showing Off All Gadgets</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2016/07/a-test-blog-post-showing-off-all-gadgets/</link>
-      <pubDate>Wed, 13 Jul 2016 21:29:07 +0200</pubDate>
-      
-      <guid>http://plexiti.github.io/plexiti/de/blog/2016/07/a-test-blog-post-showing-off-all-gadgets/</guid>
-      <description>
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,&lt;/p&gt;
-
-&lt;h1 id=&#34;links-quotes-and-awesome-hugoshortcode-1-icons&#34;&gt;Links, Quotes and Awesome &lt;i class=&#39;fa fa-coffee&#39; aria-hidden=&#39;true&#39;&gt;&lt;/i&gt; Icons&lt;/h1&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer  &lt;a href=&#34;http://camunda.org/&#34; title=&#34;Camunda BPM Platform&#34;&gt;adipiscing elit&lt;/a&gt;. Aenean commodo ligula eget dolor. Aenean massa.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The secret to creativity is knowing how to hide your sources. &lt;cite&gt;Albert Einstein&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;h1 id=&#34;pictures-with-caption-and-credits&#34;&gt;Pictures with Caption and Credits&lt;/h1&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;p class=&#34;credits&#34;&gt;
-    &lt;a href=&#34;http://derstandard.at&#34;&gt;
-    Foto: Martin Schimak
-    , CC BY-SA 2.0
-    &lt;/a&gt;
-    &lt;/p&gt;
-    &lt;img src=&#39;http://wowslider.com/sliders/demo-25/data1/images/the_great_pyramid_of_giza.jpg&#39; title=&#34;Die Pyramiden von Gizeh&#34;&gt;
-&lt;/figure&gt;
-&lt;p class=&#34;caption&#34;&gt;Die Pyramiden von Gizeh&lt;/p&gt;
-
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;h1 id=&#34;cross-references-tweets&#34;&gt;Cross References &amp;amp; Tweets&lt;/h1&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer &lt;a href=&#34;http://plexiti.github.io/plexiti/de/blog/2015/12/camunda-bpm-release-roadshow/&#34; title=&#34;Camunda BPM 7.4 Release Roadshow&#34;&gt;adipiscing elit&lt;/a&gt;. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hugo 0.15 will have 30%+ faster render times thanks to this commit &lt;a href=&#34;https://t.co/FfzhM8bNhT&#34;&gt;https://t.co/FfzhM8bNhT&lt;/a&gt;  &lt;a href=&#34;https://twitter.com/hashtag/gohugo?src=hash&#34;&gt;#gohugo&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/golang?src=hash&#34;&gt;#golang&lt;/a&gt; &lt;a href=&#34;https://t.co/ITbMNU2BUf&#34;&gt;https://t.co/ITbMNU2BUf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Steve Francia (@spf13) &lt;a href=&#34;https://twitter.com/spf13/status/666616452582129664&#34;&gt;November 17, 2015&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;h1 id=&#34;youtube-and-vimeo-videos&#34;&gt;YouTube and Vimeo Videos&lt;/h1&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Av0JZvrTgxM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//player.vimeo.com/video/146022717&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;h1 id=&#34;github-gists-and-speakerdeck-slides&#34;&gt;GitHub Gists and SpeakerDeck Slides&lt;/h1&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;script src=&#34;//gist.github.com/spf13/7896402.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;script async class=&#39;speakerdeck-embed&#39; data-id=&#39;9d632ed7641747ed8450f2b39346daf5&#39; data-ratio=&#39;1.33333333333333&#39; src=&#39;//speakerdeck.com/assets/embed.js&#39;&gt;&lt;/script&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;h1 id=&#34;bpmn-process-diagrams-with-references&#34;&gt;BPMN Process Diagrams with References&lt;/h1&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;div class=&#34;bpmn&#34; bpmn=&#34;../src/insurance-recourse.bpmn&#34; nr=&#34;intermediate_event_invoice_paid,task-book-payment&#34;&gt;
-&lt;/div&gt;
-
-&lt;p&gt;
-&lt;i class=&#34;conum&#34; data-value=&#34;1&#34;&gt;&lt;/i&gt; Once the invoice is paid &amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;
-&lt;i class=&#34;conum&#34; data-value=&#34;2&#34;&gt;&lt;/i&gt; &amp;hellip; you can (and should!) book the payment.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;h1 id=&#34;dmn-decision-tables-with-references&#34;&gt;DMN Decision Tables with References&lt;/h1&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;dmn&#34; dmn=&#34;../src/customer-discount.dmn&#34; nr=&#34;utilityColumn:long-time-gold,discount:short-time-bronze&#34;&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;
-&lt;i class=&#34;conum&#34; data-value=&#34;1&#34;&gt;&lt;/i&gt; Obviously long time gold customers receive the highest discount&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;
-&lt;i class=&#34;conum&#34; data-value=&#34;2&#34;&gt;&lt;/i&gt; &amp;hellip; so you don&amp;rsquo;t want to be stuck here forever.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;h1 id=&#34;cmmn-case-diagrams-with-references&#34;&gt;CMMN Case Diagrams with References&lt;/h1&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;cmmn&#34; cmmn=&#34;../src/incident-management.cmmn&#34; nr=&#34;investigate-problem-support,investigate-problem-2nd-level-support,investigate-problem-developer&#34;   &gt;
-&lt;/div&gt;
-
-&lt;/p&gt;
-
-&lt;p&gt;
-&lt;i class=&#34;conum&#34; data-value=&#34;1&#34;&gt;&lt;/i&gt; When investigating a customer problem, the support may decide to &amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;
-&lt;i class=&#34;conum&#34; data-value=&#34;2&#34;&gt;&lt;/i&gt; &amp;hellip; involve the second level support &amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;
-&lt;i class=&#34;conum&#34; data-value=&#34;3&#34;&gt;&lt;/i&gt; &amp;hellip; or to directly involve the developer.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Wed, 16 Dec 2015 15:51:20 +0100</lastBuildDate>
+    <atom:link href="http://plexiti.com/de/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Camunda BPM 7.4 Roadshow!</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2015/12/camunda-bpm-release-roadshow/</link>
+      <link>http://plexiti.com/de/blog/2015/12/camunda-bpm-release-roadshow/</link>
       <pubDate>Wed, 16 Dec 2015 15:51:20 +0100</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2015/12/camunda-bpm-release-roadshow/</guid>
+      <guid>http://plexiti.com/de/blog/2015/12/camunda-bpm-release-roadshow/</guid>
       <description>&lt;p&gt;Am 27. Jänner 2016 wird die &amp;ldquo;Camunda BPM 7.4 Release Roadshow&amp;rdquo; in Wien Station
 machen - als Abschluß einer &lt;a href=&#34;http://www.bpm-guide.de/2015/12/08/camunda-bpm-7-4-roadshow/&#34; title=&#34;Camunda BPM 7.4 Roadshow&#34;&gt;Veranstaltungsserie&lt;/a&gt; in Berlin, Hamburg,
 Düsseldorf, Frankfurt, München, Zürich und eben Wien.&lt;/p&gt;
@@ -177,10 +46,10 @@ weg sind!&lt;/p&gt;
     
     <item>
       <title>Der Camunda Community Award ergeht an ... :-)</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2014/03/camunda-bpm-community-award/</link>
+      <link>http://plexiti.com/de/blog/2014/03/camunda-bpm-community-award/</link>
       <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2014/03/camunda-bpm-community-award/</guid>
+      <guid>http://plexiti.com/de/blog/2014/03/camunda-bpm-community-award/</guid>
       <description>&lt;p&gt;In die schiere Unzahl der an mich bereits ergangenen Auszeichnungen und Ehrungen reiht sich nun ein ganz besonderer Neuzugang ein: im Rahmen der Geburtstagsfeier für &lt;a href=&#34;http://camunda.org&#34;&gt;camunda.org&lt;/a&gt; erhielt ich - völlig verblüfft und unvorbereitet - den &lt;strong&gt;camunda BPM community award 2014&lt;/strong&gt;! Hier zu sehen in meiner persönlichen Ehrengalerie ganz rechts. :-)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../camunda-bpm-community-award.png&#34; alt=&#34;camunda BPM community award&#34; /&gt;&lt;/p&gt;
@@ -203,10 +72,10 @@ weg sind!&lt;/p&gt;
     
     <item>
       <title>Camunda BPM Assert 1.0 released!</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2014/03/camunda-bpm-assert-released/</link>
+      <link>http://plexiti.com/de/blog/2014/03/camunda-bpm-assert-released/</link>
       <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2014/03/camunda-bpm-assert-released/</guid>
+      <guid>http://plexiti.com/de/blog/2014/03/camunda-bpm-assert-released/</guid>
       <description>
 
 &lt;p&gt;Die kleine Community Extension &amp;ldquo;camunda-bpm-assert&amp;rdquo; möchte es ein grosses Stück einfacher machen Tests für BPMN Prozessdefinitionen zu schreiben und diese gegen &lt;a href=&#34;http://camunda.org&#34;&gt;camunda BPM&lt;/a&gt; auszuführen. Dazu wird - basierend auf Joel Costigliola&amp;rsquo;s &lt;a href=&#34;http://joel-costigliola.github.io/assertj/&#34;&gt;AssertJ&lt;/a&gt; - ein Set an Process Engine Assertions zur Verfügung gestellt. Diese können sowohl mit JUnit, aber auch in völlig anderen Testumgebungen eingesetzt werden. Außerdem unterstützt eine Reihe an kleinen Helper-Methoden bei der Navigation durch den zu testenden Prozesspfad. &lt;strong&gt;Das Motto: besser lesbarer Code - weniger Spaghetti Tests!&lt;/strong&gt;&lt;/p&gt;
@@ -265,10 +134,10 @@ complete(task(&amp;quot;edit&amp;quot;), withVariables(&amp;quot;finished&amp;qu
     
     <item>
       <title>camunda.org Community Day 2013 in Prag!</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2013/10/camunda-community-day/</link>
+      <link>http://plexiti.com/de/blog/2013/10/camunda-community-day/</link>
       <pubDate>Mon, 21 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2013/10/camunda-community-day/</guid>
+      <guid>http://plexiti.com/de/blog/2013/10/camunda-community-day/</guid>
       <description>&lt;p&gt;Am Freitag, den 18.10. kam die camunda.org-Community mitten in der Altstadt Prags in einem ziemlich interessanten Hotel (&lt;a href=&#34;http://www.fusionhotels.com/de/&#34;&gt;Fusion Hotel Prag&lt;/a&gt;) zusammen und diskutierte dort das gemeinsame Open Source Projekt &lt;a href=&#34;http://camunda.org&#34;&gt;camunda.org&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Hier meine Slides, mit denen ich nur ganz kurz das Incubation Project &lt;a href=&#34;https://github.com/camunda/camunda-bpm-testing&#34;&gt;camunda-bpm-testing&lt;/a&gt; vorstellte. Ursprünglich aus einer kleinen Contribution von &lt;a href=&#34;http://rafael.cordones.me&#34;&gt;Rafael Cordones&lt;/a&gt; und mir hervorgegangen, macht es mich froh und auch ein bisschen stolz, dass das Baby langsam aber sicher wächst:&lt;/p&gt;
@@ -289,10 +158,10 @@ complete(task(&amp;quot;edit&amp;quot;), withVariables(&amp;quot;finished&amp;qu
     
     <item>
       <title>Gedanken zur (No bullshit-) BPMCon 2013</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</link>
+      <link>http://plexiti.com/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</link>
       <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</guid>
+      <guid>http://plexiti.com/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</guid>
       <description>&lt;p&gt;Am 20.9. luden die unkonventionellen Berliner BPM(N)-Profis von camunda wieder zu ihrer Hauskonferenz samt Grillparty, und konnten mit diesem Package auch dieses Jahr wieder gut 150 Teilnehmer in die alte Generatorenhalle des Kreuzberger Umspannwerks locken. Genau die richtige Atmosphäre also um bei guter Stimmung über die kontinuierliche Neuerfindung des Zusammenspiels von Mensch und Maschine nachzudenken.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;../chaplin.png&#34; alt=&#34;Charlie Chaplin&#34; /&gt;&lt;/p&gt;
@@ -321,10 +190,10 @@ complete(task(&amp;quot;edit&amp;quot;), withVariables(&amp;quot;finished&amp;qu
     
     <item>
       <title>Impulsvortrag &#34;Geschäftsprozesse und Softwaretests&#34;</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</link>
+      <link>http://plexiti.com/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</link>
       <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</guid>
+      <guid>http://plexiti.com/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</guid>
       <description>&lt;p&gt;Es war eine für uns wirklich durch und durch angenehme Veranstaltung. Jakob
 Freund, Geschäftsführer unserer Berlin Partnerfirma camunda besuchte uns
 und bestaunte mit unseren Gästen den außergewöhnlichen Blick über Wien, den die
@@ -334,7 +203,7 @@ und bestaunte mit unseren Gästen den außergewöhnlichen Blick über Wien, den 
 
 &lt;p&gt;Jakob erzählte unseren rund 20 Gästen (fast) alles was es über das Open Source
 Projekt &lt;a href=&#34;http://camunda.org&#34;&gt;camunda BPM&lt;/a&gt; zu wissen lohnt!-) Unsere Impressionen
-dazu gibt&amp;rsquo;s &lt;a href=&#34;http://plexiti.github.io/plexiti/de/planet/2013/05/presenting-camunda-bpm-in-vienna&#34;&gt;hier&lt;/a&gt; - und eine kleine
+dazu gibt&amp;rsquo;s &lt;a href=&#34;http://plexiti.com/de/planet/2013/05/presenting-camunda-bpm-in-vienna&#34;&gt;hier&lt;/a&gt; - und eine kleine
 Retrospektive samt Links gibt&amp;rsquo;s &lt;a href=&#34;http://camunda.org/community/meetings/register.html?id=3&#34;&gt;auch auf camunda.org&lt;/a&gt;. Wir sind schon
 fast ein Berliner!&lt;/p&gt;
 
@@ -357,10 +226,10 @@ data-ratio=&#34;1.41436464088398&#34; src=&#34;//speakerdeck.com/assets/embed.js
     
     <item>
       <title>Presenting Camunda BPM in Wien</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</link>
+      <link>http://plexiti.com/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</link>
       <pubDate>Fri, 17 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</guid>
+      <guid>http://plexiti.com/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</guid>
       <description>&lt;p&gt;Warum beschäftigt sich eine so junge und bewegliche Firma wie camunda
 eigentlich mit dem &lt;strong&gt;&amp;ldquo;Alte-Männer-Thema BPM&amp;rdquo;&lt;/strong&gt;? :-) So oder so ähnlich wurde Jakob
 Freund, Geschäftsführer der Firma camunda neulich beim Bier gefragt. Hört man
@@ -377,7 +246,7 @@ Platform&lt;/a&gt; die Themen Java, BPMN und Open Source mit dem
 Anspruch bedingungsloser (ich darf das sagen) &amp;ldquo;Developer Friendliness&amp;rdquo;. Nicht
 vollmundiges &amp;ldquo;Zero Coding&amp;rdquo; ist der Slogan der Berliner BPMN Shooting Stars,
 sondern ehrliches &lt;strong&gt;Less Coding&lt;/strong&gt; ist die nachdenkliche
-&lt;a href=&#34;http://plexiti.github.io/plexiti/de/news/2013/04/the-camunda-hypothesis&#34;&gt;Hypothese&lt;/a&gt;.
+&lt;a href=&#34;http://plexiti.com/de/news/2013/04/the-camunda-hypothesis&#34;&gt;Hypothese&lt;/a&gt;.
 Ein Best-of-breed Ansatz, wie er von Geschäftsführer Bernd Rücker unlängst auch
 auf der &lt;a href=&#34;http://www.sigs-datacom.de/konferenzen/seacon.html&#34;&gt;SEACON&lt;/a&gt; erklärt
 wurde. Schön und gut. Aber warum wirklich sollte man in Erwägung ziehen von
@@ -436,10 +305,10 @@ GmbH&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
     
     <item>
       <title>camunda BPM Incubation Space startet mit einer Contribution von plexiti</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2013/04/camunda-bpm-incubation-space-launched/</link>
+      <link>http://plexiti.com/de/blog/2013/04/camunda-bpm-incubation-space-launched/</link>
       <pubDate>Wed, 24 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2013/04/camunda-bpm-incubation-space-launched/</guid>
+      <guid>http://plexiti.com/de/blog/2013/04/camunda-bpm-incubation-space-launched/</guid>
       <description>&lt;p&gt;&amp;ldquo;Ich freue mich den offiziellen Start des camunda BPM Incubation
 Space bekanntzugeben - mit der ersten großen Community Contribution
 von plexiti. View it on github!&amp;rdquo;&lt;/p&gt;
@@ -458,10 +327,10 @@ Status der vom Projekt-Lead Daniel Meyer angekündigten Contribution:&lt;/p&gt;
     
     <item>
       <title>Unser Pecha Kucha in Berlin</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2012/09/our-pecha-kucha-in-berlin/</link>
+      <link>http://plexiti.com/de/blog/2012/09/our-pecha-kucha-in-berlin/</link>
       <pubDate>Thu, 20 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2012/09/our-pecha-kucha-in-berlin/</guid>
+      <guid>http://plexiti.com/de/blog/2012/09/our-pecha-kucha-in-berlin/</guid>
       <description>&lt;p&gt;Zugegeben: das war das &amp;lsquo;erste Mal&amp;rsquo; Pecha Kucha - eine neue Erfahrung:
 &lt;a href=&#34;http://de.wikipedia.org/wiki/Pecha_Kucha&#34;&gt;20 Folien zu je 20 Sekunden&lt;/a&gt;&lt;/p&gt;
 
@@ -484,10 +353,10 @@ from &lt;a href=&#34;http://de.slideshare.net/plexiti&#34;&gt;plexiti&lt;/a&gt;&
     
     <item>
       <title>Der Showcase zur Stellenausschreibung ist fertig*!</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2012/09/the-job-announcement-showcase-is-done/</link>
+      <link>http://plexiti.com/de/blog/2012/09/the-job-announcement-showcase-is-done/</link>
       <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2012/09/the-job-announcement-showcase-is-done/</guid>
+      <guid>http://plexiti.com/de/blog/2012/09/the-job-announcement-showcase-is-done/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Puuh&lt;/strong&gt;, das war ein schönes Stück Arbeit, aber es ist fürs erste geschafft:
 unsere Prozessanwendung zur im
 &lt;a href=&#34;http://www.hanser-fachbuch.de/buch/Praxishandbuch+BPMN+20/9783446429864&#34;&gt;Praxishandbuch BPMN 2.0&lt;/a&gt;
@@ -524,10 +393,10 @@ sollte um mehr Feedback für die nächsten Schritte zu bekommen.
     
     <item>
       <title>Wir sind auf dem Weg!</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2012/09/we-are-on-the-way/</link>
+      <link>http://plexiti.com/de/blog/2012/09/we-are-on-the-way/</link>
       <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2012/09/we-are-on-the-way/</guid>
+      <guid>http://plexiti.com/de/blog/2012/09/we-are-on-the-way/</guid>
       <description>&lt;p&gt;Unverhofft kommt oft! Wir erhielten ganz kurzfristig die schöne Gelegenheit
 unsere &lt;a href=&#34;#/news/2012/09/the-job-announcement-showcase-is-done&#34;&gt;Prozessanwendung&lt;/a&gt;
 zur im &lt;a href=&#34;http://www.hanser-fachbuch.de/buch/Praxishandbuch+BPMN+20/9783446429864&#34;&gt;Praxishandbuch BPMN 2.0&lt;/a&gt; beschriebenen

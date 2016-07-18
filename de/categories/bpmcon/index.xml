@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bpmcon on plexiti</title>
-    <link>http://plexiti.github.io/plexiti/de/categories/bpmcon/</link>
+    <link>http://plexiti.com/de/categories/bpmcon/</link>
     <description>Recent content in Bpmcon on plexiti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Thu, 20 Sep 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://plexiti.github.io/plexiti/de/categories/bpmcon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://plexiti.com/de/categories/bpmcon/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Unser Pecha Kucha in Berlin</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2012/09/our-pecha-kucha-in-berlin/</link>
+      <link>http://plexiti.com/de/blog/2012/09/our-pecha-kucha-in-berlin/</link>
       <pubDate>Thu, 20 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2012/09/our-pecha-kucha-in-berlin/</guid>
+      <guid>http://plexiti.com/de/blog/2012/09/our-pecha-kucha-in-berlin/</guid>
       <description>&lt;p&gt;Zugegeben: das war das &amp;lsquo;erste Mal&amp;rsquo; Pecha Kucha - eine neue Erfahrung:
 &lt;a href=&#34;http://de.wikipedia.org/wiki/Pecha_Kucha&#34;&gt;20 Folien zu je 20 Sekunden&lt;/a&gt;&lt;/p&gt;
 
@@ -37,10 +37,10 @@ from &lt;a href=&#34;http://de.slideshare.net/plexiti&#34;&gt;plexiti&lt;/a&gt;&
     
     <item>
       <title>Wir sind auf dem Weg!</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2012/09/we-are-on-the-way/</link>
+      <link>http://plexiti.com/de/blog/2012/09/we-are-on-the-way/</link>
       <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2012/09/we-are-on-the-way/</guid>
+      <guid>http://plexiti.com/de/blog/2012/09/we-are-on-the-way/</guid>
       <description>&lt;p&gt;Unverhofft kommt oft! Wir erhielten ganz kurzfristig die schöne Gelegenheit
 unsere &lt;a href=&#34;#/news/2012/09/the-job-announcement-showcase-is-done&#34;&gt;Prozessanwendung&lt;/a&gt;
 zur im &lt;a href=&#34;http://www.hanser-fachbuch.de/buch/Praxishandbuch+BPMN+20/9783446429864&#34;&gt;Praxishandbuch BPMN 2.0&lt;/a&gt; beschriebenen

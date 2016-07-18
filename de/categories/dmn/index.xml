@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dmn on plexiti</title>
-    <link>http://plexiti.github.io/plexiti/de/categories/dmn/</link>
+    <link>http://plexiti.com/de/categories/dmn/</link>
     <description>Recent content in Dmn on plexiti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Wed, 16 Dec 2015 15:51:20 +0100</lastBuildDate>
-    <atom:link href="http://plexiti.github.io/plexiti/de/categories/dmn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://plexiti.com/de/categories/dmn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Camunda BPM 7.4 Roadshow!</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2015/12/camunda-bpm-release-roadshow/</link>
+      <link>http://plexiti.com/de/blog/2015/12/camunda-bpm-release-roadshow/</link>
       <pubDate>Wed, 16 Dec 2015 15:51:20 +0100</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2015/12/camunda-bpm-release-roadshow/</guid>
+      <guid>http://plexiti.com/de/blog/2015/12/camunda-bpm-release-roadshow/</guid>
       <description>&lt;p&gt;Am 27. Jänner 2016 wird die &amp;ldquo;Camunda BPM 7.4 Release Roadshow&amp;rdquo; in Wien Station
 machen - als Abschluß einer &lt;a href=&#34;http://www.bpm-guide.de/2015/12/08/camunda-bpm-7-4-roadshow/&#34; title=&#34;Camunda BPM 7.4 Roadshow&#34;&gt;Veranstaltungsserie&lt;/a&gt; in Berlin, Hamburg,
 Düsseldorf, Frankfurt, München, Zürich und eben Wien.&lt;/p&gt;

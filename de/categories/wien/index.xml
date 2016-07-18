@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wien on plexiti</title>
-    <link>http://plexiti.github.io/plexiti/de/categories/wien/</link>
+    <link>http://plexiti.com/de/categories/wien/</link>
     <description>Recent content in Wien on plexiti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Thu, 23 May 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://plexiti.github.io/plexiti/de/categories/wien/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://plexiti.com/de/categories/wien/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Impulsvortrag &#34;Geschäftsprozesse und Softwaretests&#34;</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</link>
+      <link>http://plexiti.com/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</link>
       <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</guid>
+      <guid>http://plexiti.com/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</guid>
       <description>&lt;p&gt;Es war eine für uns wirklich durch und durch angenehme Veranstaltung. Jakob
 Freund, Geschäftsführer unserer Berlin Partnerfirma camunda besuchte uns
 und bestaunte mit unseren Gästen den außergewöhnlichen Blick über Wien, den die
@@ -24,7 +24,7 @@ und bestaunte mit unseren Gästen den außergewöhnlichen Blick über Wien, den 
 
 &lt;p&gt;Jakob erzählte unseren rund 20 Gästen (fast) alles was es über das Open Source
 Projekt &lt;a href=&#34;http://camunda.org&#34;&gt;camunda BPM&lt;/a&gt; zu wissen lohnt!-) Unsere Impressionen
-dazu gibt&amp;rsquo;s &lt;a href=&#34;http://plexiti.github.io/plexiti/de/planet/2013/05/presenting-camunda-bpm-in-vienna&#34;&gt;hier&lt;/a&gt; - und eine kleine
+dazu gibt&amp;rsquo;s &lt;a href=&#34;http://plexiti.com/de/planet/2013/05/presenting-camunda-bpm-in-vienna&#34;&gt;hier&lt;/a&gt; - und eine kleine
 Retrospektive samt Links gibt&amp;rsquo;s &lt;a href=&#34;http://camunda.org/community/meetings/register.html?id=3&#34;&gt;auch auf camunda.org&lt;/a&gt;. Wir sind schon
 fast ein Berliner!&lt;/p&gt;
 
@@ -47,10 +47,10 @@ data-ratio=&#34;1.41436464088398&#34; src=&#34;//speakerdeck.com/assets/embed.js
     
     <item>
       <title>Presenting Camunda BPM in Wien</title>
-      <link>http://plexiti.github.io/plexiti/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</link>
+      <link>http://plexiti.com/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</link>
       <pubDate>Fri, 17 May 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://plexiti.github.io/plexiti/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</guid>
+      <guid>http://plexiti.com/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</guid>
       <description>&lt;p&gt;Warum beschäftigt sich eine so junge und bewegliche Firma wie camunda
 eigentlich mit dem &lt;strong&gt;&amp;ldquo;Alte-Männer-Thema BPM&amp;rdquo;&lt;/strong&gt;? :-) So oder so ähnlich wurde Jakob
 Freund, Geschäftsführer der Firma camunda neulich beim Bier gefragt. Hört man
@@ -67,7 +67,7 @@ Platform&lt;/a&gt; die Themen Java, BPMN und Open Source mit dem
 Anspruch bedingungsloser (ich darf das sagen) &amp;ldquo;Developer Friendliness&amp;rdquo;. Nicht
 vollmundiges &amp;ldquo;Zero Coding&amp;rdquo; ist der Slogan der Berliner BPMN Shooting Stars,
 sondern ehrliches &lt;strong&gt;Less Coding&lt;/strong&gt; ist die nachdenkliche
-&lt;a href=&#34;http://plexiti.github.io/plexiti/de/news/2013/04/the-camunda-hypothesis&#34;&gt;Hypothese&lt;/a&gt;.
+&lt;a href=&#34;http://plexiti.com/de/news/2013/04/the-camunda-hypothesis&#34;&gt;Hypothese&lt;/a&gt;.
 Ein Best-of-breed Ansatz, wie er von Geschäftsführer Bernd Rücker unlängst auch
 auf der &lt;a href=&#34;http://www.sigs-datacom.de/konferenzen/seacon.html&#34;&gt;SEACON&lt;/a&gt; erklärt
 wurde. Schön und gut. Aber warum wirklich sollte man in Erwägung ziehen von
