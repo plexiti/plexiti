@@ -1,5 +1,16 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns='http://www.w3.org/1999/xhtml'>
 <head>
-  <meta http-equiv="refresh" content="0;URL=de/blog/" />
+  <script type='text/javascript' src='de/js/lang.js'></script>
 </head>
+<script>
+  var langCode = getCookie('lang') || navigator.language || navigator.systemLanguage;
+  var lang = langCode.toLowerCase();
+  lang = lang.substr(0,2);
+  var dest = window.location.href;
+  if (lang=="de") {
+    window.location.pathname = window.location.pathname + "de/blog/"
+  } else {
+    window.location.pathname = window.location.pathname + "en/blog/"
+  }
+</script>
 </html>

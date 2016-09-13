@@ -1,417 +1,126 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on plexiti</title>
+    <title>plexiti.com</title>
     <link>http://plexiti.com/de/blog/</link>
-    <description>Recent content in Blogs on plexiti</description>
+    <description> blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language>
-    <lastBuildDate>Wed, 16 Dec 2015 15:51:20 +0100</lastBuildDate>
+    
+      <language>de</language>
+    
+    
+    
+    
+    <lastBuildDate>Thu, 15 Sep 2016 12:00:00 +0200</lastBuildDate>
+    
     <atom:link href="http://plexiti.com/de/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Loslegen mit Camunda BPM Assert Scenario</title>
+      <link>http://plexiti.com/de/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/</link>
+      <pubDate>Thu, 15 Sep 2016 12:00:00 +0200</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/</guid>
+      <description>Dieser Blog Post ist der erste in einer Serie an Blog Posts, welche das neue Camunda BPM Community Extension Projekt diskutieren werden.</description>
+    </item>
     
     <item>
       <title>Camunda BPM 7.4 Roadshow!</title>
       <link>http://plexiti.com/de/blog/2015/12/camunda-bpm-release-roadshow/</link>
       <pubDate>Wed, 16 Dec 2015 15:51:20 +0100</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2015/12/camunda-bpm-release-roadshow/</guid>
-      <description>&lt;p&gt;Am 27. Jänner 2016 wird die &amp;ldquo;Camunda BPM 7.4 Release Roadshow&amp;rdquo; in Wien Station
-machen - als Abschluß einer &lt;a href=&#34;http://www.bpm-guide.de/2015/12/08/camunda-bpm-7-4-roadshow/&#34; title=&#34;Camunda BPM 7.4 Roadshow&#34;&gt;Veranstaltungsserie&lt;/a&gt; in Berlin, Hamburg,
-Düsseldorf, Frankfurt, München, Zürich und eben Wien.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.bpm-guide.de/2015/12/08/camunda-bpm-7-4-roadshow/&#34; title=&#34;Camunda BPM 7.4 Roadshow&#34;&gt;&lt;img src=&#34;../camunda-bpm-release-roadshow.png&#34; alt=&#34;Camunda BPM Release Roadshow&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Camunda&amp;rdquo; ist eine Open-Source-Software zur Automatisierung von
-Geschäftsabläufen und -entscheidungen. Was das heißt? Wenn ihr z.B. auf
-&lt;a href=&#34;https://www.zalando.de/&#34; title=&#34;Zalando AG&#34;&gt;Zalando&lt;/a&gt; Schuhe oder so bestellt, dann benötigt es natürlich einen im Detail
-ziemlich ausgefuchsten Ablauf, damit die Schuhe auch den Weg zu euch finden -
-und dafür nutzt Zalando bereits - richtig: &lt;a href=&#34;http://camunda.org/&#34; title=&#34;Camunda BPM Platform&#34;&gt;Camunda&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Und angeblich kann Camunda einen auch in 2 Tagen zum Mars (und zurück!) bringen.
-Aber zu all diesen Versprechen wird uns dann der Geschäftsführer Jakob Freund
-selbst mehr erzählen können: da ich mein Berliner Partnerunternehmen Camunda
-tatsächlich schon fast seit seinen Gründungstagen kenne, freue ich mich
-besonders, dass beide Gründer, Jakob Freund und Bernd Rücker, ihren Weg nach
-Wien ins Museumsquartier finden werden.&lt;/p&gt;
-
-&lt;p&gt;Die gesamte Agenda und die Anmeldung für Wien findet sich hier:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://network.camunda.org/meetings/67&#34; title=&#34;Camunda BPM 7.4 Roadshow Agenda für Wien&#34;&gt;https://network.camunda.org/meetings/67&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Die Veranstaltung ist kostenlos, die Zahl der Teilnehmer aber begrenzt. Wenn
-Euch das Thema interessiert - am besten also gleich anmelden, bevor die Plätze
-weg sind!&lt;/p&gt;
-</description>
+      <description>Im Januar kann man die neuen Features in Camunda BPM 7.4 an sieben Terminen in Deutschland, der Schweiz und Österreich live erleben.</description>
     </item>
     
     <item>
-      <title>Der Camunda Community Award ergeht an ... :-)</title>
+      <title>Der Camunda Community Award ergeht an &amp;hellip; :-)</title>
       <link>http://plexiti.com/de/blog/2014/03/camunda-bpm-community-award/</link>
       <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2014/03/camunda-bpm-community-award/</guid>
-      <description>&lt;p&gt;In die schiere Unzahl der an mich bereits ergangenen Auszeichnungen und Ehrungen reiht sich nun ein ganz besonderer Neuzugang ein: im Rahmen der Geburtstagsfeier für &lt;a href=&#34;http://camunda.org&#34;&gt;camunda.org&lt;/a&gt; erhielt ich - völlig verblüfft und unvorbereitet - den &lt;strong&gt;camunda BPM community award 2014&lt;/strong&gt;! Hier zu sehen in meiner persönlichen Ehrengalerie ganz rechts. :-)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../camunda-bpm-community-award.png&#34; alt=&#34;camunda BPM community award&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Unmittelbarer Anlaß dafür war die Veröffentlichung einer stabilen Version 1.0 meiner kleinen Community Extension &lt;strong&gt;&lt;a href=&#34;https://github.com/camunda/camunda-bpm-assert&#34;&gt;camunda-bpm-assert&lt;/a&gt;&lt;/strong&gt;, über die camunda &lt;strong&gt;&lt;a href=&#34;http://blog.camunda.org/2014/03/camunda-bpm-assert-10-released-as.html&#34;&gt;hier&lt;/a&gt;&lt;/strong&gt; und ich selbst &lt;strong&gt;&lt;a href=&#34;http://plexiti.com/planet/2014/03/camunda-bpm-assert-released&#34;&gt;da&lt;/a&gt;&lt;/strong&gt; schon berichtet hatten.&lt;/p&gt;
-
-&lt;p&gt;Bei der Feier des ersten Geburtstags von camunda.org am Dienstag in Berlin gab es von &lt;a href=&#34;https://github.com/meyerdan&#34;&gt;Daniel Meyer&lt;/a&gt; und seinem Team eine ganze Reihe an spannenden News rund um das unmittelbar bevorstehende GA Release &lt;strong&gt;7.1.0-Final&lt;/strong&gt; zu hören. &lt;a href=&#34;https://github.com/Nikku&#34;&gt;Nico Rehwaldt&lt;/a&gt; berichtete über das gemeinsam mit &lt;a href=&#34;http://www.zalando.com&#34;&gt;Zalando&lt;/a&gt; gestartete, völlig neue und ambitionierte Projekt &lt;a href=&#34;http://bpmn.io/blog/posts/2014-announcing-bpmn-io.html&#34;&gt;bpmn.io&lt;/a&gt;. Und Jakob Freund, Geschäftsführer der &lt;a href=&#34;http://camunda.com&#34;&gt;camunda services GmbH&lt;/a&gt;, erklärte dem Publikum wie er mit camunda nicht nur im deutschsprachigen Raum, sondern auch weit darüber hinaus reüssieren möchte. Der Schritt an die US Westküste steht für das 2008 gegründete Unternehmen nun ganz unmittelbar und konkret bevor.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../crossing-the-chasm.png&#34; alt=&#34;Jakob Freund is crossing the chasm&#34; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Jakob Freund is &lt;a href=&#34;http://www.amazon.com/Crossing-Chasm-Geoffrey-Moore/dp/0060517123/&#34;&gt;crossing the chasm&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;h4&gt;Vielen Dank an das ganze Team rund um camunda.org aus Wien!&lt;/h4&gt;
-&lt;h1&gt;YOU ROCK!&lt;/h1&gt;
-&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Beim ersten Geburtstag von camunda.org erhielt ich ein unerwartetes Geschenk!</description>
     </item>
     
     <item>
-      <title>Camunda BPM Assert 1.0 released!</title>
+      <title>Camunda BPM Assert 1.0 verfügbar!</title>
       <link>http://plexiti.com/de/blog/2014/03/camunda-bpm-assert-released/</link>
       <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2014/03/camunda-bpm-assert-released/</guid>
-      <description>
-
-&lt;p&gt;Die kleine Community Extension &amp;ldquo;camunda-bpm-assert&amp;rdquo; möchte es ein grosses Stück einfacher machen Tests für BPMN Prozessdefinitionen zu schreiben und diese gegen &lt;a href=&#34;http://camunda.org&#34;&gt;camunda BPM&lt;/a&gt; auszuführen. Dazu wird - basierend auf Joel Costigliola&amp;rsquo;s &lt;a href=&#34;http://joel-costigliola.github.io/assertj/&#34;&gt;AssertJ&lt;/a&gt; - ein Set an Process Engine Assertions zur Verfügung gestellt. Diese können sowohl mit JUnit, aber auch in völlig anderen Testumgebungen eingesetzt werden. Außerdem unterstützt eine Reihe an kleinen Helper-Methoden bei der Navigation durch den zu testenden Prozesspfad. &lt;strong&gt;Das Motto: besser lesbarer Code - weniger Spaghetti Tests!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../camunda-bpm-assert-released.png&#34; alt=&#34;Less Spaghetti Tests&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Urspünglich eine gemeinsam von &lt;a href=&#34;http://rafael.cordones.me&#34;&gt;Rafael Cordones&lt;/a&gt; und mir in die Welt gesetzte und von Jan Galinski und Simon Zambrovski (beide &lt;a href=&#34;http://www.holisticon.de&#34;&gt;Holisticon&lt;/a&gt;) tatkräftig unterstützte Idee, konnte ich mir nun die nötige Zeit nehmen, den experimentellen Code auf den Kern zu reduzieren und vor allem zu testen: &amp;ldquo;Never forget to test the test code!&amp;rdquo; :-) Das Ergebnis ist nun zugänglich über camundas maven repo als&lt;/p&gt;
-
-&lt;h1 id=&#34;camunda-bpm-assert-1-0&#34;&gt;camunda-bpm-assert 1.0&lt;/h1&gt;
-
-&lt;p&gt;Man benötigt lediglich einen statischen Import…&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;import static org.camunda.bpm.engine.test.assertions.ProcessEngineTests.*;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;… und kann schon damit loslegen neue Tests zu schreiben oder bestehende Tests zu ändern. Es gibt aber keinen Zwang, einer bestimmten Test-&amp;ldquo;Philosophie&amp;rdquo; zu folgen oder bestehende Tests in einem Schritt zu &amp;ldquo;migrieren&amp;rdquo;. &amp;ldquo;Mix and match it&amp;rdquo; as you like, zB um eine Map an Prozessvariablen zu übergeben:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ProcessInstance pi = runtimeService().startProcessInstanceByKey(
-  &amp;quot;camunda-testing-job-announcement&amp;quot;,
-  withVariables(&amp;quot;jobAnnouncementId&amp;quot;, jobAnnouncement.getId())
-);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;../process-instance-under-test.png&#34; alt=&#34;Zu testende Prozess Instanz&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Möchte man zB sicherstellen, dass diese hier gezeigte Prozessinstanz&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;wirklich gestartet wurde…&lt;/li&gt;
-&lt;li&gt;… nun beim User Task &amp;ldquo;edit&amp;rdquo; wartet…&lt;/li&gt;
-&lt;li&gt;… und einer bestimmten Gruppe, aber noch keiner konkreten Person zugeordnet wurde…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;so schreibt man&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;assertThat(pi).isStarted()
-    .task(&amp;quot;edit&amp;quot;).hasCandidateGroup(&amp;quot;hr-staff&amp;quot;).isNotAssigned();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Möchte man diesen Task nun zuweisen und abschliessen, so kann man dafür einige der Helper Methoden nutzen:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;claim(task(&amp;quot;edit&amp;quot;), &amp;quot;mary&amp;quot;);
-complete(task(&amp;quot;edit&amp;quot;), withVariables(&amp;quot;finished&amp;quot;, true, &amp;quot;editor&amp;quot;, &amp;quot;mary&amp;quot;));
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Für diejenigen, die sich hier am Kopf kratzen sollten: die Library merkt sich dazu die letzte Prozess Instanz, auf der in diesem konkreten Test eine Assertion durchgeführt wurde. Es ist aber auch möglich, komplexere Tests mit mehreren &amp;ldquo;kollaborierenden&amp;rdquo; Prozessinstanzen durchzuführen und die jeweils benötigte Instanz den Helper Methoden explizit mitzugeben:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;claim(task(&amp;quot;edit&amp;quot;, pi), &amp;quot;mary&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;fork-me-on-github&#34;&gt;Fork me on GitHub!&lt;/h1&gt;
-
-&lt;p&gt;Ein kompletter &lt;strong&gt;&lt;a href=&#34;https://github.com/camunda/camunda-bpm-assert/blob/master/camunda-bpm-assert/README.md&#34;&gt;User Guide&lt;/a&gt;&lt;/strong&gt; mit allen derzeit zur Verfügung stehenden Assertions und Helper Methoden ist online abrufbar. Worauf also warten?-) &lt;strong&gt;&lt;a href=&#34;https://github.com/camunda/camunda-bpm-assert#getting-started&#34;&gt;Get started&lt;/a&gt;&lt;/strong&gt; and… enjoy your upgraded pasta!&lt;/p&gt;
-</description>
+      <description>Seit einiger Zeit schon experimentieren wir mit Assertions für Camunda BPM - rechtzeitig zum 1. Geburtstag ist nun eine stabile Version verfügbar.</description>
     </item>
     
     <item>
       <title>camunda.org Community Day 2013 in Prag!</title>
       <link>http://plexiti.com/de/blog/2013/10/camunda-community-day/</link>
       <pubDate>Mon, 21 Oct 2013 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2013/10/camunda-community-day/</guid>
-      <description>&lt;p&gt;Am Freitag, den 18.10. kam die camunda.org-Community mitten in der Altstadt Prags in einem ziemlich interessanten Hotel (&lt;a href=&#34;http://www.fusionhotels.com/de/&#34;&gt;Fusion Hotel Prag&lt;/a&gt;) zusammen und diskutierte dort das gemeinsame Open Source Projekt &lt;a href=&#34;http://camunda.org&#34;&gt;camunda.org&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Hier meine Slides, mit denen ich nur ganz kurz das Incubation Project &lt;a href=&#34;https://github.com/camunda/camunda-bpm-testing&#34;&gt;camunda-bpm-testing&lt;/a&gt; vorstellte. Ursprünglich aus einer kleinen Contribution von &lt;a href=&#34;http://rafael.cordones.me&#34;&gt;Rafael Cordones&lt;/a&gt; und mir hervorgegangen, macht es mich froh und auch ein bisschen stolz, dass das Baby langsam aber sicher wächst:&lt;/p&gt;
-
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;354021b01c9a01317bec126906eef5c9&#34; data-ratio=&#34;1.28643216080402&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Wir bauen neben &lt;a href=&#34;http://junit.org&#34;&gt;JUnit&lt;/a&gt; auf mittlerweile fünf bewährten Testing Libraries auf (&lt;a href=&#34;https://github.com/alexruiz/fest-assert-2.x/wiki&#34;&gt;FEST Assertions&lt;/a&gt;, &lt;a href=&#34;http://code.google.com/p/mockito/&#34;&gt;Mockito&lt;/a&gt;, &lt;a href=&#34;http://jbehave.org&#34;&gt;JBehave&lt;/a&gt;, &lt;a href=&#34;http://needle.spree.de/overview&#34;&gt;Needle&lt;/a&gt;, &lt;a href=&#34;http://arquillian.org&#34;&gt;Arquillian&lt;/a&gt;) und fügen einerseits den Glue Code hinzu der benötigt wird, um diese Werkzeuge im Kontext von Prozessapplikationen gut einsetzen zu können, andererseits geht es aber gerade im Bereich Assertions auch um etwas mehr Coding. Helping hands very welcome!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../tweet.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Und Prag. Ganz arg: die Stadt hat mich auf eine unerwartete Weise irgendwo ganz tief drinnen &amp;ldquo;berührt&amp;rdquo;. Vielleicht erinnert mich so manches dort an das geliebte Wien meiner Kindheit… ganz sicher z.B. das allgegenwärtige Kopfsteinpflaster… vor allem aber die Menschen, warum, das kann ich aber nicht so genau greifen. Ich fühle mich in Prag &amp;ldquo;wie zuhause&amp;rdquo; und werde ganz sicher noch öfter dorthin zurückkehren…!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../camunda-community-day.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Credits to &lt;a href=&#34;http://commons.wikimedia.org/w/index.php?title=User:Metbrot&amp;amp;action=edit&amp;amp;redlink=1&#34;&gt;metbrot&lt;/a&gt; according to &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/3.0/deed.en&#34;&gt;CC-BY-SA 3.0&lt;/a&gt;)&lt;/p&gt;
-</description>
+      <description>Die camunda.org-Community kam in einer der schönsten Städte Europas zusammen, und ich konnte dabei camunda-bpm-testing kurz vorstellen.</description>
     </item>
     
     <item>
       <title>Gedanken zur (No bullshit-) BPMCon 2013</title>
       <link>http://plexiti.com/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</link>
       <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</guid>
-      <description>&lt;p&gt;Am 20.9. luden die unkonventionellen Berliner BPM(N)-Profis von camunda wieder zu ihrer Hauskonferenz samt Grillparty, und konnten mit diesem Package auch dieses Jahr wieder gut 150 Teilnehmer in die alte Generatorenhalle des Kreuzberger Umspannwerks locken. Genau die richtige Atmosphäre also um bei guter Stimmung über die kontinuierliche Neuerfindung des Zusammenspiels von Mensch und Maschine nachzudenken.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../chaplin.png&#34; alt=&#34;Charlie Chaplin&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Interessant war zu beobachten, welche Themen da nur wenige Monate nach dem Launch des Open Source Projekts &lt;a href=&#34;http://camunda.org&#34;&gt;camunda.org&lt;/a&gt; auf die Agenda gesetzt und in den Mittelpunkt der Aufmerksamkeit gerückt wurden. Schon das Motto &amp;ldquo;Starting Up BPM!&amp;rdquo;, vor allem aber die Liste der Beiträge legte einen deutlichen Schwerpunkt auf Internet Companies wie &lt;a href=&#34;http://www.zalando.de&#34;&gt;zalando&lt;/a&gt;, &lt;a href=&#34;http://www.flightright.de&#34;&gt;flightright&lt;/a&gt; und &lt;a href=&#34;http://www.my-toys.de&#34;&gt;mytoys&lt;/a&gt;. Allen gemeinsam: der Einsatz von Open Source BPMN Process Engines.&lt;/p&gt;
-
-&lt;p&gt;Warum die Startup-Szene das Potential flexibler und quelloffener Process Engines mehr und mehr für sich entdecken könnte, erklärte Jakob Freund in seiner Keynote. Sinngemäß meinte er:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Wer sein Geschäftsmodell auf Software aufbaut und &lt;strong&gt;skalierbar&lt;/strong&gt; sein möchte, der braucht hochgradig &lt;strong&gt;individuelle&lt;/strong&gt; Prozessanwendungen, muss von Softwareherstellern &lt;strong&gt;unabhängig&lt;/strong&gt; sein und Softwareentwicklung zur Kernkompetenz erklären.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center style=&#34;margin: 20px&#34;&gt;&lt;img src=&#34;../zalando.png&#34;/&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Die Neuerfindung und Skalierung von Offline-Geschäftsmodellen für Online ist ein Bereich, in dem wir sicher auch weiterhin sehr viele Startups sehen werden. Nicht wenige davon werden auch in den kommenden 10 Jahren die technischen Herausforderungen unterschätzen und die Geduld ihrer Investoren überschätzen. Einige gut beratene Pragmatiker werden Process Engines wie &lt;a href=&#34;http://camunda.org&#34;&gt;camunda.org&lt;/a&gt; einsetzen und damit in der Regel schneller am Markt sein, vor allem aber flexibel bleiben und nicht schon vor dem ersten Launch in die &lt;a href=&#34;http://martinfowler.com/bliki/TechnicalDebt.html&#34;&gt;Technical-Debt&lt;/a&gt;-Falle laufen.&lt;/p&gt;
-
-&lt;p&gt;Das wahre Potential des auf den ersten Blick so ungleichen Paars &amp;ldquo;BPM(N) &amp;amp; Startups&amp;rdquo; bleibt mE aber weiterhin - von beiden Seiten - unterschätzt. Die Aufmerksamkeit füreinander könnte z.B. zunehmen, wenn man mehr als bisher die einfache und flexible Kombinierbarkeit mit alternativen Sprachen der Java Platform wie z.B. Groovy oder Scala in den Mittelpunkt stellt.&lt;/p&gt;
-
-&lt;p&gt;&lt;center style=&#34;margin: 20px&#34;&gt;&lt;img src=&#34;../groovy.png&#34;/&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Man müsste aber auch den Coolness-Faktor heben. camunda ist mit seiner Herangehensweise da auf einem ganz guten Weg. So sehr ich über den Slogan &amp;ldquo;No-Bullshit-BPM&amp;rdquo; schmunzeln muss, zeigt er aber auch, dass man weiterhin an den alten Kommunikationssünden und Marketing&amp;rdquo;strategien&amp;rdquo; Anderer knabbert. Dabei ist camunda tatsächlich &amp;ldquo;no bullshit&amp;rdquo;. Das Alte-Männer-Wort &amp;ldquo;BPM&amp;rdquo; könnte und sollte man aber vielleicht sogar ganz hinter sich lassen. Denn wieviel hat das was Open Source Process Engines heute bieten noch mit dem Enterprise-Gespenst zu tun das IBM &amp;amp; Co vor einem halben Leben in die Welt gesetzt und dann mit jeder Menge Zerocoding Bullshit beworben haben?&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;../thoughts-about-the-no-bullshit-bpmcon-2013.png&#34;/&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Nach dem gemeisterten Start von camunda.org erklärten die Berliner, warum ihre flexible, quelloffene Engine die Aufmerksamkeit von Startups auf sich zu ziehen beginnt.</description>
     </item>
     
     <item>
-      <title>Impulsvortrag &#34;Geschäftsprozesse und Softwaretests&#34;</title>
+      <title>Impulsvortrag &amp;ldquo;Geschäftsprozesse und Softwaretests&amp;rdquo;</title>
       <link>http://plexiti.com/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</link>
       <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</guid>
-      <description>&lt;p&gt;Es war eine für uns wirklich durch und durch angenehme Veranstaltung. Jakob
-Freund, Geschäftsführer unserer Berlin Partnerfirma camunda besuchte uns
-und bestaunte mit unseren Gästen den außergewöhnlichen Blick über Wien, den die
-&lt;a href=&#34;http://sky360.at&#34;&gt;Sky360 Business Embassy&lt;/a&gt; zu bieten hat.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../teaser-talk-business-processes-and-software-tests.png&#34; alt=&#34;Blick von der Terrasse&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Jakob erzählte unseren rund 20 Gästen (fast) alles was es über das Open Source
-Projekt &lt;a href=&#34;http://camunda.org&#34;&gt;camunda BPM&lt;/a&gt; zu wissen lohnt!-) Unsere Impressionen
-dazu gibt&amp;rsquo;s &lt;a href=&#34;http://plexiti.com/de/planet/2013/05/presenting-camunda-bpm-in-vienna&#34;&gt;hier&lt;/a&gt; - und eine kleine
-Retrospektive samt Links gibt&amp;rsquo;s &lt;a href=&#34;http://camunda.org/community/meetings/register.html?id=3&#34;&gt;auch auf camunda.org&lt;/a&gt;. Wir sind schon
-fast ein Berliner!&lt;/p&gt;
-
-&lt;p&gt;Im Anschluß an dieses Hauptthema des Abends erkundeteten wir dann noch ein
-wenig die Realität, dass Unternehmen ihre Geschäftsprozesse typischerweise
-über mehrere Softwareanwendungen hinweg &amp;ldquo;ausführen&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../teaser-talk.jpg&#34; alt=&#34;Teaser Talk&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Diese Anwendungen können mehr (nicht nur, aber auch mittels Prozessautomatisierung)
-oder weniger technisch integriert sein. In beiden Fällen müssen Unternehmen
-sicherstellen, dass ihre Prozesse nach Systemänderungen noch richtig unterstützt
-werden. Sollten sie diese Aufgabe in Zukunft zunehmend automatisieren? Wir haben
-uns dazu die &amp;ldquo;Ökonomie von Software Tests&amp;rdquo; ein wenig angesehen:&lt;/p&gt;
-
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;59f162a0a5a80130cc1666da9fcdc82e&#34; 
-data-ratio=&#34;1.41436464088398&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-</description>
+      <description>Im Kontext der camunda BPM Präsentation genossen wir den Blick auf Wien und warfen auch einen Blick auf &amp;lsquo;Enterprise&amp;rsquo;-Systemlandschaften.</description>
     </item>
     
     <item>
       <title>Presenting Camunda BPM in Wien</title>
       <link>http://plexiti.com/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</link>
       <pubDate>Fri, 17 May 2013 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</guid>
-      <description>&lt;p&gt;Warum beschäftigt sich eine so junge und bewegliche Firma wie camunda
-eigentlich mit dem &lt;strong&gt;&amp;ldquo;Alte-Männer-Thema BPM&amp;rdquo;&lt;/strong&gt;? :-) So oder so ähnlich wurde Jakob
-Freund, Geschäftsführer der Firma camunda neulich beim Bier gefragt. Hört man
-ihm ein wenig zu - und wir hatten dazu auf der von plexiti organisierten
-&lt;a href=&#34;http://camunda.org/community/meetings/register.html?id=3&#34;&gt;Community Veranstaltung in Wien&lt;/a&gt;
-eine mehr als gute Gelegenheit - dann ist seine Antwort darauf eigentlich
-ganz einfach. Im Grunde kommt es eben darauf an, wie genau man das vielleicht
-für manche sperrige, aber doch wichtige, Thema anpackt.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../oss-java-bpmn.png&#34; alt=&#34;camunda verknüpft Java, BMPN and Open Source&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;camunda verbindet mit seiner kürzlich gelaunchten &lt;a href=&#34;http://camunda.org&#34;&gt;BPM
-Platform&lt;/a&gt; die Themen Java, BPMN und Open Source mit dem
-Anspruch bedingungsloser (ich darf das sagen) &amp;ldquo;Developer Friendliness&amp;rdquo;. Nicht
-vollmundiges &amp;ldquo;Zero Coding&amp;rdquo; ist der Slogan der Berliner BPMN Shooting Stars,
-sondern ehrliches &lt;strong&gt;Less Coding&lt;/strong&gt; ist die nachdenkliche
-&lt;a href=&#34;http://plexiti.com/de/news/2013/04/the-camunda-hypothesis&#34;&gt;Hypothese&lt;/a&gt;.
-Ein Best-of-breed Ansatz, wie er von Geschäftsführer Bernd Rücker unlängst auch
-auf der &lt;a href=&#34;http://www.sigs-datacom.de/konferenzen/seacon.html&#34;&gt;SEACON&lt;/a&gt; erklärt
-wurde. Schön und gut. Aber warum wirklich sollte man in Erwägung ziehen von
-einer Mini-Firma wie camunda Dienstleistungen dazuzukaufen - und nicht doch
-von einem der vertrauenswürdigen, älteren Herren?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;ibm-oracle-sap-camunda.png&#34; alt=&#34;camunda ist klein.&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Für eine solche Kaufentscheidung wurde ja wohl noch kein Manager gefeuert, oder?
-Ich vermute, diese Gewissheit wird sich noch in diesem Jahrzehnt verflüchtigen.
-Das hat eine Menge zu tun mit Themen, die von vielen Entwicklern heute intuitiv
-verstanden werden, dem Management nach meinem Gefühl aber noch besser als bisher
-erklärt werden müssen. Weniger wichtig wird morgen sein, &amp;ldquo;alles aus einer Hand&amp;rdquo;
-zu bekommen und einen Generallieferanten haftbar machen zu können. Wichtiger
-wird hingegen die Beherrschung des &lt;strong&gt;Open Source Baukastenprinzips&lt;/strong&gt;, die
-Fähigkeit hochwertige, von offenen Communities gepflegte und gerade wegen
-dieser Offenheit aufeinander oft besser als proprietäre One-Stop-Software
-abgestimmte, Komponenten mit relativ wenig &amp;ldquo;Glue Code&amp;rdquo; miteinander verknüpfen
-zu können. Und die eigenen softwaregestützten Geschäftsprozesse am Ende des
-Tages deshalb im Griff zu haben, weil man statt auf formale Sicherheit auf reale
-Sicherheit setzt. Gewissermassen auf die leichtgewichtige Seite der Macht:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../ibm-oracle-sap-camunda-java.png&#34; alt=&#34;Ist camunda klein?&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Die Überlegung ist zumindest nicht ganz falsch. Eure Meinungen zu dieser von
-Jakob Freund präsentierten These würden mich ja sehr interessieren. Die
-ultimative Event-Serie zu diesem Thema gibt es übrigens demnächst im Rahmen
-einer &lt;strong&gt;Shootout Roadshow&lt;/strong&gt; &lt;a href=&#34;http://www.bpm-guide.de/2013/05/07/camunda-vs-oracle-roadshow/&#34;&gt;&lt;strong&gt;camunda vs.
-Oracle&lt;/strong&gt;&lt;/a&gt;. Ich
-finde es von beiden Seiten extrem cool, sich hieran zu beteiligen. Nein,
-eigentlich finde ich es von Oracle noch cooler. Zugegeben, es kommt etwas
-unerwartet für mich - und zeigt vielleicht auch so ein bisschen wie sehr der
-&amp;ldquo;Enterprise&amp;rdquo;-Software-Markt bereits in Bewegung geraten ist.&lt;/p&gt;
-
-&lt;p&gt;Zum Abschluß möchte ich hier auch noch Jakob Freunds kompletten Satz an Folien
-anhängen, die er uns im Rahmen unserer Diskussion so nach und nach gezeigt hat:&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe ng-style=&#34;style()&#34; resize
-src=&#34;http://de.slideshare.net/slideshow/embed_code/21259862&#34; width=&#34;427&#34;
-height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34;
-style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34;
-allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div
-style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a
-href=&#34;http://de.slideshare.net/camunda/camunda-bpm&#34; title=&#34;camunda BPM&#34;
-target=&#34;_blank&#34;&gt;camunda BPM&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a
-href=&#34;http://de.slideshare.net/camunda&#34; target=&#34;_blank&#34;&gt;camunda services
-GmbH&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Es war mir eine Freude, Jakob in Wien gehabt zu haben.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../presenting-camunda-bpm-in-vienna.png&#34; alt=&#34;Jakob Freund in Wien&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Foto Credits für &lt;a href=&#34;https://twitter.com/rafacm/status/335106059326869504/photo/1&#34;&gt;Rafael Cordones&lt;/a&gt;)&lt;/p&gt;
-</description>
+      <description>Jakob Freund von camunda besuchte uns in Wien, um uns im Rahmen eines Community Events alle offenen Fragen über &amp;lsquo;den Fork&amp;rsquo; zu beantworten!-)</description>
     </item>
     
     <item>
       <title>camunda BPM Incubation Space startet mit einer Contribution von plexiti</title>
       <link>http://plexiti.com/de/blog/2013/04/camunda-bpm-incubation-space-launched/</link>
       <pubDate>Wed, 24 Apr 2013 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2013/04/camunda-bpm-incubation-space-launched/</guid>
-      <description>&lt;p&gt;&amp;ldquo;Ich freue mich den offiziellen Start des camunda BPM Incubation
-Space bekanntzugeben - mit der ersten großen Community Contribution
-von plexiti. View it on github!&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Wir freuen uns auch! Und sind schon ein klitzekleines bisschen stolz
-Contributing &lt;a href=&#34;http://camunda.org/community/team.html&#34;&gt;Team Members&lt;/a&gt; des neuen
-camunda BPM Open Source Projekts zu werden. Und hier findet Ihr den momentanen
-Status der vom Projekt-Lead Daniel Meyer angekündigten Contribution:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/camunda/camunda-bpm-incubation&#34;&gt;https://github.com/camunda/camunda-bpm-incubation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/camunda/camunda-bpm-fluent-testing&#34;&gt;https://github.com/camunda/camunda-bpm-fluent-testing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Wir freuen uns ein (leicht!)gewichtiges Stück Code zum neuen Incubation Space auf camunda.org beizusteuern: auf dass das Testen flüssig werde!</description>
     </item>
     
     <item>
       <title>Unser Pecha Kucha in Berlin</title>
       <link>http://plexiti.com/de/blog/2012/09/our-pecha-kucha-in-berlin/</link>
       <pubDate>Thu, 20 Sep 2012 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2012/09/our-pecha-kucha-in-berlin/</guid>
-      <description>&lt;p&gt;Zugegeben: das war das &amp;lsquo;erste Mal&amp;rsquo; Pecha Kucha - eine neue Erfahrung:
-&lt;a href=&#34;http://de.wikipedia.org/wiki/Pecha_Kucha&#34;&gt;20 Folien zu je 20 Sekunden&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Und so hat das dann bei der &lt;a href=&#34;http://www.bpmcon.de&#34;&gt;BPMCon 2012&lt;/a&gt; in Berlin &amp;lsquo;live&amp;rsquo; ausgesehen: :-)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../our-pecha-kucha-in-berlin.png&#34; alt=&#34;Martin Schimak auf der BPMCon 2012&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../online.jpg&#34; alt=&#34;Sind wir online? :-)&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Und last not least unser kleiner Vortrag zu&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/plexiti/bpmn-prozessanwendungen-mit-java-ee-6-ein-beispiel-und-quickstart&#34;&gt;BPMN Prozessanwendungen mit Java EE 6&lt;/a&gt; über Slideshare:&lt;/p&gt;
-
-&lt;iframe src=&#34;http://de.slideshare.net/slideshow/embed_code/14315962&#34; width=&#34;640&#34; height=&#34;521&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; ng-style=&#34;style()&#34; resize allowfullscreen&gt; &lt;/iframe&gt; 
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://de.slideshare.net/plexiti/bpmn-prozessanwendungen-mit-java-ee-6-ein-beispiel-und-quickstart&#34;&gt;BPMN Prozessanwendungen mit Java EE 6 – ein Beispiel und Quickstart&lt;/a&gt;&lt;/strong&gt;
-from &lt;a href=&#34;http://de.slideshare.net/plexiti&#34;&gt;plexiti&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Zugegeben, das war das &amp;lsquo;erste Mal&amp;rsquo; Pecha Kucha - eine neue Erfahrung - 20 Folien zu je 20 Sekunden!</description>
     </item>
     
     <item>
       <title>Der Showcase zur Stellenausschreibung ist fertig*!</title>
       <link>http://plexiti.com/de/blog/2012/09/the-job-announcement-showcase-is-done/</link>
       <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2012/09/the-job-announcement-showcase-is-done/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Puuh&lt;/strong&gt;, das war ein schönes Stück Arbeit, aber es ist fürs erste geschafft:
-unsere Prozessanwendung zur im
-&lt;a href=&#34;http://www.hanser-fachbuch.de/buch/Praxishandbuch+BPMN+20/9783446429864&#34;&gt;Praxishandbuch BPMN 2.0&lt;/a&gt;
-als Beispiel ausführlichst beschriebenen
-&lt;a href=&#34;http://www.bpm-guide.de/2010/08/06/praxishandbuch-bpmn-2-auflage-ab-mitte-september/?lang_pref=de&#34;&gt;Stellenausschreibung&lt;/a&gt;
-ist fertig *!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://the-job-announcement.com/&#34;&gt;&lt;img src=&#34;../the-job-announcement-showcase-is-done.png&#34; alt=&#34;The Job Announcement&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Unser Ziel ist nicht nur zum &lt;a href=&#34;http://the-job-announcement.com/&#34;&gt;Selber spielen&lt;/a&gt; einzuladen,
-sondern auch eine auf &lt;a href=&#34;http://www.camunda.com/fox&#34;&gt;camunda fox&lt;/a&gt;,
-&lt;a href=&#34;http://www.oracle.com/technetwork/java/javaee&#34;&gt;Java EE 6&lt;/a&gt; und
-&lt;a href=&#34;http://twitter.github.com/bootstrap/&#34;&gt;Bootstrap&lt;/a&gt; basierende Prozessanwendung zu bauen,
-die einen Java Entwickler in die Lage versetzt binnen 60 Minuten mit der eigenen Anwendung
-zu starten: den Source Code kann man via &lt;a href=&#34;https://github.com/plexiti/the-job-announcement-fox&#34;&gt;GitHub&lt;/a&gt;
-herunterladen.&lt;/p&gt;
-
-&lt;p&gt;Auf jeder Seite der Anwendung findet sich ganz oben ein &amp;ldquo;Hilfe&amp;rdquo;-Button mit den wichtigsten
-Inhalten und Anleitungen zum Ausprobieren. Trotzdem: ganz oben auf der Agenda steht nun
-mehr Dokumentation - wir finden die ist ganz eindeutig noch nicht groß genug! (Ehrlich jetzt.)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../cartoon.jpg&#34; alt=&#34;Soviel Dokumentation&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;[Credits to &lt;a href=&#34;http://writersua.com/articles/quickref/&#34;&gt;writersua.com&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;
-*) Ein leicht schmunzelndes &amp;ldquo;fertig&amp;rdquo; - weniger im Sinn von
-&lt;a href=&#34;http://jamesshore.com/Agile-Book/done_done.html&#34;&gt;fertigfertig&lt;/a&gt; - eher &lt;strong&gt;beschließen&lt;/strong&gt; wir,
-dass uns das bisherige Ergebnis schon ziemlich gut gefällt und es online gestellt werden
-sollte um mehr Feedback für die nächsten Schritte zu bekommen.
-&lt;/small&gt;&lt;/p&gt;
-</description>
+      <description>Es war ein schönes Stück Arbeit, aber es ist fürs erste geschafft - unsere Prozessanwendung zur Stellenausschreibung ist fertig!</description>
     </item>
     
     <item>
       <title>Wir sind auf dem Weg!</title>
       <link>http://plexiti.com/de/blog/2012/09/we-are-on-the-way/</link>
       <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2012/09/we-are-on-the-way/</guid>
-      <description>&lt;p&gt;Unverhofft kommt oft! Wir erhielten ganz kurzfristig die schöne Gelegenheit
-unsere &lt;a href=&#34;#/news/2012/09/the-job-announcement-showcase-is-done&#34;&gt;Prozessanwendung&lt;/a&gt;
-zur im &lt;a href=&#34;http://www.hanser-fachbuch.de/buch/Praxishandbuch+BPMN+20/9783446429864&#34;&gt;Praxishandbuch BPMN 2.0&lt;/a&gt; beschriebenen
-&lt;a href=&#34;http://www.bpm-guide.de/2010/08/06/praxishandbuch-bpmn-2-auflage-ab-mitte-september/?lang_pref=de&#34;&gt;Stellenausschreibung&lt;/a&gt;
-auf der &lt;a href=&#34;http://www.bpmcon.de/&#34;&gt;BPMCon 2012&lt;/a&gt; in Berlin vorzustellen. Und zwar im Rahmen des
-&lt;a href=&#34;http://www.bpmcon.de/agenda/&#34;&gt;Pecha Kucha&lt;/a&gt;: &lt;a href=&#34;http://de.wikipedia.org/wiki/Pecha_Kucha&#34;&gt;20 Folien zu je 20 Sekunden&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;Cool auch, weil wir nun keine Ausrede haben unsere Website einfach mal online zu stellen und &amp;ldquo;nach Berlin&amp;rdquo; dann
-weiterzubasteln. &lt;a href=&#34;http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html&#34;&gt;Release early, release often&lt;/a&gt;.
-Wir machen uns in mehrfacher Hinsicht &amp;ldquo;auf den Weg&amp;rdquo;!&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/lt2sEFs0AgE?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen ng-style=&#34;style()&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;(Many Credits to &lt;a href=&#34;http://www.keinermagfaustmann.com/&#34;&gt;Keiner mag Faustmann&lt;/a&gt; for publicly releasing this great song and video via YouTube)&lt;/p&gt;
-</description>
+      <description>Unverhofft kommt oft! Wir erhielten ganz kurzfristig die schöne Gelegenheit unsere Prozessanwendung in Berlin vorzustellen.</description>
     </item>
     
   </channel>

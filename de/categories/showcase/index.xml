@@ -1,52 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Showcase on plexiti</title>
+    <title>plexiti.com</title>
     <link>http://plexiti.com/de/categories/showcase/</link>
-    <description>Recent content in Showcase on plexiti</description>
+    <description> blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language>
+    
+      <language>de</language>
+    
+    
+    
+    
     <lastBuildDate>Fri, 14 Sep 2012 00:00:00 +0000</lastBuildDate>
+    
     <atom:link href="http://plexiti.com/de/categories/showcase/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Der Showcase zur Stellenausschreibung ist fertig*!</title>
       <link>http://plexiti.com/de/blog/2012/09/the-job-announcement-showcase-is-done/</link>
       <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2012/09/the-job-announcement-showcase-is-done/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Puuh&lt;/strong&gt;, das war ein schönes Stück Arbeit, aber es ist fürs erste geschafft:
-unsere Prozessanwendung zur im
-&lt;a href=&#34;http://www.hanser-fachbuch.de/buch/Praxishandbuch+BPMN+20/9783446429864&#34;&gt;Praxishandbuch BPMN 2.0&lt;/a&gt;
-als Beispiel ausführlichst beschriebenen
-&lt;a href=&#34;http://www.bpm-guide.de/2010/08/06/praxishandbuch-bpmn-2-auflage-ab-mitte-september/?lang_pref=de&#34;&gt;Stellenausschreibung&lt;/a&gt;
-ist fertig *!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://the-job-announcement.com/&#34;&gt;&lt;img src=&#34;../the-job-announcement-showcase-is-done.png&#34; alt=&#34;The Job Announcement&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Unser Ziel ist nicht nur zum &lt;a href=&#34;http://the-job-announcement.com/&#34;&gt;Selber spielen&lt;/a&gt; einzuladen,
-sondern auch eine auf &lt;a href=&#34;http://www.camunda.com/fox&#34;&gt;camunda fox&lt;/a&gt;,
-&lt;a href=&#34;http://www.oracle.com/technetwork/java/javaee&#34;&gt;Java EE 6&lt;/a&gt; und
-&lt;a href=&#34;http://twitter.github.com/bootstrap/&#34;&gt;Bootstrap&lt;/a&gt; basierende Prozessanwendung zu bauen,
-die einen Java Entwickler in die Lage versetzt binnen 60 Minuten mit der eigenen Anwendung
-zu starten: den Source Code kann man via &lt;a href=&#34;https://github.com/plexiti/the-job-announcement-fox&#34;&gt;GitHub&lt;/a&gt;
-herunterladen.&lt;/p&gt;
-
-&lt;p&gt;Auf jeder Seite der Anwendung findet sich ganz oben ein &amp;ldquo;Hilfe&amp;rdquo;-Button mit den wichtigsten
-Inhalten und Anleitungen zum Ausprobieren. Trotzdem: ganz oben auf der Agenda steht nun
-mehr Dokumentation - wir finden die ist ganz eindeutig noch nicht groß genug! (Ehrlich jetzt.)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../cartoon.jpg&#34; alt=&#34;Soviel Dokumentation&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;[Credits to &lt;a href=&#34;http://writersua.com/articles/quickref/&#34;&gt;writersua.com&lt;/a&gt;]&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;
-*) Ein leicht schmunzelndes &amp;ldquo;fertig&amp;rdquo; - weniger im Sinn von
-&lt;a href=&#34;http://jamesshore.com/Agile-Book/done_done.html&#34;&gt;fertigfertig&lt;/a&gt; - eher &lt;strong&gt;beschließen&lt;/strong&gt; wir,
-dass uns das bisherige Ergebnis schon ziemlich gut gefällt und es online gestellt werden
-sollte um mehr Feedback für die nächsten Schritte zu bekommen.
-&lt;/small&gt;&lt;/p&gt;
-</description>
+      <description>Es war ein schönes Stück Arbeit, aber es ist fürs erste geschafft - unsere Prozessanwendung zur Stellenausschreibung ist fertig!</description>
     </item>
     
   </channel>

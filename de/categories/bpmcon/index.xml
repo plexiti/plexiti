@@ -1,61 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bpmcon on plexiti</title>
+    <title>plexiti.com</title>
     <link>http://plexiti.com/de/categories/bpmcon/</link>
-    <description>Recent content in Bpmcon on plexiti</description>
+    <description> blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language>
+    
+      <language>de</language>
+    
+    
+    
+    
     <lastBuildDate>Thu, 20 Sep 2012 00:00:00 +0000</lastBuildDate>
+    
     <atom:link href="http://plexiti.com/de/categories/bpmcon/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Unser Pecha Kucha in Berlin</title>
       <link>http://plexiti.com/de/blog/2012/09/our-pecha-kucha-in-berlin/</link>
       <pubDate>Thu, 20 Sep 2012 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2012/09/our-pecha-kucha-in-berlin/</guid>
-      <description>&lt;p&gt;Zugegeben: das war das &amp;lsquo;erste Mal&amp;rsquo; Pecha Kucha - eine neue Erfahrung:
-&lt;a href=&#34;http://de.wikipedia.org/wiki/Pecha_Kucha&#34;&gt;20 Folien zu je 20 Sekunden&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Und so hat das dann bei der &lt;a href=&#34;http://www.bpmcon.de&#34;&gt;BPMCon 2012&lt;/a&gt; in Berlin &amp;lsquo;live&amp;rsquo; ausgesehen: :-)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../our-pecha-kucha-in-berlin.png&#34; alt=&#34;Martin Schimak auf der BPMCon 2012&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../online.jpg&#34; alt=&#34;Sind wir online? :-)&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Und last not least unser kleiner Vortrag zu&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/plexiti/bpmn-prozessanwendungen-mit-java-ee-6-ein-beispiel-und-quickstart&#34;&gt;BPMN Prozessanwendungen mit Java EE 6&lt;/a&gt; über Slideshare:&lt;/p&gt;
-
-&lt;iframe src=&#34;http://de.slideshare.net/slideshow/embed_code/14315962&#34; width=&#34;640&#34; height=&#34;521&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34; ng-style=&#34;style()&#34; resize allowfullscreen&gt; &lt;/iframe&gt; 
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://de.slideshare.net/plexiti/bpmn-prozessanwendungen-mit-java-ee-6-ein-beispiel-und-quickstart&#34;&gt;BPMN Prozessanwendungen mit Java EE 6 – ein Beispiel und Quickstart&lt;/a&gt;&lt;/strong&gt;
-from &lt;a href=&#34;http://de.slideshare.net/plexiti&#34;&gt;plexiti&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Zugegeben, das war das &amp;lsquo;erste Mal&amp;rsquo; Pecha Kucha - eine neue Erfahrung - 20 Folien zu je 20 Sekunden!</description>
     </item>
     
     <item>
       <title>Wir sind auf dem Weg!</title>
       <link>http://plexiti.com/de/blog/2012/09/we-are-on-the-way/</link>
       <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2012/09/we-are-on-the-way/</guid>
-      <description>&lt;p&gt;Unverhofft kommt oft! Wir erhielten ganz kurzfristig die schöne Gelegenheit
-unsere &lt;a href=&#34;#/news/2012/09/the-job-announcement-showcase-is-done&#34;&gt;Prozessanwendung&lt;/a&gt;
-zur im &lt;a href=&#34;http://www.hanser-fachbuch.de/buch/Praxishandbuch+BPMN+20/9783446429864&#34;&gt;Praxishandbuch BPMN 2.0&lt;/a&gt; beschriebenen
-&lt;a href=&#34;http://www.bpm-guide.de/2010/08/06/praxishandbuch-bpmn-2-auflage-ab-mitte-september/?lang_pref=de&#34;&gt;Stellenausschreibung&lt;/a&gt;
-auf der &lt;a href=&#34;http://www.bpmcon.de/&#34;&gt;BPMCon 2012&lt;/a&gt; in Berlin vorzustellen. Und zwar im Rahmen des
-&lt;a href=&#34;http://www.bpmcon.de/agenda/&#34;&gt;Pecha Kucha&lt;/a&gt;: &lt;a href=&#34;http://de.wikipedia.org/wiki/Pecha_Kucha&#34;&gt;20 Folien zu je 20 Sekunden&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;Cool auch, weil wir nun keine Ausrede haben unsere Website einfach mal online zu stellen und &amp;ldquo;nach Berlin&amp;rdquo; dann
-weiterzubasteln. &lt;a href=&#34;http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html&#34;&gt;Release early, release often&lt;/a&gt;.
-Wir machen uns in mehrfacher Hinsicht &amp;ldquo;auf den Weg&amp;rdquo;!&lt;/p&gt;
-
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/lt2sEFs0AgE?rel=0&#34; frameborder=&#34;0&#34; allowfullscreen ng-style=&#34;style()&#34;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;(Many Credits to &lt;a href=&#34;http://www.keinermagfaustmann.com/&#34;&gt;Keiner mag Faustmann&lt;/a&gt; for publicly releasing this great song and video via YouTube)&lt;/p&gt;
-</description>
+      <description>Unverhofft kommt oft! Wir erhielten ganz kurzfristig die schöne Gelegenheit unsere Prozessanwendung in Berlin vorzustellen.</description>
     </item>
     
   </channel>

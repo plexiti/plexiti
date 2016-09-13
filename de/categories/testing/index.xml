@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Testing on plexiti</title>
+    <title>plexiti.com</title>
     <link>http://plexiti.com/de/categories/testing/</link>
-    <description>Recent content in Testing on plexiti</description>
+    <description> blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language>
+    
+      <language>de</language>
+    
+    
+    
+    
     <lastBuildDate>Wed, 24 Apr 2013 00:00:00 +0000</lastBuildDate>
+    
     <atom:link href="http://plexiti.com/de/categories/testing/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>camunda BPM Incubation Space startet mit einer Contribution von plexiti</title>
       <link>http://plexiti.com/de/blog/2013/04/camunda-bpm-incubation-space-launched/</link>
       <pubDate>Wed, 24 Apr 2013 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2013/04/camunda-bpm-incubation-space-launched/</guid>
-      <description>&lt;p&gt;&amp;ldquo;Ich freue mich den offiziellen Start des camunda BPM Incubation
-Space bekanntzugeben - mit der ersten großen Community Contribution
-von plexiti. View it on github!&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Wir freuen uns auch! Und sind schon ein klitzekleines bisschen stolz
-Contributing &lt;a href=&#34;http://camunda.org/community/team.html&#34;&gt;Team Members&lt;/a&gt; des neuen
-camunda BPM Open Source Projekts zu werden. Und hier findet Ihr den momentanen
-Status der vom Projekt-Lead Daniel Meyer angekündigten Contribution:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/camunda/camunda-bpm-incubation&#34;&gt;https://github.com/camunda/camunda-bpm-incubation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/camunda/camunda-bpm-fluent-testing&#34;&gt;https://github.com/camunda/camunda-bpm-fluent-testing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Wir freuen uns ein (leicht!)gewichtiges Stück Code zum neuen Incubation Space auf camunda.org beizusteuern: auf dass das Testen flüssig werde!</description>
     </item>
     
   </channel>

@@ -1,127 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Wien on plexiti</title>
+    <title>plexiti.com</title>
     <link>http://plexiti.com/de/categories/wien/</link>
-    <description>Recent content in Wien on plexiti</description>
+    <description> blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language>
+    
+      <language>de</language>
+    
+    
+    
+    
     <lastBuildDate>Thu, 23 May 2013 00:00:00 +0000</lastBuildDate>
+    
     <atom:link href="http://plexiti.com/de/categories/wien/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Impulsvortrag &#34;Geschäftsprozesse und Softwaretests&#34;</title>
+      <title>Impulsvortrag &amp;ldquo;Geschäftsprozesse und Softwaretests&amp;rdquo;</title>
       <link>http://plexiti.com/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</link>
       <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</guid>
-      <description>&lt;p&gt;Es war eine für uns wirklich durch und durch angenehme Veranstaltung. Jakob
-Freund, Geschäftsführer unserer Berlin Partnerfirma camunda besuchte uns
-und bestaunte mit unseren Gästen den außergewöhnlichen Blick über Wien, den die
-&lt;a href=&#34;http://sky360.at&#34;&gt;Sky360 Business Embassy&lt;/a&gt; zu bieten hat.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../teaser-talk-business-processes-and-software-tests.png&#34; alt=&#34;Blick von der Terrasse&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Jakob erzählte unseren rund 20 Gästen (fast) alles was es über das Open Source
-Projekt &lt;a href=&#34;http://camunda.org&#34;&gt;camunda BPM&lt;/a&gt; zu wissen lohnt!-) Unsere Impressionen
-dazu gibt&amp;rsquo;s &lt;a href=&#34;http://plexiti.com/de/planet/2013/05/presenting-camunda-bpm-in-vienna&#34;&gt;hier&lt;/a&gt; - und eine kleine
-Retrospektive samt Links gibt&amp;rsquo;s &lt;a href=&#34;http://camunda.org/community/meetings/register.html?id=3&#34;&gt;auch auf camunda.org&lt;/a&gt;. Wir sind schon
-fast ein Berliner!&lt;/p&gt;
-
-&lt;p&gt;Im Anschluß an dieses Hauptthema des Abends erkundeteten wir dann noch ein
-wenig die Realität, dass Unternehmen ihre Geschäftsprozesse typischerweise
-über mehrere Softwareanwendungen hinweg &amp;ldquo;ausführen&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../teaser-talk.jpg&#34; alt=&#34;Teaser Talk&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Diese Anwendungen können mehr (nicht nur, aber auch mittels Prozessautomatisierung)
-oder weniger technisch integriert sein. In beiden Fällen müssen Unternehmen
-sicherstellen, dass ihre Prozesse nach Systemänderungen noch richtig unterstützt
-werden. Sollten sie diese Aufgabe in Zukunft zunehmend automatisieren? Wir haben
-uns dazu die &amp;ldquo;Ökonomie von Software Tests&amp;rdquo; ein wenig angesehen:&lt;/p&gt;
-
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;59f162a0a5a80130cc1666da9fcdc82e&#34; 
-data-ratio=&#34;1.41436464088398&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-</description>
+      <description>Im Kontext der camunda BPM Präsentation genossen wir den Blick auf Wien und warfen auch einen Blick auf &amp;lsquo;Enterprise&amp;rsquo;-Systemlandschaften.</description>
     </item>
     
     <item>
       <title>Presenting Camunda BPM in Wien</title>
       <link>http://plexiti.com/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</link>
       <pubDate>Fri, 17 May 2013 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</guid>
-      <description>&lt;p&gt;Warum beschäftigt sich eine so junge und bewegliche Firma wie camunda
-eigentlich mit dem &lt;strong&gt;&amp;ldquo;Alte-Männer-Thema BPM&amp;rdquo;&lt;/strong&gt;? :-) So oder so ähnlich wurde Jakob
-Freund, Geschäftsführer der Firma camunda neulich beim Bier gefragt. Hört man
-ihm ein wenig zu - und wir hatten dazu auf der von plexiti organisierten
-&lt;a href=&#34;http://camunda.org/community/meetings/register.html?id=3&#34;&gt;Community Veranstaltung in Wien&lt;/a&gt;
-eine mehr als gute Gelegenheit - dann ist seine Antwort darauf eigentlich
-ganz einfach. Im Grunde kommt es eben darauf an, wie genau man das vielleicht
-für manche sperrige, aber doch wichtige, Thema anpackt.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../oss-java-bpmn.png&#34; alt=&#34;camunda verknüpft Java, BMPN and Open Source&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;camunda verbindet mit seiner kürzlich gelaunchten &lt;a href=&#34;http://camunda.org&#34;&gt;BPM
-Platform&lt;/a&gt; die Themen Java, BPMN und Open Source mit dem
-Anspruch bedingungsloser (ich darf das sagen) &amp;ldquo;Developer Friendliness&amp;rdquo;. Nicht
-vollmundiges &amp;ldquo;Zero Coding&amp;rdquo; ist der Slogan der Berliner BPMN Shooting Stars,
-sondern ehrliches &lt;strong&gt;Less Coding&lt;/strong&gt; ist die nachdenkliche
-&lt;a href=&#34;http://plexiti.com/de/news/2013/04/the-camunda-hypothesis&#34;&gt;Hypothese&lt;/a&gt;.
-Ein Best-of-breed Ansatz, wie er von Geschäftsführer Bernd Rücker unlängst auch
-auf der &lt;a href=&#34;http://www.sigs-datacom.de/konferenzen/seacon.html&#34;&gt;SEACON&lt;/a&gt; erklärt
-wurde. Schön und gut. Aber warum wirklich sollte man in Erwägung ziehen von
-einer Mini-Firma wie camunda Dienstleistungen dazuzukaufen - und nicht doch
-von einem der vertrauenswürdigen, älteren Herren?&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;ibm-oracle-sap-camunda.png&#34; alt=&#34;camunda ist klein.&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Für eine solche Kaufentscheidung wurde ja wohl noch kein Manager gefeuert, oder?
-Ich vermute, diese Gewissheit wird sich noch in diesem Jahrzehnt verflüchtigen.
-Das hat eine Menge zu tun mit Themen, die von vielen Entwicklern heute intuitiv
-verstanden werden, dem Management nach meinem Gefühl aber noch besser als bisher
-erklärt werden müssen. Weniger wichtig wird morgen sein, &amp;ldquo;alles aus einer Hand&amp;rdquo;
-zu bekommen und einen Generallieferanten haftbar machen zu können. Wichtiger
-wird hingegen die Beherrschung des &lt;strong&gt;Open Source Baukastenprinzips&lt;/strong&gt;, die
-Fähigkeit hochwertige, von offenen Communities gepflegte und gerade wegen
-dieser Offenheit aufeinander oft besser als proprietäre One-Stop-Software
-abgestimmte, Komponenten mit relativ wenig &amp;ldquo;Glue Code&amp;rdquo; miteinander verknüpfen
-zu können. Und die eigenen softwaregestützten Geschäftsprozesse am Ende des
-Tages deshalb im Griff zu haben, weil man statt auf formale Sicherheit auf reale
-Sicherheit setzt. Gewissermassen auf die leichtgewichtige Seite der Macht:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../ibm-oracle-sap-camunda-java.png&#34; alt=&#34;Ist camunda klein?&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Die Überlegung ist zumindest nicht ganz falsch. Eure Meinungen zu dieser von
-Jakob Freund präsentierten These würden mich ja sehr interessieren. Die
-ultimative Event-Serie zu diesem Thema gibt es übrigens demnächst im Rahmen
-einer &lt;strong&gt;Shootout Roadshow&lt;/strong&gt; &lt;a href=&#34;http://www.bpm-guide.de/2013/05/07/camunda-vs-oracle-roadshow/&#34;&gt;&lt;strong&gt;camunda vs.
-Oracle&lt;/strong&gt;&lt;/a&gt;. Ich
-finde es von beiden Seiten extrem cool, sich hieran zu beteiligen. Nein,
-eigentlich finde ich es von Oracle noch cooler. Zugegeben, es kommt etwas
-unerwartet für mich - und zeigt vielleicht auch so ein bisschen wie sehr der
-&amp;ldquo;Enterprise&amp;rdquo;-Software-Markt bereits in Bewegung geraten ist.&lt;/p&gt;
-
-&lt;p&gt;Zum Abschluß möchte ich hier auch noch Jakob Freunds kompletten Satz an Folien
-anhängen, die er uns im Rahmen unserer Diskussion so nach und nach gezeigt hat:&lt;/p&gt;
-
-&lt;p&gt;&lt;iframe ng-style=&#34;style()&#34; resize
-src=&#34;http://de.slideshare.net/slideshow/embed_code/21259862&#34; width=&#34;427&#34;
-height=&#34;356&#34; frameborder=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; scrolling=&#34;no&#34;
-style=&#34;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px&#34;
-allowfullscreen webkitallowfullscreen mozallowfullscreen&gt; &lt;/iframe&gt; &lt;div
-style=&#34;margin-bottom:5px&#34;&gt; &lt;strong&gt; &lt;a
-href=&#34;http://de.slideshare.net/camunda/camunda-bpm&#34; title=&#34;camunda BPM&#34;
-target=&#34;_blank&#34;&gt;camunda BPM&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a
-href=&#34;http://de.slideshare.net/camunda&#34; target=&#34;_blank&#34;&gt;camunda services
-GmbH&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Es war mir eine Freude, Jakob in Wien gehabt zu haben.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../presenting-camunda-bpm-in-vienna.png&#34; alt=&#34;Jakob Freund in Wien&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Foto Credits für &lt;a href=&#34;https://twitter.com/rafacm/status/335106059326869504/photo/1&#34;&gt;Rafael Cordones&lt;/a&gt;)&lt;/p&gt;
-</description>
+      <description>Jakob Freund von camunda besuchte uns in Wien, um uns im Rahmen eines Community Events alle offenen Fragen über &amp;lsquo;den Fork&amp;rsquo; zu beantworten!-)</description>
     </item>
     
   </channel>

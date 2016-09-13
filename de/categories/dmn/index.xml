@@ -1,47 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dmn on plexiti</title>
+    <title>plexiti.com</title>
     <link>http://plexiti.com/de/categories/dmn/</link>
-    <description>Recent content in Dmn on plexiti</description>
+    <description> blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language>
+    
+      <language>de</language>
+    
+    
+    
+    
     <lastBuildDate>Wed, 16 Dec 2015 15:51:20 +0100</lastBuildDate>
+    
     <atom:link href="http://plexiti.com/de/categories/dmn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Camunda BPM 7.4 Roadshow!</title>
       <link>http://plexiti.com/de/blog/2015/12/camunda-bpm-release-roadshow/</link>
       <pubDate>Wed, 16 Dec 2015 15:51:20 +0100</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2015/12/camunda-bpm-release-roadshow/</guid>
-      <description>&lt;p&gt;Am 27. Jänner 2016 wird die &amp;ldquo;Camunda BPM 7.4 Release Roadshow&amp;rdquo; in Wien Station
-machen - als Abschluß einer &lt;a href=&#34;http://www.bpm-guide.de/2015/12/08/camunda-bpm-7-4-roadshow/&#34; title=&#34;Camunda BPM 7.4 Roadshow&#34;&gt;Veranstaltungsserie&lt;/a&gt; in Berlin, Hamburg,
-Düsseldorf, Frankfurt, München, Zürich und eben Wien.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.bpm-guide.de/2015/12/08/camunda-bpm-7-4-roadshow/&#34; title=&#34;Camunda BPM 7.4 Roadshow&#34;&gt;&lt;img src=&#34;../camunda-bpm-release-roadshow.png&#34; alt=&#34;Camunda BPM Release Roadshow&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Camunda&amp;rdquo; ist eine Open-Source-Software zur Automatisierung von
-Geschäftsabläufen und -entscheidungen. Was das heißt? Wenn ihr z.B. auf
-&lt;a href=&#34;https://www.zalando.de/&#34; title=&#34;Zalando AG&#34;&gt;Zalando&lt;/a&gt; Schuhe oder so bestellt, dann benötigt es natürlich einen im Detail
-ziemlich ausgefuchsten Ablauf, damit die Schuhe auch den Weg zu euch finden -
-und dafür nutzt Zalando bereits - richtig: &lt;a href=&#34;http://camunda.org/&#34; title=&#34;Camunda BPM Platform&#34;&gt;Camunda&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Und angeblich kann Camunda einen auch in 2 Tagen zum Mars (und zurück!) bringen.
-Aber zu all diesen Versprechen wird uns dann der Geschäftsführer Jakob Freund
-selbst mehr erzählen können: da ich mein Berliner Partnerunternehmen Camunda
-tatsächlich schon fast seit seinen Gründungstagen kenne, freue ich mich
-besonders, dass beide Gründer, Jakob Freund und Bernd Rücker, ihren Weg nach
-Wien ins Museumsquartier finden werden.&lt;/p&gt;
-
-&lt;p&gt;Die gesamte Agenda und die Anmeldung für Wien findet sich hier:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://network.camunda.org/meetings/67&#34; title=&#34;Camunda BPM 7.4 Roadshow Agenda für Wien&#34;&gt;https://network.camunda.org/meetings/67&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Die Veranstaltung ist kostenlos, die Zahl der Teilnehmer aber begrenzt. Wenn
-Euch das Thema interessiert - am besten also gleich anmelden, bevor die Plätze
-weg sind!&lt;/p&gt;
-</description>
+      <description>Im Januar kann man die neuen Features in Camunda BPM 7.4 an sieben Terminen in Deutschland, der Schweiz und Österreich live erleben.</description>
     </item>
     
   </channel>

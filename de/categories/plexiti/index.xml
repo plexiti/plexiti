@@ -1,94 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Plexiti on plexiti</title>
+    <title>plexiti.com</title>
     <link>http://plexiti.com/de/categories/plexiti/</link>
-    <description>Recent content in Plexiti on plexiti</description>
+    <description> blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language>
+    
+      <language>de</language>
+    
+    
+    
+    
     <lastBuildDate>Thu, 20 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
     <atom:link href="http://plexiti.com/de/categories/plexiti/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Der Camunda Community Award ergeht an ... :-)</title>
+      <title>Der Camunda Community Award ergeht an &amp;hellip; :-)</title>
       <link>http://plexiti.com/de/blog/2014/03/camunda-bpm-community-award/</link>
       <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2014/03/camunda-bpm-community-award/</guid>
-      <description>&lt;p&gt;In die schiere Unzahl der an mich bereits ergangenen Auszeichnungen und Ehrungen reiht sich nun ein ganz besonderer Neuzugang ein: im Rahmen der Geburtstagsfeier für &lt;a href=&#34;http://camunda.org&#34;&gt;camunda.org&lt;/a&gt; erhielt ich - völlig verblüfft und unvorbereitet - den &lt;strong&gt;camunda BPM community award 2014&lt;/strong&gt;! Hier zu sehen in meiner persönlichen Ehrengalerie ganz rechts. :-)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../camunda-bpm-community-award.png&#34; alt=&#34;camunda BPM community award&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Unmittelbarer Anlaß dafür war die Veröffentlichung einer stabilen Version 1.0 meiner kleinen Community Extension &lt;strong&gt;&lt;a href=&#34;https://github.com/camunda/camunda-bpm-assert&#34;&gt;camunda-bpm-assert&lt;/a&gt;&lt;/strong&gt;, über die camunda &lt;strong&gt;&lt;a href=&#34;http://blog.camunda.org/2014/03/camunda-bpm-assert-10-released-as.html&#34;&gt;hier&lt;/a&gt;&lt;/strong&gt; und ich selbst &lt;strong&gt;&lt;a href=&#34;http://plexiti.com/planet/2014/03/camunda-bpm-assert-released&#34;&gt;da&lt;/a&gt;&lt;/strong&gt; schon berichtet hatten.&lt;/p&gt;
-
-&lt;p&gt;Bei der Feier des ersten Geburtstags von camunda.org am Dienstag in Berlin gab es von &lt;a href=&#34;https://github.com/meyerdan&#34;&gt;Daniel Meyer&lt;/a&gt; und seinem Team eine ganze Reihe an spannenden News rund um das unmittelbar bevorstehende GA Release &lt;strong&gt;7.1.0-Final&lt;/strong&gt; zu hören. &lt;a href=&#34;https://github.com/Nikku&#34;&gt;Nico Rehwaldt&lt;/a&gt; berichtete über das gemeinsam mit &lt;a href=&#34;http://www.zalando.com&#34;&gt;Zalando&lt;/a&gt; gestartete, völlig neue und ambitionierte Projekt &lt;a href=&#34;http://bpmn.io/blog/posts/2014-announcing-bpmn-io.html&#34;&gt;bpmn.io&lt;/a&gt;. Und Jakob Freund, Geschäftsführer der &lt;a href=&#34;http://camunda.com&#34;&gt;camunda services GmbH&lt;/a&gt;, erklärte dem Publikum wie er mit camunda nicht nur im deutschsprachigen Raum, sondern auch weit darüber hinaus reüssieren möchte. Der Schritt an die US Westküste steht für das 2008 gegründete Unternehmen nun ganz unmittelbar und konkret bevor.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../crossing-the-chasm.png&#34; alt=&#34;Jakob Freund is crossing the chasm&#34; /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Jakob Freund is &lt;a href=&#34;http://www.amazon.com/Crossing-Chasm-Geoffrey-Moore/dp/0060517123/&#34;&gt;crossing the chasm&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;h4&gt;Vielen Dank an das ganze Team rund um camunda.org aus Wien!&lt;/h4&gt;
-&lt;h1&gt;YOU ROCK!&lt;/h1&gt;
-&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Beim ersten Geburtstag von camunda.org erhielt ich ein unerwartetes Geschenk!</description>
     </item>
     
     <item>
       <title>camunda.org Community Day 2013 in Prag!</title>
       <link>http://plexiti.com/de/blog/2013/10/camunda-community-day/</link>
       <pubDate>Mon, 21 Oct 2013 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2013/10/camunda-community-day/</guid>
-      <description>&lt;p&gt;Am Freitag, den 18.10. kam die camunda.org-Community mitten in der Altstadt Prags in einem ziemlich interessanten Hotel (&lt;a href=&#34;http://www.fusionhotels.com/de/&#34;&gt;Fusion Hotel Prag&lt;/a&gt;) zusammen und diskutierte dort das gemeinsame Open Source Projekt &lt;a href=&#34;http://camunda.org&#34;&gt;camunda.org&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Hier meine Slides, mit denen ich nur ganz kurz das Incubation Project &lt;a href=&#34;https://github.com/camunda/camunda-bpm-testing&#34;&gt;camunda-bpm-testing&lt;/a&gt; vorstellte. Ursprünglich aus einer kleinen Contribution von &lt;a href=&#34;http://rafael.cordones.me&#34;&gt;Rafael Cordones&lt;/a&gt; und mir hervorgegangen, macht es mich froh und auch ein bisschen stolz, dass das Baby langsam aber sicher wächst:&lt;/p&gt;
-
-&lt;script async class=&#34;speakerdeck-embed&#34; data-id=&#34;354021b01c9a01317bec126906eef5c9&#34; data-ratio=&#34;1.28643216080402&#34; src=&#34;//speakerdeck.com/assets/embed.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;Wir bauen neben &lt;a href=&#34;http://junit.org&#34;&gt;JUnit&lt;/a&gt; auf mittlerweile fünf bewährten Testing Libraries auf (&lt;a href=&#34;https://github.com/alexruiz/fest-assert-2.x/wiki&#34;&gt;FEST Assertions&lt;/a&gt;, &lt;a href=&#34;http://code.google.com/p/mockito/&#34;&gt;Mockito&lt;/a&gt;, &lt;a href=&#34;http://jbehave.org&#34;&gt;JBehave&lt;/a&gt;, &lt;a href=&#34;http://needle.spree.de/overview&#34;&gt;Needle&lt;/a&gt;, &lt;a href=&#34;http://arquillian.org&#34;&gt;Arquillian&lt;/a&gt;) und fügen einerseits den Glue Code hinzu der benötigt wird, um diese Werkzeuge im Kontext von Prozessapplikationen gut einsetzen zu können, andererseits geht es aber gerade im Bereich Assertions auch um etwas mehr Coding. Helping hands very welcome!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../tweet.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Und Prag. Ganz arg: die Stadt hat mich auf eine unerwartete Weise irgendwo ganz tief drinnen &amp;ldquo;berührt&amp;rdquo;. Vielleicht erinnert mich so manches dort an das geliebte Wien meiner Kindheit… ganz sicher z.B. das allgegenwärtige Kopfsteinpflaster… vor allem aber die Menschen, warum, das kann ich aber nicht so genau greifen. Ich fühle mich in Prag &amp;ldquo;wie zuhause&amp;rdquo; und werde ganz sicher noch öfter dorthin zurückkehren…!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../camunda-community-day.png&#34; alt=&#34;image&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;(Credits to &lt;a href=&#34;http://commons.wikimedia.org/w/index.php?title=User:Metbrot&amp;amp;action=edit&amp;amp;redlink=1&#34;&gt;metbrot&lt;/a&gt; according to &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/3.0/deed.en&#34;&gt;CC-BY-SA 3.0&lt;/a&gt;)&lt;/p&gt;
-</description>
+      <description>Die camunda.org-Community kam in einer der schönsten Städte Europas zusammen, und ich konnte dabei camunda-bpm-testing kurz vorstellen.</description>
     </item>
     
     <item>
       <title>Gedanken zur (No bullshit-) BPMCon 2013</title>
       <link>http://plexiti.com/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</link>
       <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</guid>
-      <description>&lt;p&gt;Am 20.9. luden die unkonventionellen Berliner BPM(N)-Profis von camunda wieder zu ihrer Hauskonferenz samt Grillparty, und konnten mit diesem Package auch dieses Jahr wieder gut 150 Teilnehmer in die alte Generatorenhalle des Kreuzberger Umspannwerks locken. Genau die richtige Atmosphäre also um bei guter Stimmung über die kontinuierliche Neuerfindung des Zusammenspiels von Mensch und Maschine nachzudenken.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../chaplin.png&#34; alt=&#34;Charlie Chaplin&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Interessant war zu beobachten, welche Themen da nur wenige Monate nach dem Launch des Open Source Projekts &lt;a href=&#34;http://camunda.org&#34;&gt;camunda.org&lt;/a&gt; auf die Agenda gesetzt und in den Mittelpunkt der Aufmerksamkeit gerückt wurden. Schon das Motto &amp;ldquo;Starting Up BPM!&amp;rdquo;, vor allem aber die Liste der Beiträge legte einen deutlichen Schwerpunkt auf Internet Companies wie &lt;a href=&#34;http://www.zalando.de&#34;&gt;zalando&lt;/a&gt;, &lt;a href=&#34;http://www.flightright.de&#34;&gt;flightright&lt;/a&gt; und &lt;a href=&#34;http://www.my-toys.de&#34;&gt;mytoys&lt;/a&gt;. Allen gemeinsam: der Einsatz von Open Source BPMN Process Engines.&lt;/p&gt;
-
-&lt;p&gt;Warum die Startup-Szene das Potential flexibler und quelloffener Process Engines mehr und mehr für sich entdecken könnte, erklärte Jakob Freund in seiner Keynote. Sinngemäß meinte er:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;Wer sein Geschäftsmodell auf Software aufbaut und &lt;strong&gt;skalierbar&lt;/strong&gt; sein möchte, der braucht hochgradig &lt;strong&gt;individuelle&lt;/strong&gt; Prozessanwendungen, muss von Softwareherstellern &lt;strong&gt;unabhängig&lt;/strong&gt; sein und Softwareentwicklung zur Kernkompetenz erklären.&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;center style=&#34;margin: 20px&#34;&gt;&lt;img src=&#34;../zalando.png&#34;/&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Die Neuerfindung und Skalierung von Offline-Geschäftsmodellen für Online ist ein Bereich, in dem wir sicher auch weiterhin sehr viele Startups sehen werden. Nicht wenige davon werden auch in den kommenden 10 Jahren die technischen Herausforderungen unterschätzen und die Geduld ihrer Investoren überschätzen. Einige gut beratene Pragmatiker werden Process Engines wie &lt;a href=&#34;http://camunda.org&#34;&gt;camunda.org&lt;/a&gt; einsetzen und damit in der Regel schneller am Markt sein, vor allem aber flexibel bleiben und nicht schon vor dem ersten Launch in die &lt;a href=&#34;http://martinfowler.com/bliki/TechnicalDebt.html&#34;&gt;Technical-Debt&lt;/a&gt;-Falle laufen.&lt;/p&gt;
-
-&lt;p&gt;Das wahre Potential des auf den ersten Blick so ungleichen Paars &amp;ldquo;BPM(N) &amp;amp; Startups&amp;rdquo; bleibt mE aber weiterhin - von beiden Seiten - unterschätzt. Die Aufmerksamkeit füreinander könnte z.B. zunehmen, wenn man mehr als bisher die einfache und flexible Kombinierbarkeit mit alternativen Sprachen der Java Platform wie z.B. Groovy oder Scala in den Mittelpunkt stellt.&lt;/p&gt;
-
-&lt;p&gt;&lt;center style=&#34;margin: 20px&#34;&gt;&lt;img src=&#34;../groovy.png&#34;/&gt;&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;Man müsste aber auch den Coolness-Faktor heben. camunda ist mit seiner Herangehensweise da auf einem ganz guten Weg. So sehr ich über den Slogan &amp;ldquo;No-Bullshit-BPM&amp;rdquo; schmunzeln muss, zeigt er aber auch, dass man weiterhin an den alten Kommunikationssünden und Marketing&amp;rdquo;strategien&amp;rdquo; Anderer knabbert. Dabei ist camunda tatsächlich &amp;ldquo;no bullshit&amp;rdquo;. Das Alte-Männer-Wort &amp;ldquo;BPM&amp;rdquo; könnte und sollte man aber vielleicht sogar ganz hinter sich lassen. Denn wieviel hat das was Open Source Process Engines heute bieten noch mit dem Enterprise-Gespenst zu tun das IBM &amp;amp; Co vor einem halben Leben in die Welt gesetzt und dann mit jeder Menge Zerocoding Bullshit beworben haben?&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;../thoughts-about-the-no-bullshit-bpmcon-2013.png&#34;/&gt;&lt;/center&gt;&lt;/p&gt;
-</description>
+      <description>Nach dem gemeisterten Start von camunda.org erklärten die Berliner, warum ihre flexible, quelloffene Engine die Aufmerksamkeit von Startups auf sich zu ziehen beginnt.</description>
     </item>
     
   </channel>

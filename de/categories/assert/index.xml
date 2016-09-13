@@ -1,74 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Assert on plexiti</title>
+    <title>plexiti.com</title>
     <link>http://plexiti.com/de/categories/assert/</link>
-    <description>Recent content in Assert on plexiti</description>
+    <description> blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>de</language>
+    
+      <language>de</language>
+    
+    
+    
+    
     <lastBuildDate>Mon, 03 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
     <atom:link href="http://plexiti.com/de/categories/assert/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Camunda BPM Assert 1.0 released!</title>
+      <title>Camunda BPM Assert 1.0 verfügbar!</title>
       <link>http://plexiti.com/de/blog/2014/03/camunda-bpm-assert-released/</link>
       <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
-      
+      <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2014/03/camunda-bpm-assert-released/</guid>
-      <description>
-
-&lt;p&gt;Die kleine Community Extension &amp;ldquo;camunda-bpm-assert&amp;rdquo; möchte es ein grosses Stück einfacher machen Tests für BPMN Prozessdefinitionen zu schreiben und diese gegen &lt;a href=&#34;http://camunda.org&#34;&gt;camunda BPM&lt;/a&gt; auszuführen. Dazu wird - basierend auf Joel Costigliola&amp;rsquo;s &lt;a href=&#34;http://joel-costigliola.github.io/assertj/&#34;&gt;AssertJ&lt;/a&gt; - ein Set an Process Engine Assertions zur Verfügung gestellt. Diese können sowohl mit JUnit, aber auch in völlig anderen Testumgebungen eingesetzt werden. Außerdem unterstützt eine Reihe an kleinen Helper-Methoden bei der Navigation durch den zu testenden Prozesspfad. &lt;strong&gt;Das Motto: besser lesbarer Code - weniger Spaghetti Tests!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../camunda-bpm-assert-released.png&#34; alt=&#34;Less Spaghetti Tests&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Urspünglich eine gemeinsam von &lt;a href=&#34;http://rafael.cordones.me&#34;&gt;Rafael Cordones&lt;/a&gt; und mir in die Welt gesetzte und von Jan Galinski und Simon Zambrovski (beide &lt;a href=&#34;http://www.holisticon.de&#34;&gt;Holisticon&lt;/a&gt;) tatkräftig unterstützte Idee, konnte ich mir nun die nötige Zeit nehmen, den experimentellen Code auf den Kern zu reduzieren und vor allem zu testen: &amp;ldquo;Never forget to test the test code!&amp;rdquo; :-) Das Ergebnis ist nun zugänglich über camundas maven repo als&lt;/p&gt;
-
-&lt;h1 id=&#34;camunda-bpm-assert-1-0&#34;&gt;camunda-bpm-assert 1.0&lt;/h1&gt;
-
-&lt;p&gt;Man benötigt lediglich einen statischen Import…&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;import static org.camunda.bpm.engine.test.assertions.ProcessEngineTests.*;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;… und kann schon damit loslegen neue Tests zu schreiben oder bestehende Tests zu ändern. Es gibt aber keinen Zwang, einer bestimmten Test-&amp;ldquo;Philosophie&amp;rdquo; zu folgen oder bestehende Tests in einem Schritt zu &amp;ldquo;migrieren&amp;rdquo;. &amp;ldquo;Mix and match it&amp;rdquo; as you like, zB um eine Map an Prozessvariablen zu übergeben:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ProcessInstance pi = runtimeService().startProcessInstanceByKey(
-  &amp;quot;camunda-testing-job-announcement&amp;quot;,
-  withVariables(&amp;quot;jobAnnouncementId&amp;quot;, jobAnnouncement.getId())
-);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;../process-instance-under-test.png&#34; alt=&#34;Zu testende Prozess Instanz&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Möchte man zB sicherstellen, dass diese hier gezeigte Prozessinstanz&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;wirklich gestartet wurde…&lt;/li&gt;
-&lt;li&gt;… nun beim User Task &amp;ldquo;edit&amp;rdquo; wartet…&lt;/li&gt;
-&lt;li&gt;… und einer bestimmten Gruppe, aber noch keiner konkreten Person zugeordnet wurde…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;so schreibt man&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;assertThat(pi).isStarted()
-    .task(&amp;quot;edit&amp;quot;).hasCandidateGroup(&amp;quot;hr-staff&amp;quot;).isNotAssigned();
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Möchte man diesen Task nun zuweisen und abschliessen, so kann man dafür einige der Helper Methoden nutzen:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;claim(task(&amp;quot;edit&amp;quot;), &amp;quot;mary&amp;quot;);
-complete(task(&amp;quot;edit&amp;quot;), withVariables(&amp;quot;finished&amp;quot;, true, &amp;quot;editor&amp;quot;, &amp;quot;mary&amp;quot;));
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Für diejenigen, die sich hier am Kopf kratzen sollten: die Library merkt sich dazu die letzte Prozess Instanz, auf der in diesem konkreten Test eine Assertion durchgeführt wurde. Es ist aber auch möglich, komplexere Tests mit mehreren &amp;ldquo;kollaborierenden&amp;rdquo; Prozessinstanzen durchzuführen und die jeweils benötigte Instanz den Helper Methoden explizit mitzugeben:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;claim(task(&amp;quot;edit&amp;quot;, pi), &amp;quot;mary&amp;quot;);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h1 id=&#34;fork-me-on-github&#34;&gt;Fork me on GitHub!&lt;/h1&gt;
-
-&lt;p&gt;Ein kompletter &lt;strong&gt;&lt;a href=&#34;https://github.com/camunda/camunda-bpm-assert/blob/master/camunda-bpm-assert/README.md&#34;&gt;User Guide&lt;/a&gt;&lt;/strong&gt; mit allen derzeit zur Verfügung stehenden Assertions und Helper Methoden ist online abrufbar. Worauf also warten?-) &lt;strong&gt;&lt;a href=&#34;https://github.com/camunda/camunda-bpm-assert#getting-started&#34;&gt;Get started&lt;/a&gt;&lt;/strong&gt; and… enjoy your upgraded pasta!&lt;/p&gt;
-</description>
+      <description>Seit einiger Zeit schon experimentieren wir mit Assertions für Camunda BPM - rechtzeitig zum 1. Geburtstag ist nun eine stabile Version verfügbar.</description>
     </item>
     
   </channel>
