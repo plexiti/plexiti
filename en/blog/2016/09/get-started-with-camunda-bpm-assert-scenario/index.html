@@ -79,7 +79,7 @@
      <section class='hgroup'>
           <div class='container'>
                <h1>Get Started with Camunda BPM Assert Scenario</h1>
-               <h2>This blog post is the first one in a series of blog posts discussing the new Camunda BPM community extension project.<span style='float:right'><script>document.write(moment('2016-09-15').locale('en').format('LL'))</script></span></h2>
+               <h2>This blog post is the first one in a small series of blog posts about &ldquo;scenario&rdquo;-testing.<span style='float:right'><script>document.write(moment('2016-09-17').locale('en').format('LL'))</script></span></h2>
           </div>
      </section>
      <section>
@@ -90,50 +90,41 @@
                               <div class='post_content'>
                                    
 
-<p>I am really happy to announce the <strong>Maven Central</strong> Release of the new Camunda BPM community extension project <a href="https://github.com/camunda/camunda-bpm-assert-scenario">Camunda BPM Assert Scenario</a>. I plan to write a series of little blog posts to explain it in more detail, starting today with a really small project just meant to get you started. But let me first write three paragraphs about the &ldquo;bigger picture&rdquo; and motivations behind this development. <i class='fa fa-smile-o' aria-hidden='true'></i></p>
+<p>I am really happy to announce the <strong>Maven Central</strong> Release of the new Camunda BPM community extension project <a href="https://github.com/camunda/camunda-bpm-assert-scenario">Camunda BPM Assert Scenario</a>. I also showed it on Camunda&rsquo;s awesome Community Day at their headquarters two days ago. And today I pushed a Getting Started project to <a href="https://github.com/martinschimak/camunda-bpm-scenario-testing">GitHub</a>.</p>
 
-<h1 id="the-motivations-behind-assert-scenario">The motivations behind &ldquo;Assert Scenario&rdquo;</h1>
-
-<p>Camunda BPM Assert Scenario enables much <strong>faster process development</strong>, removing the need to adapt unit test suites for large executable models over and over again. When using it I experience that just those tests break that I want to break: when I change the &ldquo;business relevant&rdquo; aspect under test or <strong>what</strong> the process achieves. However, the test suites do not break at all when I just refactor a model&rsquo;s inner logic or <strong>how</strong> I achieve the desired business semantics.</p>
-
-<p>Furthermore, Camunda BPM Assert Scenario enables realistic <strong>unit testing for time-related process behaviour</strong>: by deferring actions and &ldquo;fast-forwarding&rdquo; test scenarios into their &ldquo;process future&rdquo;, one can check how several processes and call activities behave together. One however always remains in the driver&rsquo;s seat: Camunda BPM Assert Scenario works in a single-treaded, easily mockable and controllable unit test environment.</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Now 3 <a href="https://twitter.com/hashtag/camunda?src=hash">#camunda</a> community extensions in 15 minutes from <a href="https://twitter.com/MartinSchimak">@MartinSchimak</a> <a href="https://t.co/xq9ycBW9qo">pic.twitter.com/xq9ycBW9qo</a></p>&mdash; Bernd Ruecker (@berndruecker) <a href="https://twitter.com/berndruecker/status/776397191929851904">September 15, 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <h1 id="a-first-little-project-to-get-you-started">A first little project to get you started</h1>
 
+<p>Here&rsquo;s what was needed to be done for the <a href="https://github.com/martinschimak/camunda-bpm-scenario-testing">getting started project</a>:</p>
+
 <p><strong>Step 1</strong>: Create a Camunda Maven Project, I e.g. use here the Camunda Maven Archetype to create one:</p>
-
-<pre><code data-language=''>mvn archetype:generate -DinteractiveMode=false -DarchetypeRepository=https://app.camunda.com/nexus/content/repositories/camunda-bpm -DarchetypeGroupId=org.camunda.bpm.archetype -DarchetypeArtifactId=camunda-archetype-servlet-war -DarchetypeVersion=7.5.0 -DgroupId=org.example.camunda.bpm -DartifactId=camunda-bpm-scenario-testing -Dversion=0.1-SNAPSHOT -Dpackage=org.example.camunda.bpm.scenario</code></pre>
-<script src='http://plexiti.com/en/js/rainbow/rainbow-custom.min.js'></script>
-
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>mvn archetype:generate -DinteractiveMode<span style="color: #666666">=</span><span style="color: #AA22FF">false</span> -DarchetypeRepository<span style="color: #666666">=</span>https://app.camunda.com/nexus/content/repositories/camunda-bpm -DarchetypeGroupId<span style="color: #666666">=</span>org.camunda.bpm.archetype -DarchetypeArtifactId<span style="color: #666666">=</span>camunda-archetype-servlet-war -DarchetypeVersion<span style="color: #666666">=</span>7.5.0 -DgroupId<span style="color: #666666">=</span>org.example.camunda.bpm -DartifactId<span style="color: #666666">=</span>camunda-bpm-scenario-testing -Dversion<span style="color: #666666">=</span>0.1-SNAPSHOT -Dpackage<span style="color: #666666">=</span>org.example.camunda.bpm.scenario
+</pre></div>
 
 <p><strong>Step 2</strong>: Set the language level in your pom to Java 1.8. Note that this is not &ldquo;necessary&rdquo; to use &ldquo;Assert Scenario&rdquo;, but it&rsquo;s definitely more fun <strong>with</strong> lambda expressions. <i class='fa fa-smile-o' aria-hidden='true'></i></p>
-
-<pre><code data-language='xml'>&lt;maven.compiler.source&gt;1.8&lt;/maven.compiler.source&gt;
-&lt;maven.compiler.target&gt;1.8&lt;/maven.compiler.target&gt;</code></pre>
-<script src='http://plexiti.com/en/js/rainbow/rainbow-custom.min.js'></script>
-
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">&lt;maven.compiler.source&gt;</span>1.8<span style="color: #008000; font-weight: bold">&lt;/maven.compiler.source&gt;</span>
+<span style="color: #008000; font-weight: bold">&lt;maven.compiler.target&gt;</span>1.8<span style="color: #008000; font-weight: bold">&lt;/maven.compiler.target&gt;</span>
+</pre></div>
 
 <p><strong>Step 3</strong>: Add the Maven Dependency for &ldquo;Assert Scenario&rdquo; to your projects pom.xml</p>
-
-<pre><code data-language='xml'>&lt;dependency&gt;
-    &lt;groupId&gt;org.camunda.bpm.extension&lt;/groupId&gt;
-    &lt;artifactId&gt;camunda-bpm-assert-scenario&lt;/artifactId&gt;
-    &lt;version&gt;0.1&lt;/version&gt;
-    &lt;scope&gt;test&lt;/scope&gt;
-&lt;/dependency&gt;</code></pre>
-<script src='http://plexiti.com/en/js/rainbow/rainbow-custom.min.js'></script>
-
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">&lt;dependency&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;groupId&gt;</span>org.camunda.bpm.extension<span style="color: #008000; font-weight: bold">&lt;/groupId&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;artifactId&gt;</span>camunda-bpm-assert-scenario<span style="color: #008000; font-weight: bold">&lt;/artifactId&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;version&gt;</span>0.1<span style="color: #008000; font-weight: bold">&lt;/version&gt;</span>
+    <span style="color: #008000; font-weight: bold">&lt;scope&gt;</span>test<span style="color: #008000; font-weight: bold">&lt;/scope&gt;</span>
+<span style="color: #008000; font-weight: bold">&lt;/dependency&gt;</span>
+</pre></div>
 
 <p>Furthermore, add Mockito to your project dependencies. If you prefer another mocking framework, feel free to use it instead, but the example shown below will make use of Mockito.</p>
-
-<pre><code data-language='xml'>&lt;dependency&gt;
-  &lt;groupId&gt;org.mockito&lt;/groupId&gt;
-  &lt;artifactId&gt;mockito-core&lt;/artifactId&gt;
-  &lt;version&gt;1.10.19&lt;/version&gt;
-  &lt;scope&gt;test&lt;/scope&gt;
-&lt;/dependency&gt;</code></pre>
-<script src='http://plexiti.com/en/js/rainbow/rainbow-custom.min.js'></script>
-
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">&lt;dependency&gt;</span>
+  <span style="color: #008000; font-weight: bold">&lt;groupId&gt;</span>org.mockito<span style="color: #008000; font-weight: bold">&lt;/groupId&gt;</span>
+  <span style="color: #008000; font-weight: bold">&lt;artifactId&gt;</span>mockito-core<span style="color: #008000; font-weight: bold">&lt;/artifactId&gt;</span>
+  <span style="color: #008000; font-weight: bold">&lt;version&gt;</span>1.10.19<span style="color: #008000; font-weight: bold">&lt;/version&gt;</span>
+  <span style="color: #008000; font-weight: bold">&lt;scope&gt;</span>test<span style="color: #008000; font-weight: bold">&lt;/scope&gt;</span>
+<span style="color: #008000; font-weight: bold">&lt;/dependency&gt;</span>
+</pre></div>
 
 <p><strong>Step 4</strong>: Open the <strong>process.bpmn</strong> in the <strong>src/main/resources</strong> folder by means of Camunda Modeler and add a few User Tasks in between the start and the end event. I did e.g. the following:</p>
 
@@ -144,29 +135,31 @@
 <p>Alternatively, you may want to download my <a href="../src/process.bpmn" download="process.bpmn">process.bpmn</a> shown here.</p>
 
 <p><strong>Step 5</strong>: Open the <strong>InMemoryH2Test.java</strong> in the <strong>src/test/java</strong> folder. Adapt the <strong>testHappyPath()</strong> method:</p>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #AA22FF">@Test</span>
+<span style="color: #AA22FF">@Deployment</span><span style="color: #666666">(</span>resources <span style="color: #666666">=</span> <span style="color: #BB4444">&quot;process.bpmn&quot;</span><span style="color: #666666">)</span>
+<span style="color: #AA22FF; font-weight: bold">public</span> <span style="color: #00BB00; font-weight: bold">void</span> <span style="color: #00A000">testHappyPath</span><span style="color: #666666">()</span> <span style="color: #666666">{</span>
 
-<pre><code data-language='java'>@Test
-@Deployment(resources = &#34;process.bpmn&#34;)
-public void testHappyPath() {
+  <span style="color: #008800; font-style: italic">// GIVEN a process scenario... (this one just completes all user tasks)</span>
+  ProcessScenario process <span style="color: #666666">=</span> Mockito<span style="color: #666666">.</span><span style="color: #BB4444">mock</span><span style="color: #666666">(</span>ProcessScenario<span style="color: #666666">.</span><span style="color: #BB4444">class</span><span style="color: #666666">);</span>
+  Mockito<span style="color: #666666">.</span><span style="color: #BB4444">when</span><span style="color: #666666">(</span>process<span style="color: #666666">.</span><span style="color: #BB4444">waitsAtUserTask</span><span style="color: #666666">(</span>Mockito<span style="color: #666666">.</span><span style="color: #BB4444">anyString</span><span style="color: #666666">())).</span><span style="color: #BB4444">thenReturn</span><span style="color: #666666">((</span>task<span style="color: #666666">)</span> <span style="color: #666666">-&gt;</span> task<span style="color: #666666">.</span><span style="color: #BB4444">complete</span><span style="color: #666666">());</span>
 
-  // GIVEN a process scenario... (this one just completes all user tasks)
-  ProcessScenario process = Mockito.mock(ProcessScenario.class);
-  Mockito.when(process.waitsAtUserTask(Mockito.anyString())).thenReturn((task) -&gt; task.complete());
+  <span style="color: #008800; font-style: italic">// WHEN we run the scenario</span>
+  Scenario scenario <span style="color: #666666">=</span> Scenario<span style="color: #666666">.</span><span style="color: #BB4444">run</span><span style="color: #666666">(</span>process<span style="color: #666666">).</span><span style="color: #BB4444">startByKey</span><span style="color: #666666">(</span><span style="color: #BB4444">&quot;camunda-bpm-scenario-testing&quot;</span><span style="color: #666666">).</span><span style="color: #BB4444">execute</span><span style="color: #666666">();</span>
 
-  // WHEN we run the scenario
-  Scenario scenario = Scenario.run(process).startByKey(&#34;camunda-bpm-scenario-testing&#34;).execute();
+  <span style="color: #008800; font-style: italic">// THEN we assume to reach the end event</span>
+  Mockito<span style="color: #666666">.</span><span style="color: #BB4444">verify</span><span style="color: #666666">(</span>process<span style="color: #666666">).</span><span style="color: #BB4444">hasFinished</span><span style="color: #666666">(</span><span style="color: #BB4444">&quot;EndEventProcessEnded&quot;</span><span style="color: #666666">);</span>
 
-  // THEN we assume to reach the end event
-  Mockito.verify(process).hasFinished(&#34;EndEventProcessEnded&#34;);
+  <span style="color: #008800; font-style: italic">// AND we want to visualise the process instance&#39;s history</span>
+  ProcessTestCoverage<span style="color: #666666">.</span><span style="color: #BB4444">calculate</span><span style="color: #666666">(</span>scenario<span style="color: #666666">.</span><span style="color: #BB4444">instance</span><span style="color: #666666">(</span>process<span style="color: #666666">),</span> rule<span style="color: #666666">.</span><span style="color: #BB4444">getProcessEngine</span><span style="color: #666666">());</span>
 
-  // AND we want to visualise the process instance&#39;s history
-  ProcessTestCoverage.calculate(scenario.instance(process), rule.getProcessEngine());
+<span style="color: #666666">}</span>
+</pre></div>
 
-}</code></pre>
-<script src='http://plexiti.com/en/js/rainbow/rainbow-custom.min.js'></script>
+<p>While I would not see it as a &ldquo;best practice&rdquo; to simply &ldquo;complete&rdquo; all open user tasks as shown in this code snippet, it can be a helpful technique to get started quickly with your process model tests. So let&rsquo;s execute this test now!</p>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>mvn clean <span style="color: #AA22FF">test</span>
+</pre></div>
 
-
-<p>While I would not see it as a &ldquo;best practice&rdquo; to simply &ldquo;complete&rdquo; all open user tasks as shown in this code snippet, it can be a helpful technique to get started quickly with your process model tests. Execute this test now! It should run the process instance from start event to end event and produce an HTML output in the project&rsquo;s <strong>target/process-test-coverage</strong> folder named <strong>camunda-bpm-scenario-testing.html</strong>. Open it and see yourself that our test covered all flow nodes:</p>
+<p>It will run the process instance from start event to end event and produce an HTML in the project&rsquo;s <strong>target/process-test-coverage</strong> folder named <strong>camunda-bpm-scenario-testing.html</strong>. Open it and see yourself that our test covered all flow nodes:</p>
 
 <figure>
     
@@ -183,9 +176,13 @@ public void testHappyPath() {
 
 <p>Congratulations, you already reached 100% flow node coverage!? Well, we see here that all measuring techniques have their limits, in particular if people adapt to them! <i class='fa fa-smile-o' aria-hidden='true'></i> All jokes aside, I will soon continue to post more on the topic, focusing on particular aspects of process testing by means of &ldquo;Assert Scenario&rdquo;.</p>
 
-<h1 id="fork-it-on-github">Fork it on Github!</h1>
+<h1 id="the-motivations-behind-assert-scenario">The motivations behind &ldquo;Assert Scenario&rdquo;</h1>
 
-<p>I pushed the whole example described here to <a href="https://github.com/martinschimak/camunda-bpm-scenario-testing">GitHub</a>, too! Happy scenario testing! <i class='fa fa-smile-o' aria-hidden='true'></i></p>
+<p>Camunda BPM Assert Scenario enables much <strong>faster process development</strong>, removing the need to adapt unit test suites for large executable models over and over again. When using it I experience that just those tests break that I want to break: when I change the &ldquo;business relevant&rdquo; aspect under test or <strong>what</strong> the process achieves. However, the test suites do not break at all when I just refactor a model&rsquo;s inner logic or <strong>how</strong> I achieve the desired business semantics.</p>
+
+<p>Furthermore, Camunda BPM Assert Scenario enables realistic <strong>unit testing for time-related process behaviour</strong>: by deferring actions and &ldquo;fast-forwarding&rdquo; test scenarios into their &ldquo;process future&rdquo;, one can check how several processes and call activities behave together. One however always remains in the driver&rsquo;s seat: Camunda BPM Assert Scenario works in a single-treaded, easily mockable and controllable unit test environment.</p>
+
+<p>Happy scenario testing! <i class='fa fa-smile-o' aria-hidden='true'></i></p>
 
                               </div>
                          </article>
@@ -212,9 +209,8 @@ public void testHappyPath() {
                          <div class='bs-docs-sidebar hidden-print affix-top' role='complementary' data-spy='affix' data-offset-top='318' data-offset-bottom='405'>
                               <nav id="TableOfContents">
 <ul>
-<li><a href="#the-motivations-behind-assert-scenario">The motivations behind &ldquo;Assert Scenario&rdquo;</a></li>
 <li><a href="#a-first-little-project-to-get-you-started">A first little project to get you started</a></li>
-<li><a href="#fork-it-on-github">Fork it on Github!</a></li>
+<li><a href="#the-motivations-behind-assert-scenario">The motivations behind &ldquo;Assert Scenario&rdquo;</a></li>
 </ul>
 </nav>
                          </div>
@@ -257,7 +253,7 @@ public void testHappyPath() {
         <div class='twitter_feed_icon col-sm-1 col-md-1'><a href='https://twitter.com/MartinSchimak/'><i class='fa fa-twitter'></i></a></div>
         <div class='col-sm-11 col-md-11'>
           <blockquote>
-            <p>What <strong>business programming</strong> is actually all about? Oh well. Of course, all the stuff I am going to write about here!</p>
+            <p>What <strong>business programming</strong> is actually all about? Oh well. All the stuff I am going to write about!</p>
             <cite><a href='https://twitter.com/MartinSchimak/'>@MartinSchimak</a></cite>
           </blockquote>
         </div>

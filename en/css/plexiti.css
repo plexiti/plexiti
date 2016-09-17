@@ -230,7 +230,6 @@ blockquote p {
 
 footer blockquote p {
     font-size: 1.3em !important;
-    max-width: 625px;
     color: #afafaf;
 }
 
@@ -403,24 +402,9 @@ figure p + img {
   display: none;
 }
 
-/* Formatr syntax highlighted sections a bit */
-pre[data-trimmed] {
-  background-color: inherit;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-pre .close {
-  float: none;
-  font-size: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  color: inherit;
-  text-shadow: inherit;
-  opacity: inherit;
-}
-pre .close:hover, pre .close:focus {
-  cursor: auto;
-  opacity: inherit;
+div.highlight {
+  margin-top: 20px !important;
+  margin-bottom: 0px !important;
 }
 
 /* Language Selector */
