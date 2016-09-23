@@ -23,6 +23,7 @@ function getCookie(cname) {
 function redirect2language(contextPath) {
     var contextHost = contextPath.substr(0, contextPath.length - 3);
     console.log(contextHost);
+    console.log(document.referrer);
     if (document.referrer && !document.referrer.startsWith(contextHost)) {
         var pathLanguage = contextPath.substr(contextPath.length - 3, 2);
         console.log(pathLanguage);
