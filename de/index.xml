@@ -11,9 +11,18 @@
     
     
     
-    <lastBuildDate>Sat, 17 Sep 2016 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 24 Sep 2016 17:00:00 +0200</lastBuildDate>
     
     <atom:link href="http://plexiti.com/de/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Process &amp;ldquo;Waitstate Mocking&amp;rdquo; verstehen</title>
+      <link>http://plexiti.com/de/blog/2016/09/understanding-process-waitstate-mocking/</link>
+      <pubDate>Sat, 24 Sep 2016 17:00:00 +0200</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2016/09/understanding-process-waitstate-mocking/</guid>
+      <description>Dieser Beitrag erklärt die Details eines kleinen Camunda BPM Assert &amp;ldquo;Scenarios&amp;rdquo; um zu verstehen was dabei hinter den Kulissen passiert.</description>
+    </item>
     
     <item>
       <title>Loslegen mit Camunda BPM Assert Scenario</title>

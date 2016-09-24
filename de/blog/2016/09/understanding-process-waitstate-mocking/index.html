@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang='de'>
+<head>
+  <script src='http://plexiti.com/de/js/lang.js'></script>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,300italic' rel='stylesheet' type='text/css'>
+  <meta charset='utf-8'>
+  
+      
+      <title>Process &#34;Waitstate Mocking&#34; verstehen</title>
+      
+  
+    <link href='http://plexiti.com/de/blog/index.xml' rel='alternate' type='application/rss+xml' title='plexiti - der business programmer blog' />
+  
+    <link href='http://plexiti.com/de/blog/index.xml' rel='home' type='application/rss+xml' title='plexiti - der business programmer blog' />
+  
+  <meta name='apple-mobile-web-app-capable' content='yes'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href='http://plexiti.com/de/animate.css' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='http://plexiti.com/de/js/woothemes-FlexSlider-06b12f8/flexslider.css' type='text/css' media='screen'>
+  <link rel='stylesheet' href='http://plexiti.com/de/js/prettyPhoto_3.1.5/prettyPhoto.css' type='text/css' media='screen'>
+  <link href='http://plexiti.com/de/style.css' rel='stylesheet' type='text/css'>
+
+  <link rel='stylesheet' href='http://plexiti.com/de/fonts/bariol/plexiti-bariol.css' media='screen' />
+  <link rel='stylesheet' href='http://plexiti.com/de/fonts/font-awesome/css/font-awesome.min.css' media='screen'>
+  <script src='//code.jquery.com/jquery-latest.min.js'></script>
+  <script type='text/javascript' src='http://plexiti.com/de/js/modernizr.custom.48287.js'></script>
+  
+  <link rel='shortcut icon' type='image/x-icon' href='http://plexiti.com/de/favicon.ico' />
+  <link rel='apple-touch-icon-precomposed' sizes='114x114' href='http://plexiti.com/de/apple-touch-icon-114x114-precomposed.png'>
+  <link rel='apple-touch-icon-precomposed' sizes='72x72' href='http://plexiti.com/de/apple-touch-icon-72x72-precomposed.png'>
+  <link rel='apple-touch-icon-precomposed' href='http://plexiti.com/de/apple-touch-fa-57x57-precomposed.png'>
+
+  <script type='text/javascript' src='http://plexiti.com/de/js/moment/moment-with-locales.min.js'></script>
+  <script type='text/javascript' src='http://plexiti.com/de/js/bpmn-js/bpmn-viewer.min.js'></script>
+  <script type='text/javascript' src='http://plexiti.com/de/js/cmmn-js/cmmn-viewer.min.js'></script>
+  <script type='text/javascript' src='http://plexiti.com/de/js/dmn-js/dmn-viewer.min.js'></script>
+  <script type='text/javascript' src='http://plexiti.com/de/js/plexiti.js'></script>
+  <script type='text/javascript' src='http://plexiti.com/de/js/lang.js'></script>
+
+  <link href='http://plexiti.com/de/css/plexiti.css' rel='stylesheet' type='text/css'>
+  <link href='http://plexiti.com/de/js/dmn-js/css/dmn-js.css' rel='stylesheet' type='text/css'>
+  <link href='http://plexiti.com/de/js/rainbow/rainbow-github.css' rel="stylesheet" type="text/css">
+
+</head>
+<body data-spy='scroll' data-target='#TableOfContents' data-offset='50'>
+<header>
+  <div class='top-bg-color-bar'></div>
+  <div class='container'>
+    <div class='navbar navbar-default' role='navigation'>
+      <div class='navbar-header'>
+        <a class='navbar-brand' href='http://plexiti.com/de/'>
+          <img src='http://plexiti.com/de/img/logo.png' style='width: 250px; height: 96px' title='plexiti'>
+          <span class='logo_subtitle' style='font-size: 13pt;'>der business programmer blog</span>
+        </a>
+      </div>
+      <div class='collapse navbar-collapse'>
+        <ul class='nav pull-right navbar-nav'>
+          
+          
+            <li><a href='http://plexiti.com/de/blog/'>Blog</a></li>
+          
+            <li><a href='http://plexiti.com/de/about/'>Über</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div id="social_media_wrapper">
+      
+        
+        
+          <a href='.' title='Diese Seite ist auf Deutsch abrufbar.'><i class="fa">de</i></a>
+          
+            <a href='http://plexiti.com/de/../en/blog/2016/09/understanding-process-waitstate-mocking/' title='This page is available in english.'><i class="fa">en</i></a>
+            <script>
+              redirect2language('http:\/\/plexiti.com\/de\/');
+            </script>
+          
+        
+      
+    </div>
+  </div>
+</header>
+
+<div class='main' id='post'>
+     <section class='hgroup'>
+          <div class='container'>
+               <h1>Process &ldquo;Waitstate Mocking&rdquo; verstehen</h1>
+               <h2>Dieser Beitrag erklärt die Details eines kleinen Camunda BPM Assert &ldquo;Scenarios&rdquo; um zu verstehen was dabei hinter den Kulissen passiert.<span style='float:right'><script>document.write(moment('2016-09-24').locale('de').format('LL'))</script></span></h2>
+          </div>
+     </section>
+     <section>
+          <div class='container'>
+               <div class='row'>
+                    <div id='leftcol' class='col-sm-12 col-md-8' role='main'>
+                         <article class='post'>
+                              <div class='post_content'>
+                                   
+
+<p>Der Fokus der neuen Community Extension Camunda BPM <a href="https://github.com/camunda/camunda-bpm-assert-scenario">&ldquo;Assert Scenario&rdquo;</a> ist zweifellos, auch <strong>umfangreiche Testsuiten für große Prozessmodelle</strong> fast mühelos zu pflegen. Um dorthin zu gelangen ist es notwendig, durch kleine Beispiele zu gehen und die Grundidee zu erfassen, ein bisschen Ahnung zu haben, was sich hinter den Kulissen eines &ldquo;Szenario&rdquo; so abspielt <i class='fa fa-smile-o' aria-hidden='true'></i>! Heute möchte ich durch den ersten Teil des Beispiels gehen, das ich auch am Community Day in Berlin gezeigt habe. Ich habe alle Sourcen, über die ich hier schreibe wieder auf <a href="https://github.com/martinschimak/camunda-bpm-scenario-testing">GitHub</a>, gepusht. Schaut euch einfach den &ldquo;readme-process&rdquo; Branch an!</p>
+
+<h1 id="ein-erstes-projekt-um-zu-starten">Ein erstes Projekt um zu starten</h1>
+
+<p>Wenn man Unterstützung benötigt, ein neues Camunda BPM-Projekt einzurichten, dann finden sich in meinem letzten Blog-Post <a href="http://plexiti.com/de/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/">Erste Schritte mit Camunda BPM - und Assert Scenario</a>.</p>
+
+<h1 id="das-community-day-prozessmodell">Das Community-Day-Prozessmodell</h1>
+
+<p>Das folgende Modell zeigt eine Benutzeraufgabe, die abgeschlossen werden muss - und eine zweite, um den für diese Arbeit verantwortlichen Kollegen zu erinnern - und zwar täglich! <i class='fa fa-smile-o' aria-hidden='true'></i></p>
+
+
+<div class='bpmn' bpmn='http://plexiti.com/de/../en/blog/2016/09/src/CommunityDay2016Process.bpmn'>
+</div>
+
+<h1 id="die-waitstates-mocken">Die Waitstates mocken</h1>
+
+<p>Die Grundidee beim Testen mit Camunda BPM Assert Scenario ist, alle <strong>&ldquo;Waitstates&rdquo;</strong> mit denen man im Prozess etwas machen kann zu <strong>mocken</strong>: gemeint sind die Zustände, an denen der Prozess auf Aktionen warten muss, die in der Regel von &ldquo;außerhalb&rdquo; der Prozessausführung kommen. Benutzeraufgaben sind das offensichtlichste Beispiel für solche Waitstates, aber es gibt auch andere Beispiele, wie z.B. Empfangsaufgaben, ereignisbasierte Gateways, eingetretene Zwischenereignisse und so weiter. Heute sind insbesondere auch alle von externen Worker-Threads ausgeführte Services aus der Perspektive der Process-Engine solche Waitstates. Camunda BPM nennt diese deshalb auch &ldquo;Externe Aufgaben&rdquo;.</p>
+
+<p>Nun, wie kann also man solche Waitstates mocken? Camunda BPM Assert Scenario stellt dafür ein <code>ProcessScenario</code> Interface zur Verfügung. Dieses Interface mockt man mit dem Framework der eigenen Wahl. Ich mache das mit <a href="http://mockito.org">Mockito</a>:</p>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #AA22FF; font-weight: bold">public</span> ProcessScenario process <span style="color: #666666">=</span> Mockito<span style="color: #666666">.</span><span style="color: #BB4444">mock</span><span style="color: #666666">(</span>ProcessScenario<span style="color: #666666">.</span><span style="color: #BB4444">class</span><span style="color: #666666">);</span>
+</pre></div>
+
+<h1 id="waitstate-aktionen-definieren">Waitstate Aktionen definieren</h1>
+
+<p>Bisher haben wir ja nur ein &ldquo;leeres&rdquo; Mock-Objekt erstellt - im nächsten Schritt, wollen wir es mit etwas &ldquo;Verhalten&rdquo; &ldquo;befüllen&rdquo;. Das Verhalten, das wir brauchen, sind die Aktionen die wir ausführen müssen, wenn wir bei Waitstates ankommen. Deshalb bietet das <code>ProcessScenario</code>-Interface Methoden, die es uns ermöglichen, genau das zu tun, also zum Beispiel eine <code>waitsAtUserTask(String activityId)</code> Methode, die eine void &ldquo;function&rdquo; zurückgibt. Das ist dann die Aktion, die wir durchgeführt haben wollen, wenn der Prozessdurchlauf bei einem Waitstate ankommt, in unserem Fall die Benutzeraufgabe mit der Activity-ID &ldquo;CompleteWork&rdquo;:</p>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>Mockito<span style="color: #666666">.</span><span style="color: #BB4444">when</span><span style="color: #666666">(</span>process<span style="color: #666666">.</span><span style="color: #BB4444">waitsAtUserTask</span><span style="color: #666666">(</span><span style="color: #BB4444">&quot;CompleteWork&quot;</span><span style="color: #666666">)).</span><span style="color: #BB4444">thenReturn</span><span style="color: #666666">((</span>task<span style="color: #666666">)</span> <span style="color: #666666">-&gt;</span> <span style="color: #666666">{</span>
+  task<span style="color: #666666">.</span><span style="color: #BB4444">complete</span><span style="color: #666666">();</span>
+<span style="color: #666666">});</span>
+</pre></div>
+
+<p>Die Bedeutung dieser Zeilen kann ja einfach erfasst werden, aber wir wollen sie hier aus einer reinen &ldquo;Mockito&rdquo;-Perspektive auf uns wirken lassen: diese Zeilen sagen, dass das <code>ProcessScenario</code> Mock-Objekt namens <code>process</code>, für den Fall, dass seine <code>waitsAtUserTask</code> Methode mit dem String-Parameter <code>&quot;CompleteWork&quot;</code> aufgerufen wird, eine Funktion zurückgibt. Diese Funktion selbst erwartet eine Camunda <code>Task</code> Instanz als Parameter und ihre Implementierung verwendet diese Instanz, indem Sie den übergebenen <code>Task</code> einfach abschliesst.</p>
+
+<h1 id="das-szenario-ausführen">Das Szenario ausführen</h1>
+
+<p>Warum tun wir das? Die von Camunda BPM Assert Scenario kontrollierte Ausführung eines Szenarios verwendet nun das <code>ProcessScenario</code> Mock-Objekt um eine Prozessinstanz zur Laufzeit zu informieren, wie es weitergeht. Wenn die Ausführung der Prozessinstanz bei einem Waitstate ankommt, sagen wir, unsere Benutzeraufgabe, dann ruft &ldquo;Scenario&rdquo; die benötigte <code>Action</code> ab, indem es die <code>waitsAtUserTask</code>-Methode des Mock-Objekts mit der Activity-ID des Benutzertasks aufruft und diese <code>Action</code> dann mit der entsprechenden Camunda <code>Task</code> Instanz sogleich ausführt.</p>
+
+<p>Übrigens müssen wir nun auch bei der Implementierung so eines Tests die <code>Task</code> Instanz nicht mehr extra aus der Camunda Datenbank holen, weil wir sie ja immer direkt übergeben bekommen. Schon so ein bisschen cool, oder? <i class='fa fa-smile-o' aria-hidden='true'></i></p>
+
+<p>Also lasst uns zur Tat schreiten: wir erstellen nun eine neue Prozessinstanz und führen diese mithilfe der vordefinierten Aktion bis zu ihrem Ende durch:</p>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>Scenario scenario <span style="color: #666666">=</span> Scenario<span style="color: #666666">.</span><span style="color: #BB4444">run</span><span style="color: #666666">(</span>process<span style="color: #666666">).</span><span style="color: #BB4444">startByKey</span><span style="color: #666666">(</span><span style="color: #BB4444">&quot;CommunityDay2016Process&quot;</span><span style="color: #666666">).</span><span style="color: #BB4444">execute</span><span style="color: #666666">();</span>
+</pre></div>
+
+<p>Diese Zeile sagt, dass wir das <code>ProcessScenario process</code> mit einer neuen, über ihren Key gestarteten Prozessinstanz zu starten beabsichtigen und auch sofort ausführen. Das <code>Scenario</code>-Objekt stellt dafür eine &ldquo;fluent&rdquo; API zur Verfügung, mithilfe derer wir noch so einige Dinge zu solchen Szenarien hinzufügen können, aber lasst uns heute bei den einfachsten Dingen bleiben. Wenn wir nun das <a href="https://github.com/camunda/camunda-bpm-process-test-coverage">Camunda BPM Process Test Coverage</a> HTML öffnen, dann sehen wir, dass unsere Ausführung das folgende tat:</p>
+
+<figure>
+    
+    
+    
+    
+    
+    
+    
+    <img src='http://plexiti.com/de/../en/blog/2016/09/img/understanding-process-waitstate-mocking.png' >
+</figure>
+
+
+
+<p>Obwohl wir nun selber sehen, dass unsere Prozessinstanz das Endereignis erreicht, möchten wir solche Dinge natürlich auch in unserem Prozesstest überprüfen. Wir machen das, indem wir wieder mit Mockito nachsehen, was mit dem <code>ProcessScenario</code> Mock-Objekt passiert ist:</p>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>Mockito<span style="color: #666666">.</span><span style="color: #BB4444">verify</span><span style="color: #666666">(</span>process<span style="color: #666666">).</span><span style="color: #BB4444">hasFinished</span><span style="color: #666666">(</span><span style="color: #BB4444">&quot;WorkFinished&quot;</span><span style="color: #666666">);</span>
+</pre></div>
+
+<p>Wiederum kann die Bedeutung dieser Zeilen sehr leicht begriffen werden, und wiederum möchte ich sie hier aber aus der reinen &ldquo;Mockito&rdquo;-Perspektive betrachten: diese Zeilen verifizieren, dass die <code>hasFinished</code>-Methode des <code>ProcessScenario</code>-Mock-Objekts mit dem Parameter <code>&quot;WorkFinished&quot;</code> aufgerufen wurde, also mit der Activity-ID des Endereignisses unseres Prozesses. Die Ausführung eines <code>Scenario</code> mithilfe Camunda BPM Assert Scenario ruft das <code>ProcessScenario</code>-Mock-Objekt also zB auch auf, wenn ein Knoten einer Prozessinstanz startet oder endet. Man kann daher nun die volle Power des eigenen Mockframeworks nutzen, um zu überprüfen, was mit der Prozessinstanz hier konkret geschehen ist. Wenn man aber der neuen &ldquo;Scenario&rdquo; Bibliothek noch nicht in vollem Umfang trauen möchte, könnte man stattdessen z.B. auch die guten alten <a href="https://github.com/camunda/camunda-bpm-assert">Camunda BPM Assert</a> Assertions befragen, um dieselben Tatsachen z.B. mit den folgenden Zeilen zu prüfen:</p>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>ProcessInstance processInstance <span style="color: #666666">=</span> scenario<span style="color: #666666">.</span><span style="color: #BB4444">instance</span><span style="color: #666666">(</span>process<span style="color: #666666">);</span>
+ProcessEngineAssertions<span style="color: #666666">.</span><span style="color: #BB4444">assertThat</span><span style="color: #666666">(</span>processInstance<span style="color: #666666">).</span><span style="color: #BB4444">hasPassed</span><span style="color: #666666">(</span><span style="color: #BB4444">&quot;WorkFinished&quot;</span><span style="color: #666666">);</span>
+</pre></div>
+
+<p>&ldquo;Bleibt dran&rdquo;, es gibt nämlich noch einiges mehr zu erzählen, warum mir Camunda BPM Assert Scenario wichtig ist und warum es aus meiner Sicht für euch wichtig werden wird. Bis auf weiteres also: fröhliche erste Schritte mit dem &ldquo;Scenario&rdquo;-Testen! <i class='fa fa-smile-o' aria-hidden='true'></i></p>
+
+                              </div>
+                         </article>
+                         
+                         <div id='disqus'></div>
+                         <div id='disqus_thread'></div>
+                         <script>
+                              var disqus_config = function () {
+                                   this.page.url = 'http:\/\/plexiti.com\/de\/blog\/2016\/09\/understanding-process-waitstate-mocking\/';
+                                   this.page.identifier = '\/de\/blog\/2016\/09\/understanding-process-waitstate-mocking\/';
+                                   this.page.title = 'Process \x22Waitstate Mocking\x22 verstehen';
+                                   this.language = "de";
+                              };
+                              (function() {
+                                   var d = document, s = d.createElement('script');
+                                   s.src = '//plexiti.disqus.com/embed.js';
+                                   s.setAttribute('data-timestamp', +new Date());
+                                   (d.head || d.body).appendChild(s);
+                              })();
+                         </script>
+                         
+                    </div>
+                    <div class='col-md-4 hidden-sm hidden-xs'>
+                         <div class='bs-docs-sidebar hidden-print affix-top' role='complementary' data-spy='affix' data-offset-top='318' data-offset-bottom='405'>
+                              <nav id="TableOfContents">
+<ul>
+<li><a href="#ein-erstes-projekt-um-zu-starten">Ein erstes Projekt um zu starten</a></li>
+<li><a href="#das-community-day-prozessmodell">Das Community-Day-Prozessmodell</a></li>
+<li><a href="#die-waitstates-mocken">Die Waitstates mocken</a></li>
+<li><a href="#waitstate-aktionen-definieren">Waitstate Aktionen definieren</a></li>
+<li><a href="#das-szenario-ausführen">Das Szenario ausführen</a></li>
+</ul>
+</nav>
+                         </div>
+                    </div>
+                    <script type='text/javascript'>
+                         if($("#TableOfContents").length === 0) {
+                              $('.bs-docs-sidebar').each(function(idx, value) {
+                                   $(value).append("<nav id='TableOfContents'><ul></ul></nav>");
+                              });
+                         }
+                         $('#TableOfContents ul').each(function() {
+                              this.className = "nav";
+                         });
+                         
+                         var numbers = Math.ceil( 876  /  184 );
+                         $('#TableOfContents ul').prepend("<li><a href='#post'><i class='fa fa-hand-o-right' aria-hidden='true'></i> Lies\x27 diesen Beitrag in ca. <span class='read-the-discussion de'><b>" + numbers + "<i class='pl'></i></b></span>&nbsp;...</a></li>");
+                         
+                         $('#TableOfContents ul').append("<li class='disqus_link'><a href='#disqus'><i class='fa fa-comments'></i> ... und diskutier\x27 mit! <span class='disqus-comment-count de' data-disqus-identifier='/de\/blog\/2016\/09\/understanding-process-waitstate-mocking\/'></span></a></li>");
+                         
+                    </script>
+                    <script type='text/javascript'>
+                         $('#TableOfContents a').click(function() {
+                              var href = $.attr(this, 'href');
+                              href = href.replace(/:/g, '\\:');
+                              $('html, body').animate({
+                                   scrollTop: jQuery(href).offset().top
+                              }, 500, function () {
+                                   window.location.hash = href;
+                              });
+                              return false;
+                         });
+                    </script>
+               </div>
+          </div>
+     </section>
+     <footer>
+  <section class='twitter_feed_wrapper'>
+    <div class='container'>
+      <div class='row'>
+        <div class='twitter_feed_icon col-sm-1 col-md-1'><a href='https://twitter.com/MartinSchimak/'><i class='fa fa-twitter'></i></a></div>
+        <div class='col-sm-11 col-md-11'>
+          <blockquote>
+            <p>Was <strong>Business Programming</strong> eigentlich ist? Nun ja. All das worüber ich schreiben werde!</p>
+            <cite><a href='https://twitter.com/MartinSchimak/'>@MartinSchimak</a></cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class='copyright'>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm-6 col-md-6'></div>
+            <div class='text-right col-sm-6 col-md-6'> Copyright &copy; <script>document.write(moment().format('YYYY'))</script> <a href='http://plexiti.com/de/about'>plexiti GmbH</a> - All rights reserved.</div>
+        </div>
+    </div>
+</section>
+
+</footer>
+
+</div>
+<script>window.jQuery || document.write('<script src=\'http:\/\/plexiti.com\/de\/js\/jquery-1.9.0.min.js\'><\/script>')</script>
+<script src='http://plexiti.com/de/twitter-bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+<script type='text/javascript' src='http://plexiti.com/de/js/modernizr.custom.48287.js'></script>
+<script src='http://plexiti.com/de/js/woothemes-FlexSlider-06b12f8/jquery.flexslider-min.js'></script>
+<script src='http://plexiti.com/de/js/prettyPhoto_3.1.5/jquery.prettyPhoto.js' type='text/javascript' charset='utf-8'></script>
+<script src='http://plexiti.com/de/js/isotope/jquery.isotope.min.js' type='text/javascript'></script>
+<script type='text/javascript' src='http://plexiti.com/de/js/jquery.ui.totop.js'></script>
+<script type='text/javascript' src='http://plexiti.com/de/js/easing.js'></script>
+<script type='text/javascript' src='http://plexiti.com/de/js/wow.min.js'></script>
+<script type='text/javascript' src='http://plexiti.com/de/js/snap.svg-min.js'></script>
+<script type='text/javascript' src='http://plexiti.com/de/js/restart_theme.js'></script>
+<script type='text/javascript' src='http://plexiti.com/de/js/collapser.js'></script>
+<script id='dsq-count-scr' src='//plexiti.disqus.com/count.js' async></script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-34569279-1', 'auto');
+    ga('send', 'pageview');
+</script>
+
+<script>
+    setCookie('lang', 'de', 365)
+</script>
+</body>
+</html>
+
