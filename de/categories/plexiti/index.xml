@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plexiti.com</title>
+    <link>http://plexiti.com/de/categories/plexiti/</link>
+    <description> blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+      <language>de</language>
+    
+    
+    
+    
+    <lastBuildDate>Thu, 20 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://plexiti.com/de/categories/plexiti/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Der Camunda Community Award ergeht an &amp;hellip; :-)</title>
+      <link>http://plexiti.com/de/blog/2014/03/camunda-bpm-community-award/</link>
+      <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2014/03/camunda-bpm-community-award/</guid>
+      <description>Beim ersten Geburtstag von camunda.org erhielt ich ein unerwartetes Geschenk!</description>
+    </item>
+    
+    <item>
+      <title>camunda.org Community Day 2013 in Prag!</title>
+      <link>http://plexiti.com/de/blog/2013/10/camunda-community-day/</link>
+      <pubDate>Mon, 21 Oct 2013 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2013/10/camunda-community-day/</guid>
+      <description>Die camunda.org-Community kam in einer der schönsten Städte Europas zusammen, und ich konnte dabei camunda-bpm-testing kurz vorstellen.</description>
+    </item>
+    
+    <item>
+      <title>Gedanken zur (No bullshit-) BPMCon 2013</title>
+      <link>http://plexiti.com/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</link>
+      <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</guid>
+      <description>Nach dem gemeisterten Start von camunda.org erklärten die Berliner, warum ihre flexible, quelloffene Engine die Aufmerksamkeit von Startups auf sich zu ziehen beginnt.</description>
+    </item>
+    
+  </channel>
+</rss>

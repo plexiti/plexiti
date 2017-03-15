@@ -286,6 +286,7 @@ footer blockquote cite:before {
 }
 
 figure {
+    max-height: 650px !important;
     margin-top: 0px;
     margin-bottom: 20px;
 }

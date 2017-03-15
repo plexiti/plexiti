@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plexiti.com</title>
+    <link>http://plexiti.com/de/categories/bpmcon/</link>
+    <description> blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+      <language>de</language>
+    
+    
+    
+    
+    <lastBuildDate>Thu, 20 Sep 2012 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://plexiti.com/de/categories/bpmcon/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Unser Pecha Kucha in Berlin</title>
+      <link>http://plexiti.com/de/blog/2012/09/our-pecha-kucha-in-berlin/</link>
+      <pubDate>Thu, 20 Sep 2012 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2012/09/our-pecha-kucha-in-berlin/</guid>
+      <description>Zugegeben, das war das &amp;lsquo;erste Mal&amp;rsquo; Pecha Kucha - eine neue Erfahrung - 20 Folien zu je 20 Sekunden!</description>
+    </item>
+    
+    <item>
+      <title>Wir sind auf dem Weg!</title>
+      <link>http://plexiti.com/de/blog/2012/09/we-are-on-the-way/</link>
+      <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2012/09/we-are-on-the-way/</guid>
+      <description>Unverhofft kommt oft! Wir erhielten ganz kurzfristig die schöne Gelegenheit unsere Prozessanwendung in Berlin vorzustellen.</description>
+    </item>
+    
+  </channel>
+</rss>

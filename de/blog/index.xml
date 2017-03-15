@@ -11,9 +11,18 @@
     
     
     
-    <lastBuildDate>Sat, 24 Sep 2016 17:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 10 Mar 2017 19:44:26 +0100</lastBuildDate>
     
     <atom:link href="http://plexiti.com/de/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sorting out Terms for Remote Communication</title>
+      <link>http://plexiti.com/de/blog/2017/03/sorting-out-terms-for-remote-communication/</link>
+      <pubDate>Fri, 10 Mar 2017 19:44:26 +0100</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2017/03/sorting-out-terms-for-remote-communication/</guid>
+      <description>I recently read a lot about &amp;ldquo;asynchronous&amp;rdquo;, &amp;ldquo;events&amp;rdquo;, &amp;ldquo;push&amp;rdquo;, &amp;ldquo;pub/sub&amp;rdquo; and similar stuff. :-) Therefore I decided to sort out the terms a bit.</description>
+    </item>
     
     <item>
       <title>Process &amp;ldquo;Waitstate Mocking&amp;rdquo; verstehen</title>
@@ -31,6 +40,114 @@
       <author>Martin Schimak</author>
       <guid>http://plexiti.com/de/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/</guid>
       <description>Dieser Blog Post ist der erste in einer kleinen Serie an Blog Posts über das &amp;ldquo;Scenario&amp;rdquo;-Testen.</description>
+    </item>
+    
+    <item>
+      <title>Ein Test Blog Post mit allen Medientypen</title>
+      <link>http://plexiti.com/de/blog/2016/07/a-test-blog-post-showing-off-all-gadgets/</link>
+      <pubDate>Wed, 13 Jul 2016 21:29:07 +0200</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2016/07/a-test-blog-post-showing-off-all-gadgets/</guid>
+      <description>Dieser Test Blog Post zeigt alle Möglichkeiten auf Text darzustellen und jene Medientypen einzubinden, die ich bisher zur Verwendung in Blog Posts implementiert habe.</description>
+    </item>
+    
+    <item>
+      <title>Camunda BPM 7.4 Roadshow!</title>
+      <link>http://plexiti.com/de/blog/2015/12/camunda-bpm-release-roadshow/</link>
+      <pubDate>Wed, 16 Dec 2015 15:51:20 +0100</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2015/12/camunda-bpm-release-roadshow/</guid>
+      <description>Im Januar kann man die neuen Features in Camunda BPM 7.4 an sieben Terminen in Deutschland, der Schweiz und Österreich live erleben.</description>
+    </item>
+    
+    <item>
+      <title>Der Camunda Community Award ergeht an &amp;hellip; :-)</title>
+      <link>http://plexiti.com/de/blog/2014/03/camunda-bpm-community-award/</link>
+      <pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2014/03/camunda-bpm-community-award/</guid>
+      <description>Beim ersten Geburtstag von camunda.org erhielt ich ein unerwartetes Geschenk!</description>
+    </item>
+    
+    <item>
+      <title>Camunda BPM Assert 1.0 verfügbar!</title>
+      <link>http://plexiti.com/de/blog/2014/03/camunda-bpm-assert-released/</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2014/03/camunda-bpm-assert-released/</guid>
+      <description>Seit einiger Zeit schon experimentieren wir mit Assertions für Camunda BPM - rechtzeitig zum 1. Geburtstag ist nun eine stabile Version verfügbar.</description>
+    </item>
+    
+    <item>
+      <title>camunda.org Community Day 2013 in Prag!</title>
+      <link>http://plexiti.com/de/blog/2013/10/camunda-community-day/</link>
+      <pubDate>Mon, 21 Oct 2013 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2013/10/camunda-community-day/</guid>
+      <description>Die camunda.org-Community kam in einer der schönsten Städte Europas zusammen, und ich konnte dabei camunda-bpm-testing kurz vorstellen.</description>
+    </item>
+    
+    <item>
+      <title>Gedanken zur (No bullshit-) BPMCon 2013</title>
+      <link>http://plexiti.com/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</link>
+      <pubDate>Wed, 16 Oct 2013 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2013/10/thoughts-about-the-no-bullshit-bpmcon-2013/</guid>
+      <description>Nach dem gemeisterten Start von camunda.org erklärten die Berliner, warum ihre flexible, quelloffene Engine die Aufmerksamkeit von Startups auf sich zu ziehen beginnt.</description>
+    </item>
+    
+    <item>
+      <title>Impulsvortrag &amp;ldquo;Geschäftsprozesse und Softwaretests&amp;rdquo;</title>
+      <link>http://plexiti.com/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</link>
+      <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2013/05/teaser-talk-business-processes-and-software-tests/</guid>
+      <description>Im Kontext der camunda BPM Präsentation genossen wir den Blick auf Wien und warfen auch einen Blick auf &amp;lsquo;Enterprise&amp;rsquo;-Systemlandschaften.</description>
+    </item>
+    
+    <item>
+      <title>Presenting Camunda BPM in Wien</title>
+      <link>http://plexiti.com/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</link>
+      <pubDate>Fri, 17 May 2013 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2013/05/presenting-camunda-bpm-in-vienna/</guid>
+      <description>Jakob Freund von camunda besuchte uns in Wien, um uns im Rahmen eines Community Events alle offenen Fragen über &amp;lsquo;den Fork&amp;rsquo; zu beantworten!-)</description>
+    </item>
+    
+    <item>
+      <title>camunda BPM Incubation Space startet mit einer Contribution von plexiti</title>
+      <link>http://plexiti.com/de/blog/2013/04/camunda-bpm-incubation-space-launched/</link>
+      <pubDate>Wed, 24 Apr 2013 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2013/04/camunda-bpm-incubation-space-launched/</guid>
+      <description>Wir freuen uns ein (leicht!)gewichtiges Stück Code zum neuen Incubation Space auf camunda.org beizusteuern: auf dass das Testen flüssig werde!</description>
+    </item>
+    
+    <item>
+      <title>Unser Pecha Kucha in Berlin</title>
+      <link>http://plexiti.com/de/blog/2012/09/our-pecha-kucha-in-berlin/</link>
+      <pubDate>Thu, 20 Sep 2012 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2012/09/our-pecha-kucha-in-berlin/</guid>
+      <description>Zugegeben, das war das &amp;lsquo;erste Mal&amp;rsquo; Pecha Kucha - eine neue Erfahrung - 20 Folien zu je 20 Sekunden!</description>
+    </item>
+    
+    <item>
+      <title>Der Showcase zur Stellenausschreibung ist fertig*!</title>
+      <link>http://plexiti.com/de/blog/2012/09/the-job-announcement-showcase-is-done/</link>
+      <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2012/09/the-job-announcement-showcase-is-done/</guid>
+      <description>Es war ein schönes Stück Arbeit, aber es ist fürs erste geschafft - unsere Prozessanwendung zur Stellenausschreibung ist fertig!</description>
+    </item>
+    
+    <item>
+      <title>Wir sind auf dem Weg!</title>
+      <link>http://plexiti.com/de/blog/2012/09/we-are-on-the-way/</link>
+      <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2012/09/we-are-on-the-way/</guid>
+      <description>Unverhofft kommt oft! Wir erhielten ganz kurzfristig die schöne Gelegenheit unsere Prozessanwendung in Berlin vorzustellen.</description>
     </item>
     
   </channel>

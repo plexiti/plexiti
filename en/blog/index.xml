@@ -11,9 +11,36 @@
     
     
     
-    <lastBuildDate>Sat, 24 Sep 2016 17:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 21 Mar 2017 09:00:00 +0100</lastBuildDate>
     
     <atom:link href="http://plexiti.com/en/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Decoupling Event Driven Hippies</title>
+      <link>http://plexiti.com/en/blog/2017/03/decoupling-event-driven-microservices/</link>
+      <pubDate>Tue, 21 Mar 2017 09:00:00 +0100</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/en/blog/2017/03/decoupling-event-driven-microservices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microservices Orchestration &amp;amp; Choreography</title>
+      <link>http://plexiti.com/en/blog/2017/03/microservices-orchestration-and-choreograpy/</link>
+      <pubDate>Tue, 21 Mar 2017 09:00:00 +0100</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/en/blog/2017/03/microservices-orchestration-and-choreograpy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sorting out Terms for Remote Communication</title>
+      <link>http://plexiti.com/en/blog/2017/03/sorting-out-terms-for-remote-communication/</link>
+      <pubDate>Fri, 10 Mar 2017 19:44:26 +0100</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/en/blog/2017/03/sorting-out-terms-for-remote-communication/</guid>
+      <description>I recently read a lot about &amp;ldquo;asynchronous&amp;rdquo;, &amp;ldquo;events&amp;rdquo;, &amp;ldquo;push&amp;rdquo;, &amp;ldquo;pub/sub&amp;rdquo; and similar stuff. :-) Therefore I decided to sort out the terms a bit.</description>
+    </item>
     
     <item>
       <title>Understanding Process &amp;ldquo;Waitstate Mocking&amp;rdquo;</title>
@@ -31,6 +58,15 @@
       <author>Martin Schimak</author>
       <guid>http://plexiti.com/en/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/</guid>
       <description>This blog post is the first one in a small series of blog posts about &amp;ldquo;scenario&amp;rdquo;-testing.</description>
+    </item>
+    
+    <item>
+      <title>Ein Test Blog Post mit allen Medientypen</title>
+      <link>http://plexiti.com/en/blog/2016/07/a-test-blog-post-showing-off-all-gadgets/</link>
+      <pubDate>Wed, 13 Jul 2016 21:29:07 +0200</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/en/blog/2016/07/a-test-blog-post-showing-off-all-gadgets/</guid>
+      <description>Dieser Test Blog Post zeigt alle Möglichkeiten auf Text darzustellen und jene Medientypen einzubinden, die ich bisher zur Verwendung in Blog Posts implementiert habe.</description>
     </item>
     
   </channel>

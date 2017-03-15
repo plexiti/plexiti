@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plexiti.com</title>
+    <link>http://plexiti.com/de/categories/dmn/</link>
+    <description> blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+      <language>de</language>
+    
+    
+    
+    
+    <lastBuildDate>Wed, 16 Dec 2015 15:51:20 +0100</lastBuildDate>
+    
+    <atom:link href="http://plexiti.com/de/categories/dmn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Camunda BPM 7.4 Roadshow!</title>
+      <link>http://plexiti.com/de/blog/2015/12/camunda-bpm-release-roadshow/</link>
+      <pubDate>Wed, 16 Dec 2015 15:51:20 +0100</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2015/12/camunda-bpm-release-roadshow/</guid>
+      <description>Im Januar kann man die neuen Features in Camunda BPM 7.4 an sieben Terminen in Deutschland, der Schweiz und Österreich live erleben.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,7 +3,28 @@
   
   <url>
     <loc>http://plexiti.com/en/</loc>
-    <lastmod>2016-09-24T17:00:00+02:00</lastmod>
+    <lastmod>2017-03-21T09:00:00+01:00</lastmod>
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://plexiti.com/en/blog/2017/03/decoupling-event-driven-microservices/</loc>
+    <lastmod>2017-03-21T09:00:00+01:00</lastmod>
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://plexiti.com/en/blog/2017/03/microservices-orchestration-and-choreograpy/</loc>
+    <lastmod>2017-03-21T09:00:00+01:00</lastmod>
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://plexiti.com/en/blog/2017/03/sorting-out-terms-for-remote-communication/</loc>
+    <lastmod>2017-03-10T19:44:26+01:00</lastmod>
     
     
   </url>
@@ -18,6 +39,13 @@
   <url>
     <loc>http://plexiti.com/en/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/</loc>
     <lastmod>2016-09-17T09:00:00+02:00</lastmod>
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://plexiti.com/en/blog/2016/07/a-test-blog-post-showing-off-all-gadgets/</loc>
+    <lastmod>2016-07-13T21:29:07+02:00</lastmod>
     
     
   </url>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>plexiti.com</title>
+    <link>http://plexiti.com/de/categories/assert/</link>
+    <description> blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+      <language>de</language>
+    
+    
+    
+    
+    <lastBuildDate>Mon, 03 Mar 2014 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="http://plexiti.com/de/categories/assert/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Camunda BPM Assert 1.0 verfügbar!</title>
+      <link>http://plexiti.com/de/blog/2014/03/camunda-bpm-assert-released/</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2014/03/camunda-bpm-assert-released/</guid>
+      <description>Seit einiger Zeit schon experimentieren wir mit Assertions für Camunda BPM - rechtzeitig zum 1. Geburtstag ist nun eine stabile Version verfügbar.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <script src='http://plexiti.com/en/js/lang.js'></script>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,300italic' rel='stylesheet' type='text/css'>
+  <meta charset='utf-8'>
+  
+      
+      <title>Sorting out Terms for Remote Communication</title>
+      
+  
+    <link href='http://plexiti.com/en/blog/index.xml' rel='alternate' type='application/rss+xml' title='plexiti - (De)coding Domain Knowledge blog' />
+  
+    <link href='http://plexiti.com/en/blog/index.xml' rel='home' type='application/rss+xml' title='plexiti - (De)coding Domain Knowledge blog' />
+  
+  <meta name='apple-mobile-web-app-capable' content='yes'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href='http://plexiti.com/en/animate.css' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='http://plexiti.com/en/js/woothemes-FlexSlider-06b12f8/flexslider.css' type='text/css' media='screen'>
+  <link rel='stylesheet' href='http://plexiti.com/en/js/prettyPhoto_3.1.5/prettyPhoto.css' type='text/css' media='screen'>
+  <link href='http://plexiti.com/en/style.css' rel='stylesheet' type='text/css'>
+
+  <link rel='stylesheet' href='http://plexiti.com/en/fonts/lato/plexiti-lato.css' media='screen' />
+  <link rel='stylesheet' href='http://plexiti.com/en/fonts/font-awesome/css/font-awesome.min.css' media='screen'>
+  <script src='//code.jquery.com/jquery-latest.min.js'></script>
+  <script type='text/javascript' src='http://plexiti.com/en/js/modernizr.custom.48287.js'></script>
+  
+  <link rel='shortcut icon' type='image/x-icon' href='http://plexiti.com/en/favicon.ico' />
+  <link rel='apple-touch-icon-precomposed' sizes='114x114' href='http://plexiti.com/en/apple-touch-icon-114x114-precomposed.png'>
+  <link rel='apple-touch-icon-precomposed' sizes='72x72' href='http://plexiti.com/en/apple-touch-icon-72x72-precomposed.png'>
+  <link rel='apple-touch-icon-precomposed' href='http://plexiti.com/en/apple-touch-fa-57x57-precomposed.png'>
+
+  <script type='text/javascript' src='http://plexiti.com/en/js/moment/moment-with-locales.min.js'></script>
+  <script type='text/javascript' src='http://plexiti.com/en/js/bpmn-js/bpmn-viewer.min.js'></script>
+  <script type='text/javascript' src='http://plexiti.com/en/js/cmmn-js/cmmn-viewer.min.js'></script>
+  <script type='text/javascript' src='http://plexiti.com/en/js/dmn-js/dmn-viewer.min.js'></script>
+  <script type='text/javascript' src='http://plexiti.com/en/js/plexiti.js'></script>
+  <script type='text/javascript' src='http://plexiti.com/en/js/lang.js'></script>
+
+  <link href='http://plexiti.com/en/css/plexiti.css' rel='stylesheet' type='text/css'>
+  <link href='http://plexiti.com/en/js/dmn-js/css/dmn-js.css' rel='stylesheet' type='text/css'>
+  <link href='http://plexiti.com/en/js/rainbow/rainbow-github.css' rel="stylesheet" type="text/css">
+
+</head>
+<body data-spy='scroll' data-target='#TableOfContents' data-offset='50'>
+<header>
+  <div class='top-bg-color-bar'></div>
+  <div class='container'>
+    <div class='navbar navbar-default' role='navigation'>
+      <div class='navbar-header'>
+        <a class='navbar-brand' href='http://plexiti.com/en/'>
+          <img src='http://plexiti.com/en/img/logo.png' style='width: 250px; height: 96px' title='plexiti'>
+          <span class='logo_subtitle' style='font-size: 12pt;'>(De)coding Domain Knowledge</span>
+        </a>
+      </div>
+      <div class='collapse navbar-collapse'>
+        <ul class='nav pull-right navbar-nav'>
+          
+          
+            <li><a href='http://plexiti.com/en/blog/'>Blog</a></li>
+          
+            <li><a href='http://plexiti.com/en/about/'>About</a></li>
+          
+        </ul>
+      </div>
+    </div>
+    <div id="social_media_wrapper">
+      
+        
+        
+          
+          <a href='http://plexiti.com/en/../de/blog/2017/03/sorting-out-terms-for-remote-communication/' title='Diese Seite ist auf Deutsch abrufbar.'><i class="fa">de</i></a>
+          <script>
+            redirect2language('http:\/\/plexiti.com\/en\/');
+          </script>
+          
+          <a href='.' title='This page is available in english.'><i class="fa">en</i></a>
+        
+      
+    </div>
+  </div>
+</header>
+
+<div class='main' id='post'>
+     <section class='hgroup'>
+          <div class='container'>
+               <h1>Sorting out Terms for Remote Communication</h1>
+               <h2>I recently read a lot about &ldquo;asynchronous&rdquo;, &ldquo;events&rdquo;, &ldquo;push&rdquo;, &ldquo;pub/sub&rdquo; and similar stuff. :-) Therefore I decided to sort out the terms a bit.<span style='float:right'><script>document.write(moment('2017-03-10').locale('en').format('LL'))</script></span></h2>
+          </div>
+     </section>
+     <section>
+          <div class='container'>
+               <div class='row'>
+                    <div id='leftcol' class='col-sm-12 col-md-8' role='main'>
+                         <article class='post'>
+                              <div class='post_content'>
+                                   
+
+<p>I regularly read phrases as <strong>&ldquo;synchronous request/reply like REST&rdquo;</strong> or e.g. <strong>&ldquo;pub/sub patterns requiring messaging&rdquo;</strong>. As my brain always reaches out to &ldquo;understand&rdquo; a more complete truth hidden beneath statements :-) it then subconsciously starts to work on the concepts and terms. In this case the typical lingo used when people talk about system-to-system communication.</p>
+
+<figure>
+    
+    
+    
+    
+    
+    
+    
+    <img src='http://plexiti.com/en/./blog/2017/03/img/sorting-out-terms-for-remote-communication.png' >
+</figure>
+
+
+
+<h1 id="1-recipients-which-partner-s-do-we-have"><strong>(1) Recipients</strong>: Which partner(s) do we have?</h1>
+
+<p>A <strong>Point-to-Point</strong> model of communication transmits a message from one single sender to one single recipient. The recipient is offering a means of receiving a message, the sender decides to make use of it.</p>
+
+<p>A <strong>Publish-and-Subscribe</strong> model of communication transmits a message from one sender to (potentially) many recipients. The sender acts as &ldquo;publisher&rdquo; by offering a message to a more general public, the potential recipients become &ldquo;subscribers&rdquo; when they decide to make use of it.</p>
+
+<h1 id="2-acknowledgement-do-we-verify-delivery"><strong>(2) Acknowledgement</strong>: Do we verify delivery?</h1>
+
+<p><strong>Positive Acknowledgement</strong> based communication means that successful delivery is explicitly acknowledged by the recipient.</p>
+
+<p><strong>Negative Acknowledgement</strong> based communication means that just an unsuccessful delivery is explicitly rejected by the recipient.</p>
+
+<h1 id="3-reply-do-we-talk-one-way-or-two-ways"><strong>(3) Reply</strong>: Do we talk one-way or two-ways?</h1>
+
+<p><strong>Fire/Forget</strong> refers to a one-way communications pattern. The sender does not care about a specific business domain related answer or reaction. However, it might still care about an acknowledgement.</p>
+
+<p><strong>Request/Reply</strong> refers to a two-way communications pattern. The sender needs a specific business domain related reply or reaction. It might also care about an acknowledgement.</p>
+
+<h1 id="4-intent-what-s-the-purpose-of-a-message"><strong>(4) Intent</strong>: What&rsquo;s the purpose of a message?</h1>
+
+<p>An <strong>Event</strong> communicates a relevant fact of the business domain. The sender informs that something relevant occurred on its side.</p>
+
+<p>A <strong>Command</strong> communicates that a business domain relevant operation should happen on the recipient&rsquo;s side.</p>
+
+<p>A <strong>Document</strong> (message) communicates the current status of the business domain on the sender&rsquo;s side.</p>
+
+<h1 id="5-direction-who-is-the-initiating-partner"><strong>(5) Direction</strong>: Who is the initiating partner?</h1>
+
+<blockquote>
+<p>Request driven software speaks when spoken to, event driven software speaks when it has something to say. <cite>Jon Udell</cite></p>
+</blockquote>
+
+<p><strong>Pull</strong> direction means that the receiver initiates the transmission of business domain related information to itself. It is &ldquo;request driven&rdquo; in the sense that the sender passively waits until a recipient interrupts by requesting content.</p>
+
+<p><strong>Push</strong> direction means that the sender initiates the transmission of business domain related information to the receiver. It is &ldquo;event driven&rdquo; in the sense that the sender identifies information potentially interesting for the receiver and transmits it.</p>
+
+<h1 id="6-execution-do-we-block-until-completion"><strong>(6) Execution</strong>: Do we block until completion?</h1>
+
+<p><strong>Synchronous</strong> communication blocks the initiator until the business domain related operation on the recipient&rsquo;s side completes.</p>
+
+<p><strong>Asynchronous</strong> communication does not block the initiator until a business domain related operation on the recipient&rsquo;s side completes. The initiator either does not care about such an operation or does care, but only initiates it.</p>
+
+<h1 id="7-architecture-which-style-do-we-use"><strong>(7) Architecture</strong>: Which style do we use?</h1>
+
+<p><strong>REST</strong> (Representational State Transfer) enables separate applications to work together by requesting and manipulating textual representations of resources using a uniform and predefined set of stateless operations. It relies on a cacheable client-server communications protocol &ndash; and in virtually all cases, the <strong>HTTP</strong> protocol is used.</p>
+
+<p><strong>Messaging</strong> enables separate applications to work together in a decoupled fashion such that applications can be easily added or removed without affecting the others. A connecting message-oriented middleware is used that allows different systems to exchange messages through a shared set of interfaces. It relies on a client-broker protocol such as <strong>AMQP</strong>.</p>
+
+<h1 id="tolerant-readers-complain-seldomly">Tolerant readers complain seldomly :-)</h1>
+
+<p>When I hear phrases as <strong>&ldquo;synchronous request/reply like REST&rdquo;</strong> or e.g. <strong>&ldquo;pub/sub patterns requiring messaging&rdquo;</strong> somebody might already shout: <strong>&ldquo;Wrong!&rdquo;</strong> :-) I often prefer to stay quiet. Most of the time such statements are really &ldquo;close enough&rdquo; anyway. We understand each other in the specific context of what is being said. People already know that REST can be used in a more &ldquo;asynchronous&rdquo; fashion of communication, too. And yes: one won&rsquo;t necessarily need messaging infrastructure for a publish/subscribe paradigm of delivering some infos.</p>
+
+<p>However, I felt it is useful for myself to write down some of the more prominent lingo like asynchronous, events and pub/sub and ask myself: what are the real &ldquo;categories of the same thing&rdquo;? What are therefore things that exclude each other? Because: <strong>if two things do not exclude each other, they can quite often be combined with each other</strong>! Being aware of that results in more conscious and therefore more useful knowledge to me.</p>
+
+<h1 id="what-do-you-think">What do YOU think?</h1>
+
+<p>I would love to get some feedback on what my googling capabilities came up with here. :-) Jokes aside, I also hope that the post helps to thin out the fog a bit. It&rsquo;s the kind of fog which is always produced when <strong>words</strong> too often come along in the form of intertwined <strong>phrases</strong>&hellip;</p>
+
+<p><strong>A small disclaimer</strong>: I am talking here in the context of quite &ldquo;high level&rdquo;, business domain related communication in between remote and distributed systems like e.g. Microservices. When going down to the lower, more technical layers of systems communication, concepts and terms might be used with (more or less) different meanings.</p>
+
+                              </div>
+                         </article>
+                         
+                         <div id='disqus'></div>
+                         <div id='disqus_thread'></div>
+                         <script>
+                              var disqus_config = function () {
+                                   this.page.url = 'http:\/\/plexiti.com\/en\/blog\/2017\/03\/sorting-out-terms-for-remote-communication\/';
+                                   this.page.identifier = '\/en\/blog\/2017\/03\/sorting-out-terms-for-remote-communication\/';
+                                   this.page.title = 'Sorting out Terms for Remote Communication';
+                                   this.language = "en";
+                              };
+                              (function() {
+                                   var d = document, s = d.createElement('script');
+                                   s.src = '//plexiti.disqus.com/embed.js';
+                                   s.setAttribute('data-timestamp', +new Date());
+                                   (d.head || d.body).appendChild(s);
+                              })();
+                         </script>
+                         
+                    </div>
+                    <div class='col-md-4 hidden-sm hidden-xs'>
+                         <div class='bs-docs-sidebar hidden-print affix-top' role='complementary' data-spy='affix' data-offset-top='318' data-offset-bottom='405'>
+                              <nav id="TableOfContents">
+<ul>
+<li><a href="#1-recipients-which-partner-s-do-we-have"><strong>(1) Recipients</strong>: Which partner(s) do we have?</a></li>
+<li><a href="#2-acknowledgement-do-we-verify-delivery"><strong>(2) Acknowledgement</strong>: Do we verify delivery?</a></li>
+<li><a href="#3-reply-do-we-talk-one-way-or-two-ways"><strong>(3) Reply</strong>: Do we talk one-way or two-ways?</a></li>
+<li><a href="#4-intent-what-s-the-purpose-of-a-message"><strong>(4) Intent</strong>: What&rsquo;s the purpose of a message?</a></li>
+<li><a href="#5-direction-who-is-the-initiating-partner"><strong>(5) Direction</strong>: Who is the initiating partner?</a></li>
+<li><a href="#6-execution-do-we-block-until-completion"><strong>(6) Execution</strong>: Do we block until completion?</a></li>
+<li><a href="#7-architecture-which-style-do-we-use"><strong>(7) Architecture</strong>: Which style do we use?</a></li>
+<li><a href="#tolerant-readers-complain-seldomly">Tolerant readers complain seldomly :-)</a></li>
+<li><a href="#what-do-you-think">What do YOU think?</a></li>
+</ul>
+</nav>
+                         </div>
+                    </div>
+                    <script type='text/javascript'>
+                         if($("#TableOfContents").length === 0) {
+                              $('.bs-docs-sidebar').each(function(idx, value) {
+                                   $(value).append("<nav id='TableOfContents'><ul></ul></nav>");
+                              });
+                         }
+                         $('#TableOfContents ul').each(function() {
+                              this.className = "nav";
+                         });
+                         
+                         var numbers = Math.ceil( 827  /  184 );
+                         $('#TableOfContents ul').prepend("<li><a href='#post'><i class='fa fa-hand-o-right' aria-hidden='true'></i> Read this post in about <span class='read-the-discussion en'><b>" + numbers + "<i class='pl'></i></b></span>&nbsp;...</a></li>");
+                         
+                         $('#TableOfContents ul').append("<li class='disqus_link'><a href='#disqus'><i class='fa fa-comments'></i> ... and join the discussion! <span class='disqus-comment-count en' data-disqus-identifier='/en\/blog\/2017\/03\/sorting-out-terms-for-remote-communication\/'></span></a></li>");
+                         
+                    </script>
+                    <script type='text/javascript'>
+                         $('#TableOfContents a').click(function() {
+                              var href = $.attr(this, 'href');
+                              href = href.replace(/:/g, '\\:');
+                              $('html, body').animate({
+                                   scrollTop: jQuery(href).offset().top
+                              }, 500, function () {
+                                   window.location.hash = href;
+                              });
+                              return false;
+                         });
+                    </script>
+               </div>
+          </div>
+     </section>
+     <footer>
+  <section class='twitter_feed_wrapper'>
+    <div class='container'>
+      <div class='row'>
+        <div class='twitter_feed_icon col-sm-1 col-md-1'><a href='https://twitter.com/MartinSchimak/'><i class='fa fa-twitter'></i></a></div>
+        <div class='col-sm-11 col-md-11'>
+          <blockquote>
+            <p>I&rsquo;m into and onto <a href="http://agilemanifesto.org">Agile</a>, <a href="http://dddcommunity.org/learning-ddd/what_is_ddd/">DDD</a>, <a href="http://martinfowler.com/eaaDev/EventNarrative.html">EDA</a>, <a href="https://camunda.org">BPM</a> and <a href="http://www.martinfowler.com/articles/microservices.html">Microservices</a>! When I&rsquo;m not (de-)coding domain knowledge, I&rsquo;m probably organizing <a href="https://meetup.com/microservices-vienna">Microservices Vienna</a> or <a href="https://meetup.com/camunda-vienna">Camunda Vienna</a>. I&rsquo;m co-editor of <a href="http://www.objektspektrum.de">OBJEKTspektrum</a>.</p>
+            <cite><a href='https://twitter.com/MartinSchimak/'>@MartinSchimak</a></cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class='copyright'>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm-6 col-md-6'></div>
+            <div class='text-right col-sm-6 col-md-6'> Copyright &copy; <script>document.write(moment().format('YYYY'))</script> <a href='http://plexiti.com/en/about'>plexiti GmbH</a> - All rights reserved.</div>
+        </div>
+    </div>
+</section>
+
+</footer>
+
+</div>
+<script>window.jQuery || document.write('<script src=\'http:\/\/plexiti.com\/en\/js\/jquery-1.9.0.min.js\'><\/script>')</script>
+<script src='http://plexiti.com/en/twitter-bootstrap/js/bootstrap.min.js' type='text/javascript'></script>
+<script type='text/javascript' src='http://plexiti.com/en/js/modernizr.custom.48287.js'></script>
+<script src='http://plexiti.com/en/js/woothemes-FlexSlider-06b12f8/jquery.flexslider-min.js'></script>
+<script src='http://plexiti.com/en/js/prettyPhoto_3.1.5/jquery.prettyPhoto.js' type='text/javascript' charset='utf-8'></script>
+<script src='http://plexiti.com/en/js/isotope/jquery.isotope.min.js' type='text/javascript'></script>
+<script type='text/javascript' src='http://plexiti.com/en/js/jquery.ui.totop.js'></script>
+<script type='text/javascript' src='http://plexiti.com/en/js/easing.js'></script>
+<script type='text/javascript' src='http://plexiti.com/en/js/wow.min.js'></script>
+<script type='text/javascript' src='http://plexiti.com/en/js/snap.svg-min.js'></script>
+<script type='text/javascript' src='http://plexiti.com/en/js/restart_theme.js'></script>
+<script type='text/javascript' src='http://plexiti.com/en/js/collapser.js'></script>
+<script id='dsq-count-scr' src='//plexiti.disqus.com/count.js' async></script>
+
+<script>
+    setCookie('lang', 'en', 365)
+</script>
+</body>
+</html>
+
