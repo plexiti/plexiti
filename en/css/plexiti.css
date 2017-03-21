@@ -224,7 +224,7 @@ footer blockquote {
 blockquote p {
     font-style: italic !important;
     font-weight: normal !important;
-    font-size: 20px;
+    font-size: 1em;
     color: #646464;
 }
 

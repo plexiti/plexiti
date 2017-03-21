@@ -6,7 +6,7 @@
   <meta charset='utf-8'>
   
       
-      <title>Sorting out Terms for Remote Communication</title>
+      <title>Orchestration or Choreography?</title>
       
   
     <link href='http://plexiti.com/de/blog/index.xml' rel='alternate' type='application/rss+xml' title='plexiti - (de)coding domain knowledge blog' />
@@ -70,7 +70,7 @@
         
           <a href='.' title='Diese Seite ist auf Deutsch abrufbar.'><i class="fa">de</i></a>
           
-            <a href='http://plexiti.com/de/../en/blog/2017/03/sorting-out-terms-for-remote-communication/' title='This page is available in english.'><i class="fa">en</i></a>
+            <a href='http://plexiti.com/de/../en/blog/2017/03/microservices-orchestration-and-choreograpy/' title='This page is available in english.'><i class="fa">en</i></a>
             <script>
               redirect2language('http:\/\/plexiti.com\/de\/');
             </script>
@@ -84,8 +84,8 @@
 <div class='main' id='post'>
      <section class='hgroup'>
           <div class='container'>
-               <h1>Sorting out Terms for Remote Communication</h1>
-               <h2>I recently read a lot about &ldquo;asynchronous&rdquo;, &ldquo;events&rdquo;, &ldquo;push&rdquo;, &ldquo;pub/sub&rdquo; and similar stuff. :-) Therefore I decided to sort out the terms a bit.<span style='float:right'><script>document.write(moment('2017-03-10').locale('de').format('LL'))</script></span></h2>
+               <h1>Orchestration or Choreography?</h1>
+               <h2>For collaboration of microservices, there are two basic styles: orchestration and choreography.<span style='float:right'><script>document.write(moment('2017-03-21').locale('de').format('LL'))</script></span></h2>
           </div>
      </section>
      <section>
@@ -96,7 +96,15 @@
                               <div class='post_content'>
                                    
 
-<p>I regularly read phrases as <strong>&ldquo;synchronous request/reply like REST&rdquo;</strong> or e.g. <strong>&ldquo;pub/sub patterns requiring messaging&rdquo;</strong>. As my brain always reaches out to &ldquo;understand&rdquo; a more complete truth hidden beneath statements :-) it then subconsciously starts to work on the concepts and terms. In this case the typical lingo used when people talk about system-to-system communication.</p>
+<p>In his well-known book &ldquo;Building Microservices&rdquo;, <a href="https://twitter.com/samnewman">Sam Newman</a> wrote:</p>
+
+<blockquote>
+<p>&ldquo;As we start to model more and more complex logic, we have to deal with the problem of <strong>managing business processes that stretch across the boundary of individual services</strong>. [&hellip;] When it comes to actually implementing this <em>flow</em>, there are two styles of architecture we could follow. With <strong>orchestration</strong>, we rely on a central brain to guide and drive the process, much like the conductor in an <em>orchestra</em>. With <strong>choreography</strong>, we inform each part of the system of its job, and let it work out the details, like dancers all finding their way and reacting to others around them in a <em>ballet</em>.&rdquo;<cite>Sam Newman, &ldquo;Building Microservices&rdquo;</cite></p>
+</blockquote>
+
+<h1 id="1-the-orchestration-style"><strong>(1) The Orchestration Style</strong></h1>
+
+<p>With <strong>orchestration</strong> style, we move the rules governing the interaction among different services into a central, coordinating unit. By invoking commands and coordinating the meaning of the results for further steps, this unit reminds a bit of the way a conductor interacts with an orchestra. :-)</p>
 
 <figure>
     
@@ -106,70 +114,110 @@
     
     
     
-    <img src='http://plexiti.com/de/../en/blog/2017/03/img/sorting-out-terms-for-remote-communication.png' >
+    <img src='http://plexiti.com/de/../en/blog/2017/03/img/microservices-orchestration.png' >
 </figure>
 
 
 
-<h1 id="1-recipients-which-partner-s-do-we-have"><strong>(1) Recipients</strong>: Which partner(s) do we have?</h1>
+<p>Orchestration style architectures will therefore rely on some <strong>request</strong> mechanism to issue commands (and queries). But note that such requests must not necessarily be implemented by means of some synchronous <em>request/reply</em>. It might e.g. be realised via <em>asynchronous command messages</em> routed to other services via some kind of messaging infrastructure. It might also be implemented via an &ldquo;ask for work&rdquo; (pull) mechanism, which lets the other services retrieve the commands to be carried out by themselves.</p>
 
-<p>A <strong>Point-to-Point</strong> model of communication transmits a message from one single sender to one single recipient. The recipient is offering a means of receiving a message, the sender decides to make use of it.</p>
+<p>Let&rsquo;s work out a simple example for orchestration. A customer <strong>places an order</strong> in a <em>webshop</em>. An <em>order service</em> coordinates the following process to fulfill the order. It communicates with three other services: they are dealing with <em>payment</em>, <em>inventory</em> and <em>shipment</em>:</p>
 
-<p>A <strong>Publish-and-Subscribe</strong> model of communication transmits a message from one sender to (potentially) many recipients. The sender acts as &ldquo;publisher&rdquo; by offering a message to a more general public, the potential recipients become &ldquo;subscribers&rdquo; when they decide to make use of it.</p>
+<figure>
+    
+    
+    
+    
+    
+    
+    
+    <img src='http://plexiti.com/de/../en/blog/2017/03/img/microservices-orchestration-model.png' >
+</figure>
 
-<h1 id="2-acknowledgement-do-we-verify-delivery"><strong>(2) Acknowledgement</strong>: Do we verify delivery?</h1>
 
-<p><strong>Positive Acknowledgement</strong> based communication means that successful delivery is explicitly acknowledged by the recipient.</p>
 
-<p><strong>Negative Acknowledgement</strong> based communication means that just an unsuccessful delivery is explicitly rejected by the recipient.</p>
+<ol>
+<li>A customer <strong>places an order</strong> in a <em>webshop</em>. As a consequence, an <em>order service</em> coordinates the order fulfillment&hellip;</li>
+<li>&hellip; and asks the <em>payment service</em> to <strong>collect money</strong>.</li>
+<li>When the <strong>money is collected</strong> &hellip;</li>
+<li>&hellip; the order service asks the <em>inventory service</em> to <strong>fetch the items</strong>.</li>
+<li>When the <strong>items are fetched</strong> &hellip;</li>
+<li>&hellip; the order service asks the <em>shipment service</em> to <strong>ship the parcel</strong>.</li>
+<li>And finally, when the <strong>parcel is shipped</strong> &hellip;</li>
+<li>&hellip; the order service informs that the <strong>order is delivered</strong>.</li>
+</ol>
 
-<h1 id="3-reply-do-we-talk-one-way-or-two-ways"><strong>(3) Reply</strong>: Do we talk one-way or two-ways?</h1>
+<p>The whole <em>flow logic</em> for this order fulfillment resides in some central brain acting as the flow &ldquo;conductor&rdquo;. In our case this central brain is the order service.</p>
 
-<p><strong>Fire/Forget</strong> refers to a one-way communications pattern. The sender does not care about a specific business domain related answer or reaction. However, it might still care about an acknowledgement.</p>
+<h1 id="2-the-choreography-style"><strong>(2) The Choreography Style</strong></h1>
 
-<p><strong>Request/Reply</strong> refers to a two-way communications pattern. The sender needs a specific business domain related reply or reaction. It might also care about an acknowledgement.</p>
+<p>With <strong>choreography</strong> style, the rules governing the interaction among different services move into the decentral units. The decentral services are interacting to reach the goal of the business process, each part of the system knowing the job it is responsible for, and working out the needed details on its own.</p>
 
-<h1 id="4-intent-what-s-the-purpose-of-a-message"><strong>(4) Intent</strong>: What&rsquo;s the purpose of a message?</h1>
+<figure>
+    
+    
+    
+    
+    
+    
+    
+    <img src='http://plexiti.com/de/../en/blog/2017/03/img/microservices-orchestration-and-choreograpy.png' >
+</figure>
 
-<p>An <strong>Event</strong> communicates a relevant fact of the business domain. The sender informs that something relevant occurred on its side.</p>
 
-<p>A <strong>Command</strong> communicates that a business domain relevant operation should happen on the recipient&rsquo;s side.</p>
 
-<p>A <strong>Document</strong> (message) communicates the current status of the business domain on the sender&rsquo;s side.</p>
+<p>Quite typically, choreography style architectures will work with some <strong>event publication</strong> mechanism. By means of events, individual services can inform other services of what happened inside of them without needing to know anything about those other services. Note that such event publication might e.g. be implemented by means of a relatively dumb <em>event bus/pipe</em> based on some kind of messaging infrastructure, but it might also be realised via several <em>event feeds</em> published by the individual services themselves, e.g. via Atom/REST.</p>
 
-<h1 id="5-direction-who-is-the-initiating-partner"><strong>(5) Direction</strong>: Who is the initiating partner?</h1>
+<p>Let&rsquo;s look how the above example could work without any central conductor issuing commands, but just by means of events.</p>
+
+<figure>
+    
+    
+    
+    
+    
+    
+    
+    <img src='http://plexiti.com/de/../en/blog/2017/03/img/microservices-choreography-model.png' >
+</figure>
+
+
+
+<ol>
+<li>Again, the customer <strong>places an order</strong> in the <em>webshop</em>, which therefore issues an &ldquo;Order Created&rdquo; event. As a consequence&hellip;</li>
+<li>&hellip; the <em>payment service</em> listening to that event starts to <strong>collect money</strong> and issues a &ldquo;Money Collected&rdquo; event.</li>
+<li>The <em>inventory service</em> decides to start to <strong>fetch the items</strong> as soon as the money is collected&hellip;</li>
+<li>&hellip; and finally the <em>shipping service</em> will of course <strong>ship the parcel</strong>, when the items are fetched.</li>
+</ol>
+
+<p>The flow logic for the order fulfillment resides now inside the individual services. They need to work out on which events they need to react in which way themselves.</p>
+
+<h1 id="pros-cons-and-a-community-preference">Pros, Cons and a Community Preference</h1>
+
+<p>An argument often cited in favor of orchestration is, that a central conductor can <strong>easily track the flow state</strong>. Sam Newman points that out, too: with choreography you might have to do some extra work just to monitor and track across system boundaries. However, the argument may vanish with better out-of-the-box tooling for choreographied architectures.</p>
+
+<p>Another argument in favor of orchestration may be that we can more <strong>easily implement the flow logic</strong>. Typical requirements like synchronizing parallel business activities, taking care of deadlines and timeouts or compensating business activities in case we need to &ldquo;roll back&rdquo; a flow may turn out to be tackled easier when everything related to the flow is centralised.</p>
+
+<p>This argument must however be weighed against the observation that the central conductor in the orchestration approach can easily become &ldquo;too much&rdquo; of a central authority and a central point where most of the logic starts to live. Such tendencies work against an important selling point for doing microservices in the first place: <strong>easily adapt to changing business requirements</strong>.</p>
 
 <blockquote>
-<p>Request driven software speaks when spoken to, event driven software speaks when it has something to say. <cite>Jon Udell</cite></p>
+<p>In general, I have found that systems that tend more toward the choreographed approach are more loosely coupled, and are more flexible and amenable to change [&hellip;]. I have found most heavily orchestrated implementations to be extremely brittle, with a higher cost of change.<cite>Sam Newman, &ldquo;Building Microservices&rdquo;</cite></p>
 </blockquote>
 
-<p><strong>Pull</strong> direction means that the receiver initiates the transmission of business domain related information to itself. It is &ldquo;request driven&rdquo; in the sense that the sender passively waits until a recipient interrupts by requesting content.</p>
+<p>The Microservices Community tends to agree. I tend to agree, too. But I also think that the details can depend on circumstances. When reading Sam Newman&rsquo;s statement closely, he also suggests that his preference for choreography is true <em>&ldquo;in general&rdquo;</em> and that systems may <em>&ldquo;tend&rdquo;</em> more toward one or more toward the other approach. This reminds us, that we have options and that we can <strong>mix</strong> the two styles in a way to <strong>match</strong> our own requirements.</p>
 
-<p><strong>Push</strong> direction means that the sender initiates the transmission of business domain related information to the receiver. It is &ldquo;event driven&rdquo; in the sense that the sender identifies information potentially interesting for the receiver and transmits it.</p>
+<figure>
+    
+    
+    
+    
+    
+    
+    
+    <img src='http://plexiti.com/de/../en/blog/2017/03/img/microservices-collaboration-it-depends.png' >
+</figure>
 
-<h1 id="6-execution-do-we-block-until-completion"><strong>(6) Execution</strong>: Do we block until completion?</h1>
 
-<p><strong>Synchronous</strong> communication blocks the initiator until the business domain related operation on the recipient&rsquo;s side completes.</p>
-
-<p><strong>Asynchronous</strong> communication does not block the initiator until a business domain related operation on the recipient&rsquo;s side completes. The initiator either does not care about such an operation or does care, but only initiates it.</p>
-
-<h1 id="7-architecture-which-style-do-we-use"><strong>(7) Architecture</strong>: Which style do we use?</h1>
-
-<p><strong>REST</strong> (Representational State Transfer) enables separate applications to work together by requesting and manipulating textual representations of resources using a uniform and predefined set of stateless operations. It relies on a cacheable client-server communications protocol &ndash; and in virtually all cases, the <strong>HTTP</strong> protocol is used.</p>
-
-<p><strong>Messaging</strong> enables separate applications to work together in a decoupled fashion such that applications can be easily added or removed without affecting the others. A connecting message-oriented middleware is used that allows different systems to exchange messages through a shared set of interfaces. It relies on a client-broker protocol such as <strong>AMQP</strong>.</p>
-
-<h1 id="tolerant-readers-complain-seldomly">Tolerant readers complain seldomly :-)</h1>
-
-<p>When I hear phrases as <strong>&ldquo;synchronous request/reply like REST&rdquo;</strong> or e.g. <strong>&ldquo;pub/sub patterns requiring messaging&rdquo;</strong> somebody might already shout: <strong>&ldquo;Wrong!&rdquo;</strong> :-) I often prefer to stay quiet. Most of the time such statements are really &ldquo;close enough&rdquo; anyway. We understand each other in the specific context of what is being said. People already know that REST can be used in a more &ldquo;asynchronous&rdquo; fashion of communication, too. And yes: one won&rsquo;t necessarily need messaging infrastructure for a publish/subscribe paradigm of delivering some infos.</p>
-
-<p>However, I felt it is useful for myself to write down some of the more prominent lingo like asynchronous, events and pub/sub and ask myself: what are the real &ldquo;categories of the same thing&rdquo;? What are therefore things that exclude each other? Because: <strong>if two things do not exclude each other, they can quite often be combined with each other</strong>! Being aware of that results in more conscious and therefore more useful knowledge to me.</p>
-
-<h1 id="what-do-you-think">What do YOU think?</h1>
-
-<p>I would love to get some feedback on what my googling capabilities came up with here. :-) Jokes aside, I also hope that the post helps to thin out the fog a bit. It&rsquo;s the kind of fog which is always produced when <strong>words</strong> too often come along in the form of intertwined <strong>phrases</strong>&hellip;</p>
-
-<p><strong>A small disclaimer</strong>: I am talking here in the context of quite &ldquo;high level&rdquo;, business domain related communication in between remote and distributed systems like e.g. Microservices. When going down to the lower, more technical layers of systems communication, concepts and terms might be used with (more or less) different meanings.</p>
 
                               </div>
                          </article>
@@ -178,9 +226,9 @@
                          <div id='disqus_thread'></div>
                          <script>
                               var disqus_config = function () {
-                                   this.page.url = 'http:\/\/plexiti.com\/de\/blog\/2017\/03\/sorting-out-terms-for-remote-communication\/';
-                                   this.page.identifier = '\/de\/blog\/2017\/03\/sorting-out-terms-for-remote-communication\/';
-                                   this.page.title = 'Sorting out Terms for Remote Communication';
+                                   this.page.url = 'http:\/\/plexiti.com\/de\/blog\/2017\/03\/microservices-orchestration-and-choreograpy\/';
+                                   this.page.identifier = '\/de\/blog\/2017\/03\/microservices-orchestration-and-choreograpy\/';
+                                   this.page.title = 'Orchestration or Choreography?';
                                    this.language = "de";
                               };
                               (function() {
@@ -196,15 +244,9 @@
                          <div class='bs-docs-sidebar hidden-print affix-top' role='complementary' data-spy='affix' data-offset-top='318' data-offset-bottom='405'>
                               <nav id="TableOfContents">
 <ul>
-<li><a href="#1-recipients-which-partner-s-do-we-have"><strong>(1) Recipients</strong>: Which partner(s) do we have?</a></li>
-<li><a href="#2-acknowledgement-do-we-verify-delivery"><strong>(2) Acknowledgement</strong>: Do we verify delivery?</a></li>
-<li><a href="#3-reply-do-we-talk-one-way-or-two-ways"><strong>(3) Reply</strong>: Do we talk one-way or two-ways?</a></li>
-<li><a href="#4-intent-what-s-the-purpose-of-a-message"><strong>(4) Intent</strong>: What&rsquo;s the purpose of a message?</a></li>
-<li><a href="#5-direction-who-is-the-initiating-partner"><strong>(5) Direction</strong>: Who is the initiating partner?</a></li>
-<li><a href="#6-execution-do-we-block-until-completion"><strong>(6) Execution</strong>: Do we block until completion?</a></li>
-<li><a href="#7-architecture-which-style-do-we-use"><strong>(7) Architecture</strong>: Which style do we use?</a></li>
-<li><a href="#tolerant-readers-complain-seldomly">Tolerant readers complain seldomly :-)</a></li>
-<li><a href="#what-do-you-think">What do YOU think?</a></li>
+<li><a href="#1-the-orchestration-style"><strong>(1) The Orchestration Style</strong></a></li>
+<li><a href="#2-the-choreography-style"><strong>(2) The Choreography Style</strong></a></li>
+<li><a href="#pros-cons-and-a-community-preference">Pros, Cons and a Community Preference</a></li>
 </ul>
 </nav>
                          </div>
@@ -219,10 +261,10 @@
                               this.className = "nav";
                          });
                          
-                         var numbers = Math.ceil( 827  /  184 );
+                         var numbers = Math.ceil( 946  /  184 );
                          $('#TableOfContents ul').prepend("<li><a href='#post'><i class='fa fa-hand-o-right' aria-hidden='true'></i> Lies\x27 diesen Beitrag in ca. <span class='read-the-discussion de'><b>" + numbers + "<i class='pl'></i></b></span>&nbsp;...</a></li>");
                          
-                         $('#TableOfContents ul').append("<li class='disqus_link'><a href='#disqus'><i class='fa fa-comments'></i> ... und diskutier\x27 mit! <span class='disqus-comment-count de' data-disqus-identifier='/de\/blog\/2017\/03\/sorting-out-terms-for-remote-communication\/'></span></a></li>");
+                         $('#TableOfContents ul').append("<li class='disqus_link'><a href='#disqus'><i class='fa fa-comments'></i> ... und diskutier\x27 mit! <span class='disqus-comment-count de' data-disqus-identifier='/de\/blog\/2017\/03\/microservices-orchestration-and-choreograpy\/'></span></a></li>");
                          
                     </script>
                     <script type='text/javascript'>

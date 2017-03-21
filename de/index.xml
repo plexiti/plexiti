@@ -11,9 +11,18 @@
     
     
     
-    <lastBuildDate>Fri, 10 Mar 2017 19:44:26 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 21 Mar 2017 09:00:00 +0100</lastBuildDate>
     
     <atom:link href="http://plexiti.com/de/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Orchestration or Choreography?</title>
+      <link>http://plexiti.com/de/blog/2017/03/microservices-orchestration-and-choreograpy/</link>
+      <pubDate>Tue, 21 Mar 2017 09:00:00 +0100</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/de/blog/2017/03/microservices-orchestration-and-choreograpy/</guid>
+      <description>For collaboration of microservices, there are two basic styles: orchestration and choreography.</description>
+    </item>
     
     <item>
       <title>Sorting out Terms for Remote Communication</title>
@@ -34,7 +43,7 @@
     </item>
     
     <item>
-      <title>Loslegen mit Camunda BPM Assert Scenario</title>
+      <title>Loslegen mit Camunda Assert Scenario</title>
       <link>http://plexiti.com/de/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/</link>
       <pubDate>Sat, 17 Sep 2016 09:00:00 +0200</pubDate>
       <author>Martin Schimak</author>
