@@ -11,9 +11,18 @@
     
     
     
-    <lastBuildDate>Fri, 07 Apr 2017 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 23 Apr 2017 09:00:00 +0100</lastBuildDate>
     
     <atom:link href="http://plexiti.com/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Domain-Driven Design? The Blue Book!</title>
+      <link>http://plexiti.com/en/blog/2017/04/domain-driven-design-the-blue-book/</link>
+      <pubDate>Sun, 23 Apr 2017 09:00:00 +0100</pubDate>
+      <author>Martin Schimak</author>
+      <guid>http://plexiti.com/en/blog/2017/04/domain-driven-design-the-blue-book/</guid>
+      <description>With „DDD“ (Domain-Driven Design) towards a shared and „ubiquituous“ language for business and software experts.</description>
+    </item>
     
     <item>
       <title>Microservices and Workflow</title>
