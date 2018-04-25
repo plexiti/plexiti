@@ -9,9 +9,9 @@
       <title>Get Started with Camunda Assert Scenario</title>
       
   
-    <link href='http://plexiti.com/en/blog/index.xml' rel='alternate' type='application/rss+xml' title='plexiti - (de)coding domain knowledge blog' />
+    <link href='http://plexiti.com/en/blog/index.xml' rel='alternate' type='application/rss+xml' title='plexiti - de|coding domain language blog' />
   
-    <link href='http://plexiti.com/en/blog/index.xml' rel='home' type='application/rss+xml' title='plexiti - (de)coding domain knowledge blog' />
+    <link href='http://plexiti.com/en/blog/index.xml' rel='home' type='application/rss+xml' title='plexiti - de|coding domain language blog' />
   
   <meta name='apple-mobile-web-app-capable' content='yes'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -50,7 +50,7 @@
       <div class='navbar-header'>
         <a class='navbar-brand' href='http://plexiti.com/en/'>
           <img src='http://plexiti.com/en/img/logo.png' style='width: 250px; height: 96px' title='plexiti'>
-          <span class='logo_subtitle' style='font-size: 13pt;'>(de)coding domain knowledge</span>
+          <span class='logo_subtitle' style='font-size: 13pt;'>de|coding domain language</span>
         </a>
       </div>
       <div class='collapse navbar-collapse'>
@@ -94,44 +94,37 @@
                     <div id='leftcol' class='col-sm-12 col-md-8' role='main'>
                          <article class='post'>
                               <div class='post_content'>
-                                   
+                                   <p>I am really happy to announce the <strong>Maven Central</strong> Release of the new Camunda BPM community extension project <a href="https://github.com/camunda/camunda-bpm-assert-scenario">Camunda BPM Assert Scenario</a>. I also showed it on Camunda&rsquo;s awesome Community Day at their headquarters two days ago. And today I pushed a Getting Started project to <a href="https://github.com/martinschimak/camunda-bpm-scenario-testing">GitHub</a>.</p>
 
-<p>I am really happy to announce the <strong>Maven Central</strong> Release of the new Camunda BPM community extension project <a href="https://github.com/camunda/camunda-bpm-assert-scenario">Camunda BPM Assert Scenario</a>. I also showed it on Camunda&rsquo;s awesome Community Day at their headquarters two days ago. And today I pushed a Getting Started project to <a href="https://github.com/martinschimak/camunda-bpm-scenario-testing">GitHub</a>.</p>
+<p></p>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Now 3 <a href="https://twitter.com/hashtag/camunda?src=hash">#camunda</a> community extensions in 15 minutes from <a href="https://twitter.com/martinschimak">@MartinSchimak</a> <a href="https://t.co/xq9ycBW9qo">pic.twitter.com/xq9ycBW9qo</a></p>&mdash; Bernd Ruecker (@berndruecker) <a href="https://twitter.com/berndruecker/status/776397191929851904">September 15, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Now 3 <a href="https://twitter.com/hashtag/camunda?src=hash&amp;ref_src=twsrc%5Etfw">#camunda</a> community extensions in 15 minutes from <a href="https://twitter.com/martinschimak?ref_src=twsrc%5Etfw">@MartinSchimak</a> <a href="https://t.co/xq9ycBW9qo">pic.twitter.com/xq9ycBW9qo</a></p>&mdash; Bernd Ruecker (@berndruecker) <a href="https://twitter.com/berndruecker/status/776397191929851904?ref_src=twsrc%5Etfw">September 15, 2016</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 <h1 id="a-first-little-project-to-get-you-started">A first little project to get you started</h1>
 
 <p>Here&rsquo;s what was needed to be done for the <a href="https://github.com/martinschimak/camunda-bpm-scenario-testing">getting started project</a>:</p>
 
 <p><strong>Step 1</strong>: Create a Camunda Maven Project, I e.g. use here the Camunda Maven Archetype to create one:</p>
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>mvn archetype:generate -DinteractiveMode<span style="color: #666666">=</span><span style="color: #AA22FF">false</span> -DarchetypeRepository<span style="color: #666666">=</span>https://app.camunda.com/nexus/content/repositories/camunda-bpm -DarchetypeGroupId<span style="color: #666666">=</span>org.camunda.bpm.archetype -DarchetypeArtifactId<span style="color: #666666">=</span>camunda-archetype-servlet-war -DarchetypeVersion<span style="color: #666666">=</span>7.5.0 -DgroupId<span style="color: #666666">=</span>org.example.camunda.bpm -DartifactId<span style="color: #666666">=</span>camunda-bpm-scenario-testing -Dversion<span style="color: #666666">=</span>0.1-SNAPSHOT -Dpackage<span style="color: #666666">=</span>org.example.camunda.bpm.scenario
-</pre></div>
-
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mvn archetype:generate -DinteractiveMode<span style="color:#666">=</span><span style="color:#a2f">false</span> -DarchetypeRepository<span style="color:#666">=</span>https://app.camunda.com/nexus/content/repositories/camunda-bpm -DarchetypeGroupId<span style="color:#666">=</span>org.camunda.bpm.archetype -DarchetypeArtifactId<span style="color:#666">=</span>camunda-archetype-servlet-war -DarchetypeVersion<span style="color:#666">=</span><span style="color:#666">7</span>.5.0 -DgroupId<span style="color:#666">=</span>org.example.camunda.bpm -DartifactId<span style="color:#666">=</span>camunda-bpm-scenario-testing -Dversion<span style="color:#666">=</span><span style="color:#666">0</span>.1-SNAPSHOT -Dpackage<span style="color:#666">=</span>org.example.camunda.bpm.scenario</code></pre></div>
 <p><strong>Step 2</strong>: Set the language level in your pom to Java 1.8. Note that this is not &ldquo;necessary&rdquo; to use &ldquo;Assert Scenario&rdquo;, but it&rsquo;s definitely more fun <strong>with</strong> lambda expressions. <i class='fa fa-smile-o' aria-hidden='true'></i></p>
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">&lt;maven.compiler.source&gt;</span>1.8<span style="color: #008000; font-weight: bold">&lt;/maven.compiler.source&gt;</span>
-<span style="color: #008000; font-weight: bold">&lt;maven.compiler.target&gt;</span>1.8<span style="color: #008000; font-weight: bold">&lt;/maven.compiler.target&gt;</span>
-</pre></div>
-
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#008000;font-weight:bold">&lt;maven.compiler.source&gt;</span>1.8<span style="color:#008000;font-weight:bold">&lt;/maven.compiler.source&gt;</span>
+<span style="color:#008000;font-weight:bold">&lt;maven.compiler.target&gt;</span>1.8<span style="color:#008000;font-weight:bold">&lt;/maven.compiler.target&gt;</span></code></pre></div>
 <p><strong>Step 3</strong>: Add the Maven Dependency for &ldquo;Assert Scenario&rdquo; to your projects pom.xml</p>
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">&lt;dependency&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;groupId&gt;</span>org.camunda.bpm.extension<span style="color: #008000; font-weight: bold">&lt;/groupId&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;artifactId&gt;</span>camunda-bpm-assert-scenario<span style="color: #008000; font-weight: bold">&lt;/artifactId&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;version&gt;</span>0.1<span style="color: #008000; font-weight: bold">&lt;/version&gt;</span>
-    <span style="color: #008000; font-weight: bold">&lt;scope&gt;</span>test<span style="color: #008000; font-weight: bold">&lt;/scope&gt;</span>
-<span style="color: #008000; font-weight: bold">&lt;/dependency&gt;</span>
-</pre></div>
-
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#008000;font-weight:bold">&lt;dependency&gt;</span>
+    <span style="color:#008000;font-weight:bold">&lt;groupId&gt;</span>org.camunda.bpm.extension<span style="color:#008000;font-weight:bold">&lt;/groupId&gt;</span>
+    <span style="color:#008000;font-weight:bold">&lt;artifactId&gt;</span>camunda-bpm-assert-scenario<span style="color:#008000;font-weight:bold">&lt;/artifactId&gt;</span>
+    <span style="color:#008000;font-weight:bold">&lt;version&gt;</span>0.1<span style="color:#008000;font-weight:bold">&lt;/version&gt;</span>
+    <span style="color:#008000;font-weight:bold">&lt;scope&gt;</span>test<span style="color:#008000;font-weight:bold">&lt;/scope&gt;</span>
+<span style="color:#008000;font-weight:bold">&lt;/dependency&gt;</span></code></pre></div>
 <p>Furthermore, add Mockito to your project dependencies. If you prefer another mocking framework, feel free to use it instead, but the example shown below will make use of Mockito.</p>
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #008000; font-weight: bold">&lt;dependency&gt;</span>
-  <span style="color: #008000; font-weight: bold">&lt;groupId&gt;</span>org.mockito<span style="color: #008000; font-weight: bold">&lt;/groupId&gt;</span>
-  <span style="color: #008000; font-weight: bold">&lt;artifactId&gt;</span>mockito-core<span style="color: #008000; font-weight: bold">&lt;/artifactId&gt;</span>
-  <span style="color: #008000; font-weight: bold">&lt;version&gt;</span>1.10.19<span style="color: #008000; font-weight: bold">&lt;/version&gt;</span>
-  <span style="color: #008000; font-weight: bold">&lt;scope&gt;</span>test<span style="color: #008000; font-weight: bold">&lt;/scope&gt;</span>
-<span style="color: #008000; font-weight: bold">&lt;/dependency&gt;</span>
-</pre></div>
-
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#008000;font-weight:bold">&lt;dependency&gt;</span>
+  <span style="color:#008000;font-weight:bold">&lt;groupId&gt;</span>org.mockito<span style="color:#008000;font-weight:bold">&lt;/groupId&gt;</span>
+  <span style="color:#008000;font-weight:bold">&lt;artifactId&gt;</span>mockito-core<span style="color:#008000;font-weight:bold">&lt;/artifactId&gt;</span>
+  <span style="color:#008000;font-weight:bold">&lt;version&gt;</span>1.10.19<span style="color:#008000;font-weight:bold">&lt;/version&gt;</span>
+  <span style="color:#008000;font-weight:bold">&lt;scope&gt;</span>test<span style="color:#008000;font-weight:bold">&lt;/scope&gt;</span>
+<span style="color:#008000;font-weight:bold">&lt;/dependency&gt;</span></code></pre></div>
 <p><strong>Step 4</strong>: Open the <strong>process.bpmn</strong> in the <strong>src/main/resources</strong> folder by means of Camunda Modeler and add a few User Tasks in between the start and the end event. I did e.g. the following:</p>
 
 
@@ -141,30 +134,26 @@
 <p>Alternatively, you may want to download my <a href="../src/process.bpmn" download="process.bpmn">process.bpmn</a> shown here.</p>
 
 <p><strong>Step 5</strong>: Open the <strong>InMemoryH2Test.java</strong> in the <strong>src/test/java</strong> folder. Adapt the <strong>testHappyPath()</strong> method:</p>
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span><span style="color: #AA22FF">@Test</span>
-<span style="color: #AA22FF">@Deployment</span><span style="color: #666666">(</span>resources <span style="color: #666666">=</span> <span style="color: #BB4444">&quot;process.bpmn&quot;</span><span style="color: #666666">)</span>
-<span style="color: #AA22FF; font-weight: bold">public</span> <span style="color: #00BB00; font-weight: bold">void</span> <span style="color: #00A000">testHappyPath</span><span style="color: #666666">()</span> <span style="color: #666666">{</span>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a2f">@Test</span>
+<span style="color:#a2f">@Deployment</span><span style="color:#666">(</span>resources <span style="color:#666">=</span> <span style="color:#b44">&#34;process.bpmn&#34;</span><span style="color:#666">)</span>
+<span style="color:#a2f;font-weight:bold">public</span> <span style="color:#0b0;font-weight:bold">void</span> <span style="color:#00a000">testHappyPath</span><span style="color:#666">()</span> <span style="color:#666">{</span>
 
-  <span style="color: #008800; font-style: italic">// GIVEN a process scenario... (this one just completes all user tasks)</span>
-  ProcessScenario process <span style="color: #666666">=</span> Mockito<span style="color: #666666">.</span><span style="color: #BB4444">mock</span><span style="color: #666666">(</span>ProcessScenario<span style="color: #666666">.</span><span style="color: #BB4444">class</span><span style="color: #666666">);</span>
-  Mockito<span style="color: #666666">.</span><span style="color: #BB4444">when</span><span style="color: #666666">(</span>process<span style="color: #666666">.</span><span style="color: #BB4444">waitsAtUserTask</span><span style="color: #666666">(</span>Mockito<span style="color: #666666">.</span><span style="color: #BB4444">anyString</span><span style="color: #666666">())).</span><span style="color: #BB4444">thenReturn</span><span style="color: #666666">((</span>task<span style="color: #666666">)</span> <span style="color: #666666">-&gt;</span> task<span style="color: #666666">.</span><span style="color: #BB4444">complete</span><span style="color: #666666">());</span>
+  <span style="color:#080;font-style:italic">// GIVEN a process scenario... (this one just completes all user tasks)
+</span><span style="color:#080;font-style:italic"></span>  ProcessScenario process <span style="color:#666">=</span> Mockito<span style="color:#666">.</span><span style="color:#b44">mock</span><span style="color:#666">(</span>ProcessScenario<span style="color:#666">.</span><span style="color:#b44">class</span><span style="color:#666">);</span>
+  Mockito<span style="color:#666">.</span><span style="color:#b44">when</span><span style="color:#666">(</span>process<span style="color:#666">.</span><span style="color:#b44">waitsAtUserTask</span><span style="color:#666">(</span>Mockito<span style="color:#666">.</span><span style="color:#b44">anyString</span><span style="color:#666">())).</span><span style="color:#b44">thenReturn</span><span style="color:#666">((</span>task<span style="color:#666">)</span> <span style="color:#666">-&gt;</span> task<span style="color:#666">.</span><span style="color:#b44">complete</span><span style="color:#666">());</span>
 
-  <span style="color: #008800; font-style: italic">// WHEN we run the scenario</span>
-  Scenario scenario <span style="color: #666666">=</span> Scenario<span style="color: #666666">.</span><span style="color: #BB4444">run</span><span style="color: #666666">(</span>process<span style="color: #666666">).</span><span style="color: #BB4444">startByKey</span><span style="color: #666666">(</span><span style="color: #BB4444">&quot;camunda-bpm-scenario-testing&quot;</span><span style="color: #666666">).</span><span style="color: #BB4444">execute</span><span style="color: #666666">();</span>
+  <span style="color:#080;font-style:italic">// WHEN we run the scenario
+</span><span style="color:#080;font-style:italic"></span>  Scenario scenario <span style="color:#666">=</span> Scenario<span style="color:#666">.</span><span style="color:#b44">run</span><span style="color:#666">(</span>process<span style="color:#666">).</span><span style="color:#b44">startByKey</span><span style="color:#666">(</span><span style="color:#b44">&#34;camunda-bpm-scenario-testing&#34;</span><span style="color:#666">).</span><span style="color:#b44">execute</span><span style="color:#666">();</span>
 
-  <span style="color: #008800; font-style: italic">// THEN we assume to reach the end event</span>
-  Mockito<span style="color: #666666">.</span><span style="color: #BB4444">verify</span><span style="color: #666666">(</span>process<span style="color: #666666">).</span><span style="color: #BB4444">hasFinished</span><span style="color: #666666">(</span><span style="color: #BB4444">&quot;EndEventProcessEnded&quot;</span><span style="color: #666666">);</span>
+  <span style="color:#080;font-style:italic">// THEN we assume to reach the end event
+</span><span style="color:#080;font-style:italic"></span>  Mockito<span style="color:#666">.</span><span style="color:#b44">verify</span><span style="color:#666">(</span>process<span style="color:#666">).</span><span style="color:#b44">hasFinished</span><span style="color:#666">(</span><span style="color:#b44">&#34;EndEventProcessEnded&#34;</span><span style="color:#666">);</span>
 
-  <span style="color: #008800; font-style: italic">// AND we want to visualise the process instance&#39;s history</span>
-  ProcessTestCoverage<span style="color: #666666">.</span><span style="color: #BB4444">calculate</span><span style="color: #666666">(</span>scenario<span style="color: #666666">.</span><span style="color: #BB4444">instance</span><span style="color: #666666">(</span>process<span style="color: #666666">),</span> rule<span style="color: #666666">.</span><span style="color: #BB4444">getProcessEngine</span><span style="color: #666666">());</span>
+  <span style="color:#080;font-style:italic">// AND we want to visualise the process instance&#39;s history
+</span><span style="color:#080;font-style:italic"></span>  ProcessTestCoverage<span style="color:#666">.</span><span style="color:#b44">calculate</span><span style="color:#666">(</span>scenario<span style="color:#666">.</span><span style="color:#b44">instance</span><span style="color:#666">(</span>process<span style="color:#666">),</span> rule<span style="color:#666">.</span><span style="color:#b44">getProcessEngine</span><span style="color:#666">());</span>
 
-<span style="color: #666666">}</span>
-</pre></div>
-
+<span style="color:#666">}</span></code></pre></div>
 <p>While I would not see it as a &ldquo;best practice&rdquo; to simply &ldquo;complete&rdquo; all open user tasks as shown in this code snippet, it can be a helpful technique to get started quickly with your process model tests. So let&rsquo;s execute this test now!</p>
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span></span>mvn clean <span style="color: #AA22FF">test</span>
-</pre></div>
-
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mvn clean test</code></pre></div>
 <p>It will run the process instance from start event to end event and produce an HTML in the project&rsquo;s <strong>target/process-test-coverage</strong> folder named <strong>camunda-bpm-scenario-testing.html</strong>. Open it and see yourself that our test covered all flow nodes:</p>
 
 <figure>
@@ -189,7 +178,6 @@
 <p>Furthermore, Camunda BPM Assert Scenario enables realistic <strong>unit testing for time-related process behaviour</strong>: by deferring actions and &ldquo;fast-forwarding&rdquo; test scenarios into their &ldquo;process future&rdquo;, one can check how several processes and call activities behave together. One however always remains in the driver&rsquo;s seat: Camunda BPM Assert Scenario works in a single-treaded, easily mockable and controllable unit test environment.</p>
 
 <p>Happy scenario testing! <i class='fa fa-smile-o' aria-hidden='true'></i></p>
-
                               </div>
                          </article>
                          
@@ -231,8 +219,8 @@
                               this.className = "nav";
                          });
                          
-                         var numbers = Math.ceil( 594  /  184 );
-                         $('#TableOfContents ul').prepend("<li><a href='#post'><i class='fa fa-hand-o-right' aria-hidden='true'></i> Read this post in about <span class='read-the-discussion en'><b>" + numbers + "<i class='pl'></i></b></span>&nbsp;...</a></li>");
+                         var numbers = Math.ceil( 0  /  184 );
+                         $('#TableOfContents ul').prepend("<li><a href='#post'><i class='fa fa-hand-o-right' aria-hidden='true'></i> Read this post in about <span class='read-the-discussion en'><b>" + numbers + "<i class='sg'></i></b></span>&nbsp;...</a></li>");
                          
                          $('#TableOfContents ul').append("<li class='disqus_link'><a href='#disqus'><i class='fa fa-comments'></i> ... and join the discussion! <span class='disqus-comment-count en' data-disqus-identifier='/en\/blog\/2016\/09\/get-started-with-camunda-bpm-assert-scenario\/'></span></a></li>");
                          

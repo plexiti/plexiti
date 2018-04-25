@@ -1,72 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>plexiti.com</title>
+    <title>Blogs on plexiti</title>
     <link>http://plexiti.com/de/blog/</link>
-    <description> blog</description>
+    <description>Recent content in Blogs on plexiti</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Fri, 07 Apr 2017 09:00:00 +0100</lastBuildDate>
     
-      <language>de</language>
+	<atom:link href="http://plexiti.com/de/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    
-    
-    <lastBuildDate>Sun, 23 Apr 2017 09:00:00 +0100</lastBuildDate>
-    
-    <atom:link href="http://plexiti.com/de/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Domain-Driven Design? The Blue Book!</title>
-      <link>http://plexiti.com/de/blog/2017/04/domain-driven-design-the-blue-book/</link>
-      <pubDate>Sun, 23 Apr 2017 09:00:00 +0100</pubDate>
-      <author>Martin Schimak</author>
-      <guid>http://plexiti.com/de/blog/2017/04/domain-driven-design-the-blue-book/</guid>
-      <description>With „DDD“ (Domain-Driven Design) towards a shared and „ubiquituous“ language for business and software experts.</description>
-    </item>
     
     <item>
       <title>Microservices and Workflow</title>
       <link>http://plexiti.com/de/blog/2017/04/microservices-and-workflow/</link>
       <pubDate>Fri, 07 Apr 2017 09:00:00 +0100</pubDate>
-      <author>Martin Schimak</author>
+      
       <guid>http://plexiti.com/de/blog/2017/04/microservices-and-workflow/</guid>
-      <description>At the last meetup of the Camunda Vienna community, I gave a talk about the relationship of microservices with workflow.</description>
+      <description>&lt;p&gt;The relationship of Microservices and Workflow is for sure &lt;strong&gt;not an easy one&lt;/strong&gt;. While some members of the microservices community react with reservations or just &lt;strong&gt;dart off&lt;/strong&gt; when the topic of workflow is brought up, members of the workflow community are either ignorant of microservices or rather curious about them, but then tend to act somewhat&amp;hellip; &lt;strong&gt;awkward&lt;/strong&gt;. &lt;i class=&#39;fa fa-smile-o&#39; aria-hidden=&#39;true&#39;&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Orchestration or Choreography?</title>
       <link>http://plexiti.com/de/blog/2017/03/microservices-orchestration-or-choreography/</link>
       <pubDate>Tue, 21 Mar 2017 09:00:00 +0100</pubDate>
-      <author>Martin Schimak</author>
+      
       <guid>http://plexiti.com/de/blog/2017/03/microservices-orchestration-or-choreography/</guid>
-      <description>For collaboration of microservices, there are two basic styles: orchestration and choreography.</description>
+      <description>&lt;p&gt;In his well-known book &amp;ldquo;Building Microservices&amp;rdquo;, &lt;a href=&#34;https://twitter.com/samnewman&#34;&gt;Sam Newman&lt;/a&gt; wrote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;As we start to model more and more complex logic, we have to deal with the problem of &lt;strong&gt;managing business processes that stretch across the boundary of individual services&lt;/strong&gt;. [&amp;hellip;] When it comes to actually implementing this &lt;em&gt;flow&lt;/em&gt;, there are two styles of architecture we could follow. With &lt;strong&gt;orchestration&lt;/strong&gt;, we rely on a central brain to guide and drive the process, much like the conductor in an &lt;em&gt;orchestra&lt;/em&gt;. With &lt;strong&gt;choreography&lt;/strong&gt;, we inform each part of the system of its job, and let it work out the details, like dancers all finding their way and reacting to others around them in a &lt;em&gt;ballet&lt;/em&gt;.&amp;rdquo;&lt;cite&gt;Sam Newman, &amp;ldquo;Building Microservices&amp;rdquo;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Sorting out Terms for Remote Communication</title>
       <link>http://plexiti.com/de/blog/2017/03/sorting-out-terms-for-remote-communication/</link>
       <pubDate>Fri, 10 Mar 2017 19:44:26 +0100</pubDate>
-      <author>Martin Schimak</author>
+      
       <guid>http://plexiti.com/de/blog/2017/03/sorting-out-terms-for-remote-communication/</guid>
-      <description>I recently read a lot about &amp;ldquo;asynchronous&amp;rdquo;, &amp;ldquo;events&amp;rdquo;, &amp;ldquo;push&amp;rdquo;, &amp;ldquo;pub/sub&amp;rdquo; and similar stuff. :-) Therefore I decided to sort out the terms a bit.</description>
+      <description>&lt;p&gt;I regularly read phrases as &lt;strong&gt;&amp;ldquo;synchronous request/reply like REST&amp;rdquo;&lt;/strong&gt; or e.g. &lt;strong&gt;&amp;ldquo;pub/sub patterns requiring messaging&amp;rdquo;&lt;/strong&gt;. As my brain always reaches out to &amp;ldquo;understand&amp;rdquo; a more complete truth hidden beneath statements :-) it then subconsciously starts to work on the concepts and terms. In this case the typical lingo used when people talk about system-to-system communication.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Process &amp;ldquo;Waitstate Mocking&amp;rdquo; verstehen</title>
+      <title>Process &#34;Waitstate Mocking&#34; verstehen</title>
       <link>http://plexiti.com/de/blog/2016/09/understanding-process-waitstate-mocking/</link>
       <pubDate>Sat, 24 Sep 2016 17:00:00 +0200</pubDate>
-      <author>Martin Schimak</author>
+      
       <guid>http://plexiti.com/de/blog/2016/09/understanding-process-waitstate-mocking/</guid>
-      <description>Dieser Beitrag erklärt die Details eines kleinen Camunda BPM Assert &amp;ldquo;Scenarios&amp;rdquo; um zu verstehen was dabei hinter den Kulissen passiert.</description>
+      <description>&lt;p&gt;Der Fokus der neuen Community Extension Camunda BPM &lt;a href=&#34;https://github.com/camunda/camunda-bpm-assert-scenario&#34;&gt;&amp;ldquo;Assert Scenario&amp;rdquo;&lt;/a&gt; ist zweifellos, auch &lt;strong&gt;umfangreiche Testsuiten für große Prozessmodelle&lt;/strong&gt; fast mühelos zu pflegen. Um dorthin zu gelangen ist es notwendig, durch kleine Beispiele zu gehen und die Grundidee zu erfassen, ein bisschen Ahnung zu haben, was sich hinter den Kulissen eines &amp;ldquo;Szenario&amp;rdquo; so abspielt &lt;i class=&#39;fa fa-smile-o&#39; aria-hidden=&#39;true&#39;&gt;&lt;/i&gt;! Heute möchte ich durch den ersten Teil des Beispiels gehen, das ich auch am Community Day in Berlin gezeigt habe. Ich habe alle Sourcen, über die ich hier schreibe wieder auf &lt;a href=&#34;https://github.com/martinschimak/camunda-bpm-scenario-testing&#34;&gt;GitHub&lt;/a&gt;, gepusht. Schaut euch einfach den &amp;ldquo;readme-process&amp;rdquo; Branch an!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Loslegen mit Camunda Assert Scenario</title>
       <link>http://plexiti.com/de/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/</link>
       <pubDate>Sat, 17 Sep 2016 09:00:00 +0200</pubDate>
-      <author>Martin Schimak</author>
+      
       <guid>http://plexiti.com/de/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/</guid>
-      <description>Dieser Blog Post ist der erste in einer kleinen Serie an Blog Posts über das &amp;ldquo;Scenario&amp;rdquo;-Testen.</description>
+      <description>&lt;p&gt;Ich bin wirklich happy das &lt;strong&gt;Maven Central&lt;/strong&gt; Release des neuen Camunda BPM Community Extension Projekts &lt;a href=&#34;https://github.com/camunda/camunda-bpm-assert-scenario&#34;&gt;Camunda BPM Assert Scenario&lt;/a&gt; &amp;ldquo;verkünden&amp;rdquo; zu können. Ich habe es vor zwei Tagen auch auf Camunda&amp;rsquo;s wirklich lässigem Community Day in ihrem Berliner Office gezeigt. Und heute habe ich ein Getting Started Projekt auf &lt;a href=&#34;https://github.com/martinschimak/camunda-bpm-scenario-testing&#34;&gt;GitHub&lt;/a&gt; gepusht!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -2,20 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://plexiti.com/en/</loc>
-    <lastmod>2017-04-23T09:00:00+01:00</lastmod>
-    
-    
-  </url>
-  
-  <url>
-    <loc>http://plexiti.com/en/blog/2017/04/domain-driven-design-the-blue-book/</loc>
-    <lastmod>2017-04-23T09:00:00+01:00</lastmod>
-    
-    
-  </url>
-  
-  <url>
     <loc>http://plexiti.com/en/blog/2017/04/microservices-and-workflow/</loc>
     <lastmod>2017-04-07T09:00:00+01:00</lastmod>
     
@@ -54,6 +40,42 @@
     <loc>http://plexiti.com/en/about/</loc>
     <lastmod>2016-07-13T00:00:00+00:00</lastmod>
     
+    
+  </url>
+  
+  <url>
+    <loc>http://plexiti.com/en/blog/</loc>
+    <lastmod>2017-04-07T09:00:00+01:00</lastmod>
+    
+    
+    <priority>0</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://plexiti.com/en/categories/</loc>
+    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    
+    
+    <priority>0</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://plexiti.com/en/tags/</loc>
+    <lastmod>0001-01-01T00:00:00+00:00</lastmod>
+    
+    
+    <priority>0</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://plexiti.com/en/</loc>
+    <lastmod>2017-04-07T09:00:00+01:00</lastmod>
+    
+    
+    <priority>0</priority>
     
   </url>
   
