@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on plexiti</title>
-    <link>http://plexiti.com/en/tags/</link>
+    <link>https://plexiti.com/en/tags/</link>
     <description>Recent content in Tags on plexiti</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="http://plexiti.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://plexiti.com/en/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

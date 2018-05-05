@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>plexiti.com</title>
-    <link>http://plexiti.com/en/</link>
+    <link>https://plexiti.com/en/</link>
     <description> blog</description>
     <generator>Hugo -- gohugo.io</generator>
     
@@ -17,55 +17,55 @@
     
     <item>
       <title>Microservices and Workflow</title>
-      <link>http://plexiti.com/en/blog/2017/04/microservices-and-workflow/</link>
+      <link>https://plexiti.com/en/blog/2017/04/microservices-and-workflow/</link>
       <pubDate>Fri, 07 Apr 2017 09:00:00 +0100</pubDate>
       <author>Martin Schimak</author>
-      <guid>http://plexiti.com/en/blog/2017/04/microservices-and-workflow/</guid>
+      <guid>https://plexiti.com/en/blog/2017/04/microservices-and-workflow/</guid>
       <description>At the last meetup of the Camunda Vienna community, I gave a talk about the relationship of microservices with workflow.</description>
     </item>
     
     <item>
       <title>Orchestration or Choreography?</title>
-      <link>http://plexiti.com/en/blog/2017/03/microservices-orchestration-or-choreography/</link>
+      <link>https://plexiti.com/en/blog/2017/03/microservices-orchestration-or-choreography/</link>
       <pubDate>Tue, 21 Mar 2017 09:00:00 +0100</pubDate>
       <author>Martin Schimak</author>
-      <guid>http://plexiti.com/en/blog/2017/03/microservices-orchestration-or-choreography/</guid>
+      <guid>https://plexiti.com/en/blog/2017/03/microservices-orchestration-or-choreography/</guid>
       <description>For collaboration of microservices, there are two basic styles: orchestration and choreography.</description>
     </item>
     
     <item>
       <title>Sorting out Terms for Remote Communication</title>
-      <link>http://plexiti.com/en/blog/2017/03/sorting-out-terms-for-remote-communication/</link>
+      <link>https://plexiti.com/en/blog/2017/03/sorting-out-terms-for-remote-communication/</link>
       <pubDate>Fri, 10 Mar 2017 19:44:26 +0100</pubDate>
       <author>Martin Schimak</author>
-      <guid>http://plexiti.com/en/blog/2017/03/sorting-out-terms-for-remote-communication/</guid>
+      <guid>https://plexiti.com/en/blog/2017/03/sorting-out-terms-for-remote-communication/</guid>
       <description>I recently read a lot about &amp;ldquo;asynchronous&amp;rdquo;, &amp;ldquo;events&amp;rdquo;, &amp;ldquo;push&amp;rdquo;, &amp;ldquo;pub/sub&amp;rdquo; and similar stuff. :-) Therefore I decided to sort out the terms a bit.</description>
     </item>
     
     <item>
       <title>Understanding Process &amp;ldquo;Waitstate Mocking&amp;rdquo;</title>
-      <link>http://plexiti.com/en/blog/2016/09/understanding-process-waitstate-mocking/</link>
+      <link>https://plexiti.com/en/blog/2016/09/understanding-process-waitstate-mocking/</link>
       <pubDate>Sat, 24 Sep 2016 17:00:00 +0200</pubDate>
       <author>Martin Schimak</author>
-      <guid>http://plexiti.com/en/blog/2016/09/understanding-process-waitstate-mocking/</guid>
+      <guid>https://plexiti.com/en/blog/2016/09/understanding-process-waitstate-mocking/</guid>
       <description>This post works through the details of a small Camunda BPM Assert Scenario example to explain what happens behind a &amp;ldquo;scenario&amp;rdquo;.</description>
     </item>
     
     <item>
       <title>Get Started with Camunda Assert Scenario</title>
-      <link>http://plexiti.com/en/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/</link>
+      <link>https://plexiti.com/en/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/</link>
       <pubDate>Sat, 17 Sep 2016 09:00:00 +0200</pubDate>
       <author>Martin Schimak</author>
-      <guid>http://plexiti.com/en/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/</guid>
+      <guid>https://plexiti.com/en/blog/2016/09/get-started-with-camunda-bpm-assert-scenario/</guid>
       <description>This blog post is the first one in a small series of blog posts about &amp;ldquo;scenario&amp;rdquo;-testing.</description>
     </item>
     
     <item>
       <title>About the business programmer blog</title>
-      <link>http://plexiti.com/en/about/</link>
+      <link>https://plexiti.com/en/about/</link>
       <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
       <author>Martin Schimak</author>
-      <guid>http://plexiti.com/en/about/</guid>
+      <guid>https://plexiti.com/en/about/</guid>
       <description></description>
     </item>
     
