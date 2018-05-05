@@ -60,14 +60,5 @@
       <description>This blog post is the first one in a small series of blog posts about &amp;ldquo;scenario&amp;rdquo;-testing.</description>
     </item>
     
-    <item>
-      <title>About the business programmer blog</title>
-      <link>https://plexiti.com/en/about/</link>
-      <pubDate>Wed, 13 Jul 2016 00:00:00 +0000</pubDate>
-      <author>Martin Schimak</author>
-      <guid>https://plexiti.com/en/about/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
