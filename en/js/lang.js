@@ -35,9 +35,9 @@ function redirect2language(contextPath) {
 function redirect2blog() {
     var lang = getUserLanguage();
     if (lang=="de") {
-        window.location.pathname = window.location.pathname + "de/blog/"
+        window.location.pathname = window.location.pathname + "de/about/"
     } else {
-        window.location.pathname = window.location.pathname + "en/blog/"
+        window.location.pathname = window.location.pathname + "en/about/"
     }
 }
 
